@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- SLICK CSS -->
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>online-school</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="header__container">
+            <div class="header__inner">
+                <div class="header__logo">online-school</div>
+                <nav class="nav" id="nav">
+                    <a class="nav__link" href="#" data-scroll="#about">О нас</a>
+                    <a class="nav__link" href="#"data-scroll="#study">Программа обучения</a>
+                    <a class="nav__link" href="#"data-scroll="#cost">Стоимость</a>
+                    <a class="nav__link" href="#"data-scroll="#reviews">Отзывы</a>
+                    <a class="nav__link" href="#"data-scroll="#tutors">Преподаватели</a>
+                </nav>
+                <button class="telephone" href="#"><img class="ring__phone" src="img/1slide/ring-phone.png" alt=""> +7
+                    (977) 573-70-68</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Стрелка ВВЕРХ -->
+<div id="arrowTop" hidden></div>
+    
+<!-- полоса прогресса -->
+    <div class="progress__line">
+        <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+<!-- полоса прогресса -->
+
+    <!-- 1 SLIDE -->
+    <div class="slide__1">
+        <div class="container">
+            <div class="slide1__description">
+                <h1>Онлайн-подготовка к ЕГЭ и ОГЭ, а также повышение успеваемости по предметам</h1>
+                <h2 class="slide1__descr__h2">Групповые занятия, которые дешевле частного репетитора <span class="blue">
+                        в 3 раза!</span> <span class="fat">(141 руб/ч.)</span></h2>
+                <svg class="liquid-button" data-target="liquid-button" data-text="Какие есть курсы?" data-force-factor="0.1"
+                    data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="400"
+                    data-layer-2-mouse-force="500" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
+                    data-color1="#4DE7BF" data-color2="#0A3FC7" data-color3="#2A62F4"></svg>
+                <img class="kapella__L__1slide" src="img/kapella_left.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <h1 class="header__timer__slide">Сколько осталось до ЕГЭ?</h1>
+    <div class="timer__block">
+        <div class="vl__timer__right"></div>
+        <div class="vl__timer__left"></div>
+        <div class="hl__timer__left"></div>
+        <div class="hl__timer__right"></div>
+        <div class="timer__1row">
+            <div class="timer__rus">
+                <h1 class="countdown-title">Русский язык</h1>
+                <div id="russian" class="countdown">
+                    <div class="countdown-number">
+                        <span class="days countdown-time"></span>
+                        <span class="countdown-text">Дней</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="hours countdown-time"></span>
+                        <span class="countdown-text">Часов</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="minutes countdown-time"></span>
+                        <span class="countdown-text">Минут</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="seconds countdown-time"></span>
+                        <span class="countdown-text">Секунд</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timer__mathem">
+                <h1 class="countdown-title">Математика</h1>
+                <div id="math" class="countdown">
+                    <div class="countdown-number">
+                        <span class="days countdown-time"></span>
+                        <span class="countdown-text">Дней</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="hours countdown-time"></span>
+                        <span class="countdown-text">Часов</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="minutes countdown-time"></span>
+                        <span class="countdown-text">Минут</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="seconds countdown-time"></span>
+                        <span class="countdown-text">Секунд</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timer__eng">
+                <h1 class="countdown-title">Английский язык</h1>
+                <div id="english" class="countdown">
+                    <div class="countdown-number">
+                        <span class="days countdown-time"></span>
+                        <span class="countdown-text">Дней</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="hours countdown-time"></span>
+                        <span class="countdown-text">Часов</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="minutes countdown-time"></span>
+                        <span class="countdown-text">Минут</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="seconds countdown-time"></span>
+                        <span class="countdown-text">Секунд</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="timer__2row">
+            <div class="timer__ss">
+                <h1 class="countdown-title">Обществознание</h1>
+                <div id="ss" class="countdown">
+                    <div class="countdown-number">
+                        <span class="days countdown-time"></span>
+                        <span class="countdown-text">Дней</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="hours countdown-time"></span>
+                        <span class="countdown-text">Часов</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="minutes countdown-time"></span>
+                        <span class="countdown-text">Минут</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="seconds countdown-time"></span>
+                        <span class="countdown-text">Секунд</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timer__lit">
+                <h1 class="countdown-title">Литература</h1>
+                <div id="literature" class="countdown">
+                    <div class="countdown-number">
+                        <span class="days countdown-time"></span>
+                        <span class="countdown-text">Дней</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="hours countdown-time"></span>
+                        <span class="countdown-text">Часов</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="minutes countdown-time"></span>
+                        <span class="countdown-text">Минут</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="seconds countdown-time"></span>
+                        <span class="countdown-text">Секунд</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timer__chemis">
+                <h1 class="countdown-title">Химия</h1>
+                <div id="chemistry" class="countdown">
+                    <div class="countdown-number">
+                        <span class="days countdown-time"></span>
+                        <span class="countdown-text">Дней</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="hours countdown-time"></span>
+                        <span class="countdown-text">Часов</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="minutes countdown-time"></span>
+                        <span class="countdown-text">Минут</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="seconds countdown-time"></span>
+                        <span class="countdown-text">Секунд</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="timer__3row">
+            <div class="timer__hist">
+                <h1 class="countdown-title">История</h1>
+                <div id="history" class="countdown">
+                    <div class="countdown-number">
+                        <span class="days countdown-time"></span>
+                        <span class="countdown-text">Дней</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="hours countdown-time"></span>
+                        <span class="countdown-text">Часов</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="minutes countdown-time"></span>
+                        <span class="countdown-text">Минут</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="seconds countdown-time"></span>
+                        <span class="countdown-text">Секунд</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timer__it">
+                <h1 class="countdown-title">Информатика</h1>
+                <div id="it" class="countdown">
+                    <div class="countdown-number">
+                        <span class="days countdown-time"></span>
+                        <span class="countdown-text">Дней</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="hours countdown-time"></span>
+                        <span class="countdown-text">Часов</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="minutes countdown-time"></span>
+                        <span class="countdown-text">Минут</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="seconds countdown-time"></span>
+                        <span class="countdown-text">Секунд</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timer__biol">
+                <h1 class="countdown-title">Биология</h1>
+                <div id="biology" class="countdown">
+                    <div class="countdown-number">
+                        <span class="days countdown-time"></span>
+                        <span class="countdown-text">Дней</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="hours countdown-time"></span>
+                        <span class="countdown-text">Часов</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="minutes countdown-time"></span>
+                        <span class="countdown-text">Минут</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="seconds countdown-time"></span>
+                        <span class="countdown-text">Секунд</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END TIMER -->
+
+    <div class="motivation__block__1slide">
+        <hr class="motiv1__hr">
+        <h2 class="motivation1">Для того, чтобы чего-то добиться, не нужно быть самым умным, нужно быть самым упёртым
+            <img class="head" src="img/head.png" alt=""> </h2>
+    </div>
+
+    <section class="section" id="about">
+        <div class="container">
+            <div class="all__2slide">
+                <h1 class="header__2slide">О нас</h1>
+                <div class="vl__2slide"></div>
+                <div class="white__slide2">
+                    <p class="slide2__descr">Мы рады приветствовать вас на нашем сайте! Вот уже <span
+                            class="blue">четвёртый
+                            год</span> мы готовим вас к ЕГЭ и ОГЭ, а также повышаем успеваемость пo предметам!</p>
+                    <div class="facts">
+                        <div class="item__slide2">
+                            <div class="circle__slide2">4</div>
+                            <div class="facts__texts">Года обучаем вас</div>
+                        </div>
+
+                        <div class="item__slide2">
+                            <div class="circle__slide2">3850+</div>
+                            <div class="facts__texts">Подготовленных<br> учеников</div>
+                        </div>
+
+                        <div class="item__slide2">
+                            <div class="circle__slide2">81</div>
+                            <div class="facts__texts">Средний балл<br> на ЕГЭ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="motivation__block__2slide">
+        <hr class="motiv2__hr">
+        <h2 class="motivation2">Лень, как ржавчина, разъедает быстрее, чем труд изнашивает <img class="head"
+                src="img/head.png" alt=""></h2>
+    </div>
+
+
+    <section class="section">
+        <div class="container">
+            <div class="all__3slide">
+                <h1 class="header__3slide">Наши преимущества</h1>
+                <div class="vl__3slide"></div>
+                <div class="white__slide3">
+                    <div class="items_3slide">
+                        <div class="item_3slide">
+                            <div class="header_block_3slide">
+                                <img class="icon_items_3slide" src="img/3slide/24hours1_122404.png" alt="">
+                                <h1 class="header_item_3slide">Помощь 24/7</h1>
+                            </div>
+                            <p class="text_item_3slide">С каждым учеником всегда на связи человек, который ответит на
+                                каждый возникший вопрос <span class="blue">в любое время дня и ночи</span></p>
+                        </div>
+                        <div class="item_3slide">
+                            <div class="header_block_3slide">
+                                <img class="icon_items_3slide"
+                                    src="img/3slide/1904667-apple-computer-desktop-device-monitor-pc-screen_122518.png"
+                                    alt="">
+                                <h1 class="header_item_3slide">Онлайн-занятия</h1>
+                            </div>
+                            <p class="text_item_3slide">Так как занятия проходят в дистанционном режиме, ученику <span
+                                    class="blue"></span>не приходится тратить время на дорогу, а также все записи
+                                сохраняются, поэтому, если ученик не понял тему, то достаточно лишь <span
+                                    class="blue">пересмотреть урок
+                                    в
+                                    записи</span></p>
+                        </div>
+                        <div class="item_3slide">
+                            <div class="header_block_3slide">
+                                <img class="icon_items_3slide" src="img/3slide/test.png" alt="">
+                                <h1 class="header_item_3slide">Тесты и контрольные</h1>
+                            </div>
+                            <p class="text_item_3slide">В нашей школе после каждой изученной темы проводятся контрольные
+                                и тестовые работы для <span class="blue">полного закрепления темы учеником</span></p>
+                        </div>
+                        <div class="item_3slide">
+                            <div class="header_block_3slide">
+                                <img class="icon_items_3slide" src="img/3slide/certif.png" alt="">
+                                <h1 class="header_item_3slide">Повышение квалификации</h1>
+                            </div>
+                            <p class="text_item_3slide">Наши репетиторы проходят повышение квалификации каждые 6 месяцев
+                                для того, чтобы обладать нужными компетенциями для <span class="blue">правильного
+                                    преподавания
+                                    предмета</span></p>
+                        </div>
+                        <div class="item_3slide">
+                            <div class="header_block_3slide">
+                                <img class="icon_items_3slide"
+                                    src="img/3slide/3700411-blackboard-board-chalk-class-educational-materials-school_108768.png"
+                                    alt="">
+                                <h1 class="header_item_3slide">Разбор работ</h1>
+                            </div>
+                            <p class="text_item_3slide">Каждую контрольную работу преподаватели разбирают полностью для
+                                того, чтобы показать как <span class="blue">правильно выполнять задания</span></p>
+                        </div>
+                        <div class="item_3slide">
+                            <div class="header_block_3slide">
+                                <img class="icon_items_3slide__dollar" src="img/3slide/dollar.png" alt="">
+                                <h1 class="header_item_3slide__dollar">Стоимость</h1>
+                            </div>
+                            <p class="text_item_3slide">Наши курсы <span class="blue">недорогие</span>, так как мы <span
+                                    class="blue">сокращаем постоянные издержки.</span> К примеру, у нас <span
+                                    class="blue">нет
+                                    офисов</span>, мы работаем только <span class="blue">дистанционно.</span> Также мы
+                                не тратим большие деньги на <span class="blue">рекламу.</span> Таким образом, вся эта
+                                экономия выгодна <span class="blue">и вам и нам</span> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--container-->
+
+
+
+
+    </section>
+
+
+    <div class="motivation__block__3slide">
+        <hr class="motiv3__hr">
+        <h2 class="motivation3">Люди без принуждения не примут и не будут выполнять меры, наилучшим образом рассчитанные
+            для их собственного блага <img class="head" src="img/head.png" alt=""></h2>
+    </div>
+
+
+    <section class="section" id="study">
+        <div class="container">
+            <div class="all__4slide">
+                <h1 class="header__4slide">Как проходит обучение?</h1>
+                <div class="vl__4slide"></div>
+                <div class="white__slide4">
+                    <div class="slide4__item">
+                        <h2 class="slide4__headers2">Вы получаете 2 занятия в неделю по 1,5 часа</h2>
+                        <p class="slide4__text">1 занятие - это <span class="blue">лекция</span>, на которой <span
+                                class="blue">рассказывается</span> материал, 2 занятие - <span class="blue">семинар</span>, на
+                            котором
+                            <span class="blue">закрепляются</span> полученные знания (прорешивание вариантов из ЕГЭ и
+                            ОГЭ, а также самостоятельные и контрольные работы)</p>
+                    </div>
+                    <div class="arrow-8"></div>
+                    <div class="slide4__item">
+                        <h2 class="slide4__headers2">Домашние задания и их проверка</h2>
+                        <p class="slide4__text">После каждого урока ученик получает домашнее задание, которое
+                            проверяется и по итогу проверки выставляется оценка. Список <span class="blue">всех
+                                оценок</span> вы получаете в конце месяца <span class="blue">на почту</span></p>
+                    </div>
+                    <div class="arrow-8"></div>
+                    <div class="slide4__item">
+                        <h2 class="slide4__headers2">2 шанса в год попасть на интенсивы</h2>
+                        <p class="slide4__text">У нас проводятся интенсивы. Интенсив - это 5-ти часовое занятие для
+                            <span class="blue">повторения
+                                всего материала, пройденного за год</span>. Проводятся такие интенсивы 2 раза в год.
+                            Первый -
+                            <span class="blue">после нового года</span>, второй - в <span class="blue">начале
+                                мая</span>. Это отличный способ освежить в памяти весь пройденный курс
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--container-->
+    </section>
+
+
+    <div class="motivation__block__4slide">
+        <hr class="motiv4__hr">
+        <h2 class="motivation4">Люди, достигающие успеха в мире, - это те люди, которые встают и ищут нужный им случай
+            <img class="head" src="img/head.png" alt=""></h2>
+    </div>
+
+
+    <section class="section" id="cost">
+        <div class="container">
+            <div class="all__2slide">
+                <h1 class="header__5slide">Стоимость обучения</h1>
+                <h3 class="header2__5slide">При покупке нескольких предметов - скидка 10%</h3>
+                <div class="cost">
+                    <div class="days__months__cost">
+                        <div class="days__months__cost__item">
+                            <span class="days__months__cost__value">1</span>
+                            <span class="days__months__cost__value">месяц</span>
+                        </div>
+                        <div class="days__months__cost__item">
+                            <span class="days__months__cost__value">3</span>
+                            <span class="days__months__cost__value">месяца</span>
+                        </div>
+                        <div class="days__months__cost__item">
+                            <span class="days__months__cost__value">9</span>
+                            <span class="days__months__cost__value">месяцев</span>
+                        </div>
+                    </div>
+                    <div class="bla_cost">
+                        <div class="headers__cost__value">
+                            <span class="header__cost__value">Пакет</span>
+                            <span class="header__cost__value__2__1block"> новичок</span>
+                        </div>
+                        <div class="item__cost1">
+                            <div class="cost__value__green">1 700 руб.</div>
+                            <div class="cost__value__green">1 600 руб.<br>
+                                <p class="cost__value2">(Экономия - 300 руб.)</p>
+                            </div>
+                            <div class="cost__value__green">1 500 руб.<br>
+                                <p class="cost__value2">(Экономия - 1800 руб.)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bla_cost">
+                        <div class="headers__cost__value">
+                            <span class="header__cost__value">Пакет</span>
+                            <span class="header__cost__value__2__2block"> обычный</span>
+                        </div>
+                        <div class="item__cost2">
+                            <div class="cost__value__orange">2 500 руб.</div>
+                            <div class="cost__value__orange">2 300 руб.<br>
+                                <p class="cost__value2">(Экономия - 600 руб.)</p>
+                            </div>
+                            <div class="cost__value__orange">2 000 руб.<br>
+                                <p class="cost__value2">(Экономия - 4 500 руб.)</p>
+                            </div>
+                            <img class="hit" src="img/hit.png" alt="">
+                        </div>
+                    </div>
+                    <div class="bla_cost">
+                        <div class="headers__cost__value">
+                            <span class="header__cost__value">Пакет</span>
+                            <span class="header__cost__value__2__3block"> продвинутый</span>
+                        </div>
+                        <div class="item__cost3">
+                            <div class="cost__value__blue">3 500 руб.</div>
+                            <div class="cost__value__blue">3 300 руб.<br>
+                                <p class="cost__value2">(Экономия - 600 руб.)</p>
+                            </div>
+                            <div class="cost__value__blue">3 000 руб.<br>
+                                <p class="cost__value2">(Экономия - 4 500 руб.)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ------------Подслайд "Что мы предлагаем?"--------------- -->
+                <div class="button__5slide__block">
+                    <button class="button__mirror">ЗАПИСАТЬСЯ</button>
+                    <div class="dropdown-menu">
+                        <form>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <div class="form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+                    </div>
+                    <img class="kapella__L__5slide" src="img/kapella_left.jpg" alt="">
+                </div>
+                <div class="podslide5">
+                <h2 class="header__descr__5slide">Что мы предлагаем?</h2>
+                <div class="vl__podslide"></div>
+                <div class="white__packages">
+                    <div class="all__packages">
+                        <h2 class="header1__package">Основные пакеты</h2>
+                        <div class="text__packages">
+                    <div class="item__package1">
+                        <h3>Пакет <span class="new__green">"новичок"</span></h3>
+                        <ul class="new__green">
+                        <li class="text__1package">2 занятия в неделю по 1, 5 часа (1 - лекция, 2 - семинар)</li>
+                        <li class="text__1package">Проверка д/з не входит в пакет</li>
+                    </ul>
+                    </div>
+                    <div class="item__package2">
+                        <h3>Пакет <span class="usual__orange">"обычный"</span></h3>
+                    <ul class="usual__orange">
+                        <li class="text__2package">2 занятия в неделю по 1, 5 часа (1 - лекция, 2 - семинар)</li>
+                        <li class="text__2package">Проверка д/з входит в пакет</li>
+                    </ul>
+                    </div>
+                    <div class="item__package3">
+                        <h3>Пакет <span class="pro__blue">"продвинутый"</span></h3>
+                    <ul class="pro__blue">
+                        <li class="text__3package">2 занятия в неделю по 1, 5 часа (1 - лекция, 2 - семинар)</li>
+                        <li class="text__3package">Проверка д/з входит в пакет</li>
+                        <li class="text__3package">Обратная связь от преподавателя</li>
+                        <li class="text__3package">Обратная связь от экспертов ОГЭ и ЕГЭ</li>
+                    </ul>
+                    </div>
+                </div>
+                    <h2 class="header2__package">Дополнительные услуги</h2>
+                    <ul class="text__package__dop">
+                        <li><span class="fat">Индивидуальное занятие</span> - 1500 руб / 1 занятие</li>
+                        <li><span class="fat">Мини-группа (до 5 чел.)</span> - 3000 руб / мес.</li>
+                        <li><span class="red">Интенсив</span> - это 5-ти часовой марафон, который проводится 2 раза в год. Первый - после нового года, второй - в начале мая. В течение этого занятия ученики повторяют весь материал экзамена.<br><span class="red">! </span>Запись производится отдельно <span class="red">!</span><br><span class="red">!</span> Стоимость -  4000 руб / мес. <span class="red">!</span></li>
+                    </ul>
+                    </div> <!--all packages-->
+                </div> <!--white__packages-->
+            </div> <!--podslide-->
+            </div>
+        </div> <!--container-->
+    </section>
+    <div class="motivation__block__5slide">
+        <hr class="motiv5__hr">
+        <h2 class="motivation5">Один раз в жизни счастье стучит в дверь каждого, но часто этот каждый сидит в соседнем
+            кабачке и не слышит стука <img class="head" src="img/head.png" alt=""></h2>
+    </div>
+
+
+    <section class="section">
+        <div class="container">
+            <div class="all__2slide">
+                <h1 class="header__6slide">Чем онлайн-школа лучше репетиторов?</h1> <img class="phylosoph"
+                    src="img/6slide/phylosopher.png" alt="">
+                <div class="vl__6slide"></div>
+                <div class="white__slide6">
+                    <ul class="advantages">
+                        <p class="advantages__text">💰 <span class="fat">ЭКОНОМИЯ<br></span>Урок в <span
+                                class="blue">нашей
+                                школе</span> стоит всего <span class="blue">141 руб/ч.</span>, в то время как <span
+                                class="blue">у репетитора - 1000 руб/ч.</span> (из минимального расчёта)<br> Занимаясь 1
+                            раз в неделю по <span class="blue">1000 руб.</span>,
+                            вы <span class="blue">тратите 36 000 за учебный
+                                год</span> у репетитора, (опять же, минимальный расчёт) а обучаясь в <span
+                                class="blue">онлайн-школе</span>, вы тратите <span class="blue">15 300 за год.</span>
+                            Итого, ваша <span class="blue">экономия</span> получается -
+                            <span class="blue">20 700 тыс. руб.
+                            </span><br> Также <span class="blue">не стоит забывать</span>, что вы готовитесь не к 1
+                            предмету, а минимум к 2-м, (русский и математика обязательны) а то и к 3-м или 4-м. </p>
+                        <p class="advantages__text">⏳ <span class="fat">ВРЕМЯ</span> <br>Благодаря дистанционным
+                            занятиям вы
+                            <span class="blue">не тратите время на дорогу</span> и всё, что вам нужно для занятий - это
+                            ноутбук, планшет или просто телефон</p>
+                        <p class="advantages__text">🎓 <span class="fat">ДИПЛОМИРОВАННОСТЬ<br></span> Мы обязываем всех
+                            наших преподавателей проходить <span class="blue">повышение квалификации</span> каждые 6
+                            месяцев, и именно поэтому они заслуживают права называться <span
+                                class="fat">ПРОВЕРЕННЫМИ.</span> Они тщательно следят за любыми <span
+                                class="blue">изменениями</span> на ОГЭ и ЕГЭ с прошлых лет и уж точно не <span
+                                class="blue">"забудут"</span> вас предупредить, если что-то изменится</p>
+                        <p class="advantages__text">📚 <span class="fat">СПЕЦИАЛЬНЫЕ ПРОГРАММЫ<br></span> Мы проводим
+                            обучение по специально-проработанным программам, которые <span class="blue">учитывают
+                                особенности, потребности и уровень подготовки</span> конкретного ученика. (распределение
+                            по группам происходит по этим же параметрам)</p>
+                        <p class="advantages__text">⏯ <span class="fat">Запись уроков<br></span> Мы ведём <span
+                                class="blue">запись занятий</span>, чтобы ученик мог в любой момент <span
+                                class="blue">пересмотреть непонятный момент</span> и задать вопрос преподавателю</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--container-->
+    </section>
+
+
+    <div class="motivation__block__6slide">
+        <hr class="motiv6__hr">
+        <h2 class="motivation6">Когда труд - удовольствие, жизнь хороша! Когда труд - обязанность, жизнь - рабство! <img
+                class="head" src="img/head.png" alt=""></h2>
+    </div>
+
+
+    <section class="section" id="reviews">
+        <div class="container">
+            <div class="all__7slide">
+                <h1 class="header__7slide">Отзывы</h1>
+                <div class="vl__7slide"></div>
+                <h2 class="h2__7slide">Что о нас говорят наши ученики?</h2>
+                <div class="sl">
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review1.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! По русскому была тройка пппппппппппппппппппп ппрцуыпиукыор рупкиоуцркипцоур ыурк цро укорцуы</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review2.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review3.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review4.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review5.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review6.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review7.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review8.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review9.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review10.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review11.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review12.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review13.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review14.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review15.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review16.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review17.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review18.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review19.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review20.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                    <div class="slick-slider__reviews">
+                        <div class="slick__slides__box">
+                            <div class="client__card">
+                                <img class="review__photo" src="img/reviews/review21.jpg" alt="">
+                                <h2 class="review__name">Ольга <br> Корнеева</h2>
+                            </div>
+                            <h3 class="review__tutor">Отзыв о репетиторе по русскому языку</h3>
+                            <p class="review__text">Дмитрий Алексеевич ТОП! Программист и репетитор и философ</p>
+                        </div>
+                    </div>
+                </div> <!--slick slide-->
+            </div> <!--all 7 slide-->
+        </div> <!--container-->
+    </section>
+
+
+    <div class="motivation__block__7slide">
+        <hr class="motiv7__hr">
+        <h2 class="motivation7">Когда человеку лежать на одном боку неудобно - он переворачивается на другой, а когда
+            ему жить неудобно - он только жалуется. А ты сделай усилие: перевернись! <img class="head"
+                src="img/head.png" alt=""></h2>
+    </div>
+
+
+    <section class="section" id="tutors">
+        <div class="container">
+            <div class="all__8slide">
+                <h1 class="header__8slide">Преподаватели</h1>
+                <div class="vl__8slide"></div>
+                <div class="white__8slide">
+                    <div class="teachers__box">
+                        <div class="teacher__block">
+                            <img class="teachers__face" src="img/tutors/biology.jpg" alt="">
+                            <p class="teacher__text"><span class="fat">Биология</span><br>4 УЧЕНИКА 100 - БАЛЛЬНИКА ЗА 7 ЛЕТ ПРЕПОДАВАНИЯ</p>     
+                        </div>   
+                        <div class="teacher__block">
+                            <img class="teachers__face" src="img/tutors/chem.jpg" alt="">   
+                            <p class="teacher__text"><span class="fat">Химия</span><br>6 призеров олимпиад по химии за 9 лет преподавания</p>     
+                        </div>  
+                            <div class="teacher__block">
+                            <img class="teachers__face" src="img/tutors/english.jpg" alt="">   
+                            <p class="teacher__text"><span class="fat">Английский</span><br>5 лет преподавания, стажировался и проживал в америке и австралии суммарно 8 лет</p>     
+                        </div>  
+                    </div>
+                    <div class="teachers__box">
+                        <div class="teacher__block">
+                        <img class="teachers__face" src="img/tutors/IT.jpg" alt="">   
+                        <p class="teacher__text"><span class="fat">Информатика</span><br>Проводил олимпиады по C# и C++, Эксперт ЕГЭ</p>     
+                    </div>  
+                        <div class="teacher__block">
+                        <img class="teachers__face" src="img/tutors/russ.jpg" alt="">   
+                        <p class="teacher__text"><span class="fat">Русский язык</span><br>за 6 лет преподавания отвёл более 100 учеников, балл которых был не ниже 75 по ЕГЭ</p>     
+                    </div>  
+                        <div class="teacher__block">
+                        <img class="teachers__face" src="img/tutors/SS.jpg" alt="">   
+                        <p class="teacher__text"><span class="fat">История</span><br>выпускница МГИМО - Кафедры всемирной и отечественной истории. Опыт преподавания - более 10 лет</p>     
+                    </div>  
+                    </div>
+                </div>
+
+                <div class="last__block">
+                    <a href="#" class="boot">Записаться</a>
+                    <img class="kapella__L__8slide" src="img/kapella_left.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!--container-->
+    </section>
+
+
+    <div class="motivation__block__8slide">
+        <hr class="motiv8__hr">
+        <h2 class="motivation8">Учитесь у всех, не подражайте никому <img class="head" src="img/head.png" alt=""></h2>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p class="footer__text">(ЗДЕСЬ ЛОГО!!!!!!!(ТЕКСТ ОСТАВИТЬ))   Site by DimaKU</p>
+    </footer>
+
+    <!-- JQ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Slick slider -->
+    <script src="slick/slick.min.js"></script>
+    <!-- JS -->
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
