@@ -2,11 +2,11 @@
 
 body {
     margin: 0;
-    background-color: #e7e8ef;
+    background-color: black;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     overflow-x: hidden;
-    background: url("../img/school.png");
+ 
     background-size: 500px;
 } 
     ::-webkit-scrollbar-track {
