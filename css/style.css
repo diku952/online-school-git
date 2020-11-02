@@ -1,5 +1,9 @@
 /* ОБЩИЕ НАСТРОЙКИ */
 
+:root {
+    --shadow: rgba(0, 0, 0, 0.1) 0px 6px 20px;
+}
+
 body {
     margin: 0;
     background-color: #e7e8ef;
@@ -787,6 +791,7 @@ a:hover:after {
     margin: 0px 10px;
     border-radius: 10px;
     margin: 60px auto 0 auto;
+    box-shadow: var(--shadow);
 }
 
 .items_3slide {
