@@ -3,7 +3,8 @@
 /* ! Colors:
 * 1. #ffa282 - orange (tilda)
 * 2. #5961e8 - light orange (kulagin)
-* 3. #ededed - gray (tilda) */
+* 3. #ededed - gray (tilda) 
+* 4. #cda865 - песочный*/
 
 :root {
     --shadow: rgba(0, 0, 0, 0.1) 0px 6px 20px;
@@ -11,6 +12,7 @@
     --gray: #ededed;
     --my__blue: rgb(10, 63, 199);
     --orange: #ffa282;
+    --sand: #cda865;
 }
 
 body {
@@ -1580,39 +1582,23 @@ a.boot:focus:before {
     padding-top: 10px;
 }
 
-.teachers__face__biology {
+.teachers__face {
     width: 200px;
     height: 200px;
-
 }
 
-.teachers__face__chemistry {
-    width: 200px;
+.teachers__face__it {
+    width: 180px;
     height: 200px;
-
+    margin: auto;
+    display: block;
 }
 
 .teachers__face__english {
     width: 150px;
     height: 200px;
-    display: block;
     margin: auto;
-}
-
-.teachers__face__it {
-    width: 200px;
-    height: 200px;
-
-}
-.teachers__face__russian {
-    width: 200px;
-    height: 200px;
-
-}
-.teachers__face__ss {
-    width: 200px;
-    height: 200px;
-
+    display: block;
 }
 
 .last__block {
