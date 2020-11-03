@@ -1580,12 +1580,16 @@ a.boot:focus:before {
     padding-top: 10px;
 }
 
-.teachers__face {
+.teachers__face__biology {
     width: 200px;
     height: 200px;
-    border: 5px inset var(--frame__gray);
-    background-color: black;
-    border-radius: 110px;
+
+}
+
+.teachers__face__chemistry {
+    width: 200px;
+    height: 200px;
+
 }
 
 .teachers__face__english {
@@ -1594,33 +1598,21 @@ a.boot:focus:before {
     display: block;
     margin: auto;
 }
-.teachers__face {
+
+.teachers__face__it {
     width: 200px;
     height: 200px;
-    border: 5px inset var(--frame__gray);
-    background-color: black;
-    border-radius: 110px;
+
 }
-.teachers__face {
+.teachers__face__russian {
     width: 200px;
     height: 200px;
-    border: 5px inset var(--frame__gray);
-    background-color: black;
-    border-radius: 110px;
+
 }
-.teachers__face {
+.teachers__face__ss {
     width: 200px;
     height: 200px;
-    border: 5px inset var(--frame__gray);
-    background-color: black;
-    border-radius: 110px;
-}
-.teachers__face {
-    width: 200px;
-    height: 200px;
-    border: 5px inset var(--frame__gray);
-    background-color: black;
-    border-radius: 110px;
+
 }
 
 .last__block {
@@ -1658,4 +1650,5 @@ a.boot:focus:before {
 * 2. блок стоимости (бордер 1 на 1 наложить)
 * 3. больше сделать маленькие смайлики на блоке (Чем онлайн-школа лучше репетиторов?)
 * 4. розоувю ликвидную кнопку
-* 5. круги на преподах */
+* 5. круги на преподах
+* 6. закруглить 1 фото */
