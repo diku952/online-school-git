@@ -1,8 +1,8 @@
 /* ОБЩИЕ НАСТРОЙКИ */
 
 /* ! Colors:
-* 1. #ffa282 - orange (tilda)
-* 2. #5961e8 - light orange (kulagin)
+* 1. #ffa282 - sand (tilda)
+* 2. #5961e8 - light sand (kulagin)
 * 3. #ededed - gray (tilda) 
 * 4. #cda865 - песочный*/
 
@@ -11,7 +11,7 @@
     --frame__gray: rgb(162 162 162);
     --gray: #ededed;
     --my__blue: rgb(10, 63, 199);
-    --orange: #ffa282;
+    --sand: #ffa282;
     --sand: #cda865;
 }
 
@@ -144,7 +144,7 @@ h6 {
     text-align: center;
     border-radius: 20px;
     border: solid;
-    background-color: var(--orange);
+    background-color: var(--sand);
     padding: 10px;
     font-family: 'Marck Script', cursive;
     margin: auto;
@@ -155,7 +155,7 @@ h6 {
 .motiv1__hr {
     position: relative;
     top: 70px;
-    background-color:var(--orange);
+    background-color:var(--sand);
     height: 2px;
 }
 
@@ -164,7 +164,7 @@ h6 {
     text-align: center;
     border-radius: 20px;
     border: solid;
-    background-color:var(--orange);
+    background-color:var(--sand);
     padding: 10px;
     font-family: 'Marck Script', cursive;
     margin: auto;
@@ -179,7 +179,7 @@ h6 {
 .motiv2__hr {
     position: relative;
     top: 67px;
-    background-color: var(--orange);
+    background-color: var(--sand);
     height: 2px;
 }
 
@@ -188,7 +188,7 @@ h6 {
     text-align: center;
     border-radius: 20px;
     border: solid;
-    background-color: var(--orange);
+    background-color: var(--sand);
     padding: 10px;
     font-family: 'Marck Script', cursive;
     margin: auto;
@@ -203,7 +203,7 @@ h6 {
 .motiv3__hr {
     position: relative;
     top: 88px;
-    background-color: var(--orange);
+    background-color: var(--sand);
     height: 2px;
 }
 
@@ -212,7 +212,7 @@ h6 {
     text-align: center;
     border-radius: 20px;
     border: solid;
-    background-color: var(--orange);
+    background-color: var(--sand);
     padding: 10px;
     font-family: 'Marck Script', cursive;
     margin: auto;
@@ -227,7 +227,7 @@ h6 {
 .motiv4__hr {
     position: relative;
     top: 85px;
-    background-color: var(--orange);
+    background-color: var(--sand);
     height: 2px;
 }
 
@@ -236,7 +236,7 @@ h6 {
     text-align: center;
     border-radius: 20px;
     border: solid;
-    background-color: var(--orange);
+    background-color: var(--sand);
     padding: 10px;
     font-family: 'Marck Script', cursive;
     margin: auto;
@@ -251,7 +251,7 @@ h6 {
 .motiv5__hr {
     position: relative;
     top: 90px;
-    background-color: var(--orange);
+    background-color: var(--sand);
     height: 2px;
 }
 
@@ -260,7 +260,7 @@ h6 {
     text-align: center;
     border-radius: 20px;
     border: solid;
-    background-color: var(--orange);
+    background-color: var(--sand);
     padding: 10px;
     font-family: 'Marck Script', cursive;
     margin: auto;
@@ -275,7 +275,7 @@ h6 {
 .motiv6__hr {
     position: relative;
     top: 70px;
-    background-color: var(--orange);
+    background-color: var(--sand);
     height: 2px;
 }
 
@@ -284,7 +284,7 @@ h6 {
     text-align: center;
     border-radius: 20px;
     border: solid;
-    background-color: var(--orange);
+    background-color: var(--sand);
     padding: 10px;
     font-family: 'Marck Script', cursive;
     margin: auto;
@@ -299,7 +299,7 @@ h6 {
 .motiv7__hr {
     position: relative;
     top: 90px;
-    background-color: var(--orange);
+    background-color: var(--sand);
     height: 2px;
 }
 
@@ -308,7 +308,7 @@ h6 {
     text-align: center;
     border-radius: 20px;
     border: solid;
-    background-color: var(--orange);
+    background-color: var(--sand);
     padding: 10px;
     font-family: 'Marck Script', cursive;
     margin: auto;
@@ -323,7 +323,7 @@ h6 {
 .motiv8__hr {
     position: relative;
     top: 70px;
-    background-color: var(--orange);
+    background-color: var(--sand);
     height: 2px;
 }
 
@@ -360,7 +360,7 @@ h6 {
 
 .progress-bar {
     height: 4px;
-    background: var(--orange);
+    background: var(--sand);
     width: 0%;
 }
 /* полоса прогресса */
@@ -444,7 +444,7 @@ h6 {
     left: 1px;
     right: 5px;
     width: 100%;
-    background-color: #ffa282;
+    background-color: var(--sand);
     -webkit-transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
     transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
     -webkit-transform-origin: bottom center;
@@ -482,7 +482,7 @@ a {
     left: 1px;
     right: 5px;
     width: 100%;
-    background-color: #ffa282;
+    background-color:  var(--sand);
     -webkit-transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
     transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
     -webkit-transform-origin: bottom center;
@@ -571,8 +571,8 @@ a:hover:after {
     width: 1345px;
 }
 
-.orange {
-    color: #ffa282;
+.sand {
+    color: #cda865;
 }
 
 .kapella__L__1slide {
@@ -610,7 +610,7 @@ a:hover:after {
 }
 
 .countdown-title {
-    color: var(--orange);
+    color: var(--sand);
     font-weight: 100;
     font-size: 27px;
     margin: 40px 0px 20px;
@@ -745,7 +745,7 @@ a:hover:after {
 }
 
 .circle__slide2 {
-    border: 10px inset #ffa282;
+    border: 10px inset  var(--sand);
     padding: 40px;
     font-size: 40px;
     font-weight: 700;
@@ -905,8 +905,8 @@ a:hover:after {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    border-left: 26px solid #ffa282;
-    border-bottom: 26px solid #ffa282;
+    border-left: 26px solid  var(--sand);
+    border-bottom: 26px solid var(--sand);
     animation: arrow-8 3s linear infinite;
 }
 
@@ -916,8 +916,8 @@ a:hover:after {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    border-left: 26px solid #ffa282;
-    border-bottom: 26px solid #ffa282;
+    border-left: 26px solid  var(--sand);
+    border-bottom: 26px solid var(--sand);
     animation: arrow-8 3s linear infinite -1.5s;
 }
 
@@ -932,8 +932,8 @@ a:hover:after {
     }
     50% {
         opacity: 1;
-        border-left: 26px solid #ffa282;
-        border-bottom: 26px solid #ffa282;
+        border-left: 26px solid var(--sand);
+        border-bottom: 26px solid var(--sand);
         transform: translate(0, 0) rotate(-45deg);
     }
     100% {
@@ -1007,7 +1007,7 @@ a:hover:after {
 }
 
 .header__cost__value__2__2block {
-    color: orange;
+    color: sand;
 }
 
 .header__cost__value__2__3block {
@@ -1040,8 +1040,8 @@ a:hover:after {
 
 .item__cost2 {
     border: solid;
-    color: orange;
-    box-shadow: 0px 0px 8px 3px orange;
+    color: var(--sand);
+    box-shadow: 0px 0px 8px 3px sand;
 }
 
 .item__cost3 {
@@ -1223,8 +1223,8 @@ a:hover:after {
     font-size: 18px;
 }
 
-.usual__orange {
-    color: orange;
+.usual__sand {
+    color: sand;
 }
 
 .text__2package {
@@ -1445,7 +1445,7 @@ a:hover:after {
 #arrowTop {
     height: 9px;
     width: 14px;
-    color: var(--orange);
+    color: var(--sand);
     position: fixed;
     top: 50px;
     left: 10px;
