@@ -1,5 +1,24 @@
 /* ОБЩИЕ НАСТРОЙКИ */
 
+/* ! Colors:
+* 1. #ffa282 - sand (tilda)
+* 2. #5961e8 - light sand (kulagin)
+* 3. #ededed - gray (tilda) 
+* 4. #cda865 - песочный*/
+
+:root {
+    --shadow: rgba(0, 0, 0, 0.1) 0px 6px 20px;
+    --frame__gray: rgb(162 162 162);
+    --gray: #ededed;
+    --my__blue: rgb(10, 63, 199);
+    --sand: #ffa282;
+    --sand: #cda865;
+}
+
+@font-face {
+    font-family: greece; /* Имя шрифта */
+    src: url(fonts/4709.ttf); /* Путь к файлу со шрифтом */
+}
 
 
 body {
@@ -203,7 +222,7 @@ h6 {
     padding: 10px;
     font-family: 'greece', cursive;
     margin: auto;
-    width: 1430px;
+    width: 1200px;
     position: relative;
 }
 
@@ -213,7 +232,8 @@ h6 {
 
 .motiv4__hr {
     position: relative;
-
+    top: 85px;
+    background-color: var(--sand);
     height: 2px;
 }
 
