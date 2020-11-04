@@ -1,38 +1,15 @@
 /* ОБЩИЕ НАСТРОЙКИ */
 
-:root {
-    --shadow: rgba(0, 0, 0, 0.1) 0px 6px 20px;
-}
+
 
 body {
     margin: 0;
-    background-color: #e7e8ef;
+    background-color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     overflow-x: hidden;
-    background: url("../img/school.png");
     background-size: 500px;
 } 
-    ::-webkit-scrollbar-track {
-    background-color:#fff;
-    }
-    
-    ::-webkit-scrollbar-thumb {
-    background-color:rgb(10, 63, 199);
-    border-radius: 0px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -ms-border-radius: 0px;
-    -o-border-radius: 0px;
-}
-    
-    ::-webkit-scrollbar-thumb:hover{
-    background-color:rgb(86 130 244);
-    }
-    
-    ::-webkit-scrollbar{
-    width: 15px;
-    }
 
 /* КНОПКИ (BUTTONS) */
 
@@ -125,6 +102,12 @@ h6 {
     padding: 50px 0;
 }
 
+.section__gray {
+    background-color:var(--gray);
+    padding: 50px 0;
+}
+
+
 
 /*Container*/
 
@@ -148,18 +131,18 @@ h6 {
     text-align: center;
     border-radius: 20px;
     border: solid;
-    background-color: rgb(10, 63, 199);
+    background-color: var(--sand);
     padding: 10px;
-    font-family: 'Marck Script', cursive;
+    font-family: 'greece', cursive;
     margin: auto;
-    width: 1390px;
+    width: 1200px;
     position: relative;
 }
 
 .motiv1__hr {
     position: relative;
-    top: 70px;
-    background-color: rgb(10, 63, 199);
+    top: 85px;
+    background-color:var(--sand);
     height: 2px;
 }
 
@@ -168,9 +151,9 @@ h6 {
     text-align: center;
     border-radius: 20px;
     border: solid;
-    background-color: rgb(10, 63, 199);
+    background-color:var(--sand);
     padding: 10px;
-    font-family: 'Marck Script', cursive;
+    font-family: 'greece', cursive;
     margin: auto;
     width: 1010px;
     position: relative;
@@ -183,7 +166,7 @@ h6 {
 .motiv2__hr {
     position: relative;
     top: 67px;
-    background-color: rgb(10, 63, 199);
+    background-color: var(--sand);
     height: 2px;
 }
 
@@ -192,9 +175,9 @@ h6 {
     text-align: center;
     border-radius: 20px;
     border: solid;
-    background-color: rgb(10, 63, 199);
+    background-color: var(--sand);
     padding: 10px;
-    font-family: 'Marck Script', cursive;
+    font-family: 'greece', cursive;
     margin: auto;
     width: 1240px;
     position: relative;
@@ -207,7 +190,7 @@ h6 {
 .motiv3__hr {
     position: relative;
     top: 88px;
-    background-color: rgb(10, 63, 199);
+    background-color: var(--sand);
     height: 2px;
 }
 
@@ -216,9 +199,9 @@ h6 {
     text-align: center;
     border-radius: 20px;
     border: solid;
-    background-color: rgb(10, 63, 199);
+    background-color: var(--sand);
     padding: 10px;
-    font-family: 'Marck Script', cursive;
+    font-family: 'greece', cursive;
     margin: auto;
     width: 1430px;
     position: relative;
@@ -230,8 +213,7 @@ h6 {
 
 .motiv4__hr {
     position: relative;
-    top: 70px;
-    background-color: rgb(10, 63, 199);
+
     height: 2px;
 }
 
@@ -240,9 +222,9 @@ h6 {
     text-align: center;
     border-radius: 20px;
     border: solid;
-    background-color: rgb(10, 63, 199);
+    background-color: var(--sand);
     padding: 10px;
-    font-family: 'Marck Script', cursive;
+    font-family: 'greece', cursive;
     margin: auto;
     width: 1340px;
     position: relative;
@@ -255,7 +237,7 @@ h6 {
 .motiv5__hr {
     position: relative;
     top: 90px;
-    background-color: rgb(10, 63, 199);
+    background-color: var(--sand);
     height: 2px;
 }
 
@@ -264,11 +246,11 @@ h6 {
     text-align: center;
     border-radius: 20px;
     border: solid;
-    background-color: rgb(10, 63, 199);
+    background-color: var(--sand);
     padding: 10px;
-    font-family: 'Marck Script', cursive;
+    font-family: 'greece', cursive;
     margin: auto;
-    width: 1290px;
+    width: 1405px;
     position: relative;
 }
 
@@ -279,7 +261,7 @@ h6 {
 .motiv6__hr {
     position: relative;
     top: 70px;
-    background-color: rgb(10, 63, 199);
+    background-color: var(--sand);
     height: 2px;
 }
 
@@ -288,9 +270,9 @@ h6 {
     text-align: center;
     border-radius: 20px;
     border: solid;
-    background-color: rgb(10, 63, 199);
+    background-color: var(--sand);
     padding: 10px;
-    font-family: 'Marck Script', cursive;
+    font-family: 'greece', cursive;
     margin: auto;
     width: 1415px;
     position: relative;
@@ -303,7 +285,7 @@ h6 {
 .motiv7__hr {
     position: relative;
     top: 90px;
-    background-color: rgb(10, 63, 199);
+    background-color: var(--sand);
     height: 2px;
 }
 
@@ -312,11 +294,11 @@ h6 {
     text-align: center;
     border-radius: 20px;
     border: solid;
-    background-color: rgb(10, 63, 199);
+    background-color: var(--sand);
     padding: 10px;
-    font-family: 'Marck Script', cursive;
+    font-family: 'greece', cursive;
     margin: auto;
-    width: 660px;
+    width: 695px;
     position: relative;
 }
 
@@ -327,7 +309,7 @@ h6 {
 .motiv8__hr {
     position: relative;
     top: 70px;
-    background-color: rgb(10, 63, 199);
+    background-color: var(--sand);
     height: 2px;
 }
 
@@ -364,7 +346,7 @@ h6 {
 
 .progress-bar {
     height: 4px;
-    background: rgb(10, 63, 199);
+    background: var(--sand);
     width: 0%;
 }
 /* полоса прогресса */
@@ -383,7 +365,7 @@ h6 {
     justify-content: space-between;
     align-items: center;
     padding: 0 120px;
-    background-color: #eadec7;
+    background-color: #fff;
     position: fixed;
     width: 100%;
 }
@@ -448,7 +430,7 @@ h6 {
     left: 1px;
     right: 5px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: var(--sand);
     -webkit-transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
     transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
     -webkit-transform-origin: bottom center;
@@ -486,7 +468,7 @@ a {
     left: 1px;
     right: 5px;
     width: 100%;
-    background-color: #ffffff;
+    background-color:  var(--sand);
     -webkit-transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
     transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
     -webkit-transform-origin: bottom center;
@@ -575,8 +557,8 @@ a:hover:after {
     width: 1345px;
 }
 
-.blue {
-    color: rgb(10, 63, 199);
+.sand {
+    color: #cda865;
 }
 
 .kapella__L__1slide {
@@ -594,6 +576,7 @@ a:hover:after {
 
 .header__timer__slide {
     font-size: 60px;
+    box-shadow: var(--shadow);
     font-weight: 700;
     color: black;
     text-align: center;
@@ -613,7 +596,7 @@ a:hover:after {
 }
 
 .countdown-title {
-    color: rgb(10, 63, 199);
+    color: var(--sand);
     font-weight: 100;
     font-size: 27px;
     margin: 40px 0px 20px;
@@ -638,7 +621,7 @@ a:hover:after {
     border-radius: 10px;
     background: #fff;
     display: inline-block;
-    border: 7px inset rgb(10, 63, 199);
+    border: 4px inset var(--frame__gray);
 }
 
 .countdown-time {
@@ -655,6 +638,7 @@ a:hover:after {
 
 .vl__timer__left {
     height: 666px;
+    box-shadow: var(--shadow);
     position: absolute;
     left: 32rem;
     border-left: 10px solid #fff;
@@ -662,12 +646,14 @@ a:hover:after {
 
 .vl__timer__right {
     height: 666px;
+    box-shadow: var(--shadow);
     position: absolute;
     left: 65rem;
     border-left: 10px solid #fff;
 }
 
 .hl__timer__right {
+    box-shadow: var(--shadow);
     position: relative;
     top: 650px;
     background-color: #fff;
@@ -678,6 +664,7 @@ a:hover:after {
 
 .hl__timer__left {
     position: relative;
+    box-shadow: var(--shadow);
     top: 659px;
     background-color: #fff;
     height: 9px;
@@ -699,15 +686,16 @@ a:hover:after {
 /* Slide 2  (О НАС)*/
 
 .header__2slide {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
     color: black;
     text-align: center;
     padding: 30px;
     background: #fff;
     border-radius: 10px;
-    width: 400px;
+    width: 200px;
     margin: auto;
+    box-shadow: var(--shadow);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -728,10 +716,11 @@ a:hover:after {
     margin: 0px 10px;
     border-radius: 10px;
     margin: 4rem auto 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 20px;
 }
 
 .slide2__descr {
-    font-size: 25px;
+    font-size: 20px;
     padding: 30px 85px;
     text-align: center;
 }
@@ -742,7 +731,7 @@ a:hover:after {
 }
 
 .circle__slide2 {
-    border: 10px inset rgb(10, 63, 199);
+    border: 10px inset  var(--sand);
     padding: 40px;
     font-size: 40px;
     font-weight: 700;
@@ -762,15 +751,16 @@ a:hover:after {
 /* Slide 3 (Преимущества) */
 
 .header__3slide {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
     color: black;
     text-align: center;
     padding: 30px;
     background: #fff;
     border-radius: 10px;
-    width: 800px;
+    width: 530px;
     margin: auto;
+    box-shadow: var(--shadow);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -786,7 +776,8 @@ a:hover:after {
 
 .white__slide3 {
     width: 1200px;
-    height: 1250px;
+    box-shadow: var(--shadow);
+    height: 1120px;
     background: #fff;
     margin: 0px 10px;
     border-radius: 10px;
@@ -800,7 +791,7 @@ a:hover:after {
 
 .header_item_3slide {
     font-weight: 700;
-    font-size: 28px;
+    font-size: 20px;
     padding-left: 15px;
 }
 
@@ -815,7 +806,7 @@ a:hover:after {
 }
 
 .text_item_3slide {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 2;
 }
 
@@ -836,14 +827,15 @@ a:hover:after {
 /* Slide 4 (Как проходит обучение?) */
 
 .header__4slide {
-    font-size: 60px;
+    font-size: 40px;
+    box-shadow: var(--shadow);
     font-weight: 700;
     color: black;
     text-align: center;
     padding: 30px;
     background: #fff;
     border-radius: 10px;
-    width: 880px;
+    width: 605px;
     margin: auto;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -860,7 +852,8 @@ a:hover:after {
 
 .white__slide4 {
     width: 1200px;
-    height: 1110px;
+    box-shadow: var(--shadow);
+    height: 980px;
     background: #fff;
     margin: 0px 10px;
     border-radius: 10px;
@@ -872,7 +865,7 @@ a:hover:after {
 }
 
 .slide4__headers2 {
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 700;
     color: black;
     text-align: center;
@@ -880,7 +873,7 @@ a:hover:after {
 }
 
 .slide4__text {
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
     padding: 20px 30px;
     line-height: 2;
@@ -899,8 +892,8 @@ a:hover:after {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    border-left: 26px solid rgb(10, 63, 199);
-    border-bottom: 26px solid rgb(10, 63, 199);
+    border-left: 26px solid  var(--sand);
+    border-bottom: 26px solid var(--sand);
     animation: arrow-8 3s linear infinite;
 }
 
@@ -910,8 +903,8 @@ a:hover:after {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    border-left: 26px solid rgb(10, 63, 199);
-    border-bottom: 26px solid rgb(10, 63, 199);
+    border-left: 26px solid  var(--sand);
+    border-bottom: 26px solid var(--sand);
     animation: arrow-8 3s linear infinite -1.5s;
 }
 
@@ -926,8 +919,8 @@ a:hover:after {
     }
     50% {
         opacity: 1;
-        border-left: 26px solid rgb(10, 63, 199);
-        border-bottom: 26px solid rgb(10, 63, 199);
+        border-left: 26px solid var(--sand);
+        border-bottom: 26px solid var(--sand);
         transform: translate(0, 0) rotate(-45deg);
     }
     100% {
@@ -940,14 +933,15 @@ a:hover:after {
 /* Slide 5 (Стоимость) */
 
 .header__5slide {
-    font-size: 60px;
+    font-size: 40px;
+    box-shadow: var(--shadow);
     font-weight: 700;
     color: black;
     text-align: center;
     padding: 30px;
     background: #fff;
     border-radius: 10px;
-    width: 760px;
+    width: 530px;
     margin: auto;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -957,12 +951,14 @@ a:hover:after {
 
 .header2__5slide {
     font-weight: 700;
-    color: red;
+    box-shadow: var(--shadow);
+    color: #ffa282;
     text-align: center;
     padding: 15px;
     background: #fff;
     border-radius: 10px;
-    width: 830px;
+    width: 550px;
+    font-size: 19px;
     margin: 25px auto 0 auto;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -998,7 +994,7 @@ a:hover:after {
 }
 
 .header__cost__value__2__2block {
-    color: orange;
+    color: sand;
 }
 
 .header__cost__value__2__3block {
@@ -1031,8 +1027,8 @@ a:hover:after {
 
 .item__cost2 {
     border: solid;
-    color: orange;
-    box-shadow: 0px 0px 8px 3px orange;
+    color: var(--sand);
+    box-shadow: 0px 0px 8px 3px sand;
 }
 
 .item__cost3 {
@@ -1174,12 +1170,14 @@ a:hover:after {
 
 .header__descr__5slide {
     font-weight: 700;
+    box-shadow: var(--shadow);
     color: black;
     text-align: center;
     padding: 30px;
     background: #fff;
     border-radius: 10px;
-    width: 440px;
+    width: 300px;
+    font-size: 20px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -1196,7 +1194,8 @@ a:hover:after {
 
 .white__packages {
     width: 940px;
-    height: 1070px;
+    box-shadow: var(--shadow);
+    height: 960px;
     background: #fff;
     margin: 0px 10em;
     border-radius: 10px;
@@ -1208,15 +1207,15 @@ a:hover:after {
 }
 
 .text__1package {
-    font-size: 20px;
+    font-size: 18px;
 }
 
-.usual__orange {
-    color: orange;
+.usual__sand {
+    color: sand;
 }
 
 .text__2package {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .pro__blue {
@@ -1224,7 +1223,7 @@ a:hover:after {
 }
 
 .text__3package {
-    font-size: 23px;
+    font-size: 18px;
 }
 
 .all__packages {
@@ -1261,7 +1260,7 @@ a:hover:after {
 
 .text__package__dop {
     padding: 35px;
-    font-size: 23px;
+    font-size: 18px;
     line-height: 2;
 }
 
@@ -1272,14 +1271,15 @@ a:hover:after {
 /* Slide 6 (Чем онлайн-школа лучше репетиторов?) */
 
 .header__6slide {
-    font-size: 60px;
+    font-size: 30px;
+    box-shadow: var(--shadow);
     font-weight: 700;
     color: black;
     text-align: center;
     padding: 30px;
     background: #fff;
     border-radius: 10px;
-    width: 830px;
+    width: 730px;
     margin: auto;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -1310,29 +1310,31 @@ a:hover:after {
 .advantages__text {
     padding: 15px 0;
     line-height: 2;
+    font-size: 18px;
 }
 
 .white__slide6 {
     width: 1200px;
-    height: 1375px;
+    height: 990px;
     background: #fff;
     margin: 0px 10px;
     border-radius: 10px;
-    margin: 60px auto 0 auto;;
+    margin: 60px auto 0 auto;
+    box-shadow: var(--shadow);
 }
 
 
 /* Slide 7 (Отзывы) */
-
 .header__7slide {
-    font-size: 60px;
+    font-size: 30px;
+    box-shadow: var(--shadow);
     font-weight: 700;
     color: black;
     text-align: center;
     padding: 30px;
     background: #fff;
     border-radius: 10px;
-    width: 320px;
+    width: 190px;
     margin: auto;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -1344,21 +1346,23 @@ a:hover:after {
     height: 47px;
     position: absolute;
     left: 38rem;
-    bottom: 33em;
+    bottom: 32em;
     border-left: 10px solid #fff;
 }
 
 .h2__7slide {
     text-align: center;
+    box-shadow: var(--shadow);
     background: #fff;
     border-radius: 10px;
-    width: 600px;
+    width: 400px;
     margin: 30px auto 0 auto;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     padding: 5px;
+    font-size: 20px;
 }
 
 .slick-slider__reviews {
@@ -1416,7 +1420,8 @@ a:hover:after {
 
 .white__8slide {
     width: 1200px;
-    height: 1160px;
+    box-shadow: var(--shadow);
+    height: 860px;
     background: #fff;
     margin: 0px 10px;
     border-radius: 10px;
@@ -1427,7 +1432,7 @@ a:hover:after {
 #arrowTop {
     height: 9px;
     width: 14px;
-    color: rgb(10, 63, 199);
+    color: var(--sand);
     position: fixed;
     top: 50px;
     left: 10px;
@@ -1516,20 +1521,21 @@ a.boot:focus:before {
 .vl__8slide {
     height: 90px;
     position: absolute;
-    left: 39rem;
+    left: 38rem;
     border-left: 10px solid #fff;
 }
 
 .header__8slide {
-    font-size: 60px;
+    font-size: 40px;
+    box-shadow: var(--shadow);
     font-weight: 700;
     color: black;
     text-align: center;
     padding: 30px;
     background: #fff;
     border-radius: 10px;
-    width: 570px;
-    margin-left: 21rem;
+    width: 400px;
+    margin: 0 auto;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -1558,16 +1564,28 @@ a.boot:focus:before {
 
 .teacher__text {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     padding-top: 10px;
 }
 
 .teachers__face {
-    width: 201px;
-    height: 260px;
-    border: 10px inset rgb(10, 63, 199);
-    background-color: black;
+    width: 200px;
+    height: 200px;
+}
+
+.teachers__face__it {
+    width: 180px;
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+.teachers__face__english {
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    display: block;
 }
 
 .last__block {
@@ -1595,3 +1613,13 @@ a.boot:focus:before {
     text-align: center;
     padding: 12px 38rem 0 0;
 }
+
+
+
+
+
+/* !!!
+* 1. розовый думающий философ 
+* 2. блок стоимости (бордер 1 на 1 наложить)
+* 3. больше сделать маленькие смайлики на блоке (Чем онлайн-школа лучше репетиторов?)
+* 4. розоувю ликвидную кнопку */
