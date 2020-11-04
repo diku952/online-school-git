@@ -1327,15 +1327,30 @@ a:hover:after {
     left: 106px;
 }
 
+.advantages__header__block {
+    display: flex;
+}
+
+.advantages__smile {
+    font-size: 30px;
+}
+
+.advantages__header {
+    font-size: 18px;
+    padding: 10px 0 0 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 .advantages__text {
-    padding: 15px 0;
+    padding: 0 0 5px 0;
     line-height: 2;
     font-size: 18px;
 }
 
 .white__slide6 {
     width: 1200px;
-    height: 990px;
+    height: 1030px;
     background: #fff;
     margin: 0px 10px;
     border-radius: 10px;
@@ -1639,7 +1654,6 @@ a.boot:focus:before {
 
 
 /* !!!
-* 1. розовый думающий философ 
+* 1. песочный думающий философ 
 * 2. блок стоимости (бордер 1 на 1 наложить)
-* 3. больше сделать маленькие смайлики на блоке (Чем онлайн-школа лучше репетиторов?)
-* 4. розоувю ликвидную кнопку */
+* 4. песочную ликвидную кнопку */
