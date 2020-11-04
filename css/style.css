@@ -595,7 +595,7 @@ a:hover:after {
 /* Timer */
 
 .header__timer__slide {
-    font-size: 60px;
+    font-size: 40px;
     box-shadow: var(--shadow);
     font-weight: 700;
     color: black;
@@ -609,10 +609,6 @@ a:hover:after {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     margin: 60px auto 0 auto;
-}
-
-.timer__block {
-    padding: 0 0 100px 0;
 }
 
 .countdown-title {
@@ -696,6 +692,12 @@ a:hover:after {
 .timer__3row {
     display: flex;
     justify-content: space-around;
+}
+
+.timer__4row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
 }
 
 .motivation__block__1slide {
