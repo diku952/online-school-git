@@ -127,7 +127,6 @@ h6 {
 }
 
 
-
 /*Container*/
 
 .container {
@@ -561,7 +560,7 @@ a:hover:after {
 .slide__1 {
     display: flex;
     padding-top: 15px;
-    background: url("../img/1slide/back__1slide.jpg") center no-repeat;
+    background: url("../img/1slide/aph__school.png") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     min-height: 820px;
@@ -569,7 +568,7 @@ a:hover:after {
 
 .slide1__description {
     padding-top: 206px;
-    /* width: 768px; */
+    color: #fff;
 }
 
 .slide1__descr__h2 {
@@ -1657,5 +1656,4 @@ a.boot:focus:before {
 
 /* !!!
 * 1. песочный думающий философ 
-* 2. блок стоимости (бордер 1 на 1 наложить)
-* 4. песочную ликвидную кнопку */
+* 2. блок стоимости (бордер 1 на 1 наложить) */
