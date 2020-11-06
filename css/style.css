@@ -1042,19 +1042,31 @@ a:hover:after {
 
 .item__cost1 {
     border: solid;
-    color: rgb(46, 121, 28);
+    color: black;
     box-shadow: 0px 0px 0px 1px;
+}
+
+.item__cost1::after {
+    content: "";
+    border: 3px solid black;
+    position: absolute;
+    width: 326px;
+    height: 400px;
+    box-sizing: border-box;
+    top: 285px;
+    border-radius: 5%;
+    left: 160px;
 }
 
 .item__cost2 {
     border: solid;
-    color: var(--sand);
+    color: black;
     box-shadow: 0px 0px 8px 3px sand;
 }
 
 .item__cost3 {
     border: solid;
-    color: rgb(10, 63, 199);
+    color: black;
     box-shadow: 0px 0px 0px 1px;
 }
 
@@ -1067,17 +1079,6 @@ a:hover:after {
     font-size: 23px;
 }
 
-.cost__value__green {
-    color: rgb(46, 121, 28)
-}
-
-.cost__value__orange {
-    color: orange;
-}
-
-.cost__value__blue {
-    color: rgb(10, 63, 199);
-}
 
 .cost__value2 {
     font-size: 14px;
@@ -1669,4 +1670,4 @@ a.boot:focus:before {
 
 /* !!!
 * 2. блок стоимости (бордер 1 на 1 наложить)
-* сделать функции: прогресс бара, стрелки вверх (чтобы она появлялась ровно после 1 слайда) и изменения шапки все в одну (так как это ф-я onscroll) */
+* сделать лого */

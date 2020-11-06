@@ -44,54 +44,82 @@ function handleButtonClick() {
 }
 
 btn.addEventListener('click', handleButtonClick);
-// Liquid buttton scroll to cost
+// !Liquid buttton scroll to cost
 
-// Полоса прогресса
-window.onscroll = function() {myFunction()};
+// *!Полоса прогресса
+window.onscroll = function() {func_progress(), func_header_color()};
 
-function myFunction() {
+function func_progress() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
 
-// изменение цвета шапки хедера
+function func_header_color() {
+  var scrolled;
+  var styleElem = document.head.appendChild(document.createElement("style"));
+  var styleElem1 = document.head.appendChild(document.createElement("style"));
+  scrolled = window.pageYOffset || document.documentElement.scrollTop;
+  if(scrolled > 800){
+      $(".header__inner").css({"background-color": "#fff"})
+        styleElem.innerHTML = ".nav__link:after {background-color: var(--sand)}",
+        styleElem1.innerHTML = ".telephone::after {background-color: var(--sand)}";
+  
+  }
+  if(800 > scrolled){
+      $(".header__inner").css(
+        {"transition": "background-color 300ms linear",
+        "background-color": "antiquewhite"});
+        styleElem.innerHTML = ".nav__link:after {background-color: #fff}",
+        styleElem1.innerHTML = ".telephone::after {background-color: #fff";
+  }
+}
+
+// !изменение цвета шапки хедера
+
+
+function myFunction1() {
 var scrolled;
 var styleElem = document.head.appendChild(document.createElement("style"));
 var styleElem1 = document.head.appendChild(document.createElement("style"));
 
-window.onscroll = function() {
-    scrolled = window.pageYOffset || document.documentElement.scrollTop;
-    if(scrolled > 800){
-        $(".header__inner").css({"background-color": "#fff"})
-          styleElem.innerHTML = ".nav__link:after {background-color: var(--sand)}",
-          styleElem1.innerHTML = ".telephone::after {background-color: var(--sand)}";
-    
-    }
-    if(800 > scrolled){
-        $(".header__inner").css(
-          {"transition": "background-color 300ms linear",
-          "background-color": "antiquewhite"});
-          styleElem.innerHTML = ".nav__link:after {background-color: #fff}",
-          styleElem1.innerHTML = ".telephone::after {background-color: #fff";
-    }
+  scrolled = window.pageYOffset || document.documentElement.scrollTop;
+  if(scrolled > 800){
+      $(".header__inner").css({"background-color": "#fff"})
+        styleElem.innerHTML = ".nav__link:after {background-color: var(--sand)}",
+        styleElem1.innerHTML = ".telephone::after {background-color: var(--sand)}";
+  
+  }
+  if(800 > scrolled){
+      $(".header__inner").css(
+        {"transition": "background-color 300ms linear",
+        "background-color": "antiquewhite"});
+        styleElem.innerHTML = ".nav__link:after {background-color: #fff}",
+        styleElem1.innerHTML = ".telephone::after {background-color: #fff";
+  }
+
 }
 
-// Стрелка ВВЕРХ (при клике)
+// !Стрелка ВВЕРХ (при клике)
 arrowTop.onclick = function() {
   window.scrollTo(pageXOffset, 0);
   // после scrollTo возникнет событие "scroll", так что стрелка автоматически скроется
 };
 
-// Стрелка ВВЕРХ (исчезает) 
+// !Стрелка ВВЕРХ (исчезает) 
 window.addEventListener('scroll', function() {
   arrowTop.hidden = (pageYOffset < document.documentElement.clientHeight);
 });
 
-// Стрелка ВВЕРХ (текст)
+// !Стрелка ВВЕРХ (текст)
 window.addEventListener('scroll', function() {
   arrowText.hidden = (pageYOffset < document.documentElement.clientHeight);
+  scrolled = window.pageYOffset || document.documentElement.scrollTop;
+  
+  if(scrolled >= document.querySelector('#about').height + "px"){
+        $("#arrowText").hide()
+}
 });
 
   // Liquid Button --------------------------------
