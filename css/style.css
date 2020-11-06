@@ -1431,7 +1431,7 @@ a:hover:after {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin-top: 11px;
+    margin: 10px 15px 0 50px;
 }
 
 .client__card {
@@ -1479,6 +1479,19 @@ a:hover:after {
     content: '▲';
 }
 
+#arrowText {
+    color: var(--sand);
+    position: fixed;
+    top: 11rem;
+    left: -90px;
+    text-transform: uppercase;
+    font-size: 25px;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
 
 /* Кнопка с бликом */
 
@@ -1655,4 +1668,5 @@ a.boot:focus:before {
 
 
 /* !!!
-* 2. блок стоимости (бордер 1 на 1 наложить) */
+* 2. блок стоимости (бордер 1 на 1 наложить)
+* сделать функции: прогресс бара, стрелки вверх (чтобы она появлялась ровно после 1 слайда) и изменения шапки все в одну (так как это ф-я onscroll) */
