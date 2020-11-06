@@ -18,10 +18,12 @@
 @font-face {
     font-family: greece-hard; /* Имя шрифта */
     src: url(fonts/caesar-hard.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
     font-family: greece-light;
     src:url(fonts/caesar-light.otf)
 }
-
 
 body {
     margin: 0;
@@ -153,7 +155,7 @@ h6 {
     border: solid;
     background-color: var(--sand);
     padding: 10px;
-    font-family: 'greece', cursive;
+    font-family: 'greece-hard', cursive;
     margin: auto;
     width: 1200px;
     position: relative;
@@ -173,7 +175,7 @@ h6 {
     border: solid;
     background-color:var(--sand);
     padding: 10px;
-    font-family: 'greece', cursive;
+    font-family: 'greece-hard', cursive;
     margin: auto;
     width: 1010px;
     position: relative;
@@ -197,7 +199,7 @@ h6 {
     border: solid;
     background-color: var(--sand);
     padding: 10px;
-    font-family: 'greece', cursive;
+    font-family: 'greece-hard', cursive;
     margin: auto;
     width: 1240px;
     position: relative;
@@ -221,7 +223,7 @@ h6 {
     border: solid;
     background-color: var(--sand);
     padding: 10px;
-    font-family: 'greece', cursive;
+    font-family: 'greece-hard', cursive;
     margin: auto;
     width: 1200px;
     position: relative;
@@ -245,7 +247,7 @@ h6 {
     border: solid;
     background-color: var(--sand);
     padding: 10px;
-    font-family: 'greece', cursive;
+    font-family: 'greece-hard', cursive;
     margin: auto;
     width: 1340px;
     position: relative;
@@ -269,7 +271,7 @@ h6 {
     border: solid;
     background-color: var(--sand);
     padding: 10px;
-    font-family: 'greece', cursive;
+    font-family: 'greece-hard', cursive;
     margin: auto;
     width: 1405px;
     position: relative;
@@ -293,7 +295,7 @@ h6 {
     border: solid;
     background-color: var(--sand);
     padding: 10px;
-    font-family: 'greece', cursive;
+    font-family: 'greece-hard', cursive;
     margin: auto;
     width: 1415px;
     position: relative;
@@ -317,7 +319,7 @@ h6 {
     border: solid;
     background-color: var(--sand);
     padding: 10px;
-    font-family: 'greece', cursive;
+    font-family: 'greece-hard', cursive;
     margin: auto;
     width: 695px;
     position: relative;
