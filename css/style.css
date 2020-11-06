@@ -11,13 +11,15 @@
     --frame__gray: rgb(162 162 162);
     --gray: #ededed;
     --my__blue: rgb(10, 63, 199);
-    --sand: #ffa282;
+    --pink: #ffa282;
     --sand: #cda865;
 }
 
 @font-face {
-    font-family: greece; /* Имя шрифта */
-    src: url(fonts/4709.ttf); /* Путь к файлу со шрифтом */
+    font-family: greece-hard; /* Имя шрифта */
+    src: url(fonts/caesar-hard.ttf); /* Путь к файлу со шрифтом */
+    font-family: greece-light;
+    src:url(fonts/caesar-light.otf)
 }
 
 
@@ -348,6 +350,19 @@ h6 {
     
 }
 
+.header__logo {
+    height: 50px;
+    width: 55px;
+    position: relative;
+    left: 30px;
+}
+
+.header__text {
+    font-size: 34px;
+    color: black;
+    font-family: greece-light;
+}
+
 /* полоса прогресса */
 .progress__line {
     position: fixed;
@@ -387,12 +402,6 @@ h6 {
     background-color: #fff;
     position: fixed;
     width: 100%;
-}
-
-.header__logo {
-    font-size: 34px;
-    font-weight: 700;
-    color: black;
 }
 
 .nav {
@@ -973,7 +982,7 @@ a:hover:after {
 .header2__5slide {
     font-weight: 700;
     box-shadow: var(--shadow);
-    color: #ffa282;
+    color: #e65214;
     text-align: center;
     padding: 15px;
     background: #fff;
@@ -1015,7 +1024,7 @@ a:hover:after {
 }
 
 .header__cost__value__2__2block {
-    color: sand;
+    color: #e65214;
 }
 
 .header__cost__value__2__3block {
@@ -1038,9 +1047,6 @@ a:hover:after {
     background: #fff;
     margin: 0px 10px;
     border-radius: 5%;
-}
-
-.item__cost1 {
     border: solid;
     color: black;
     box-shadow: 0px 0px 0px 1px;
@@ -1048,7 +1054,7 @@ a:hover:after {
 
 .item__cost1::after {
     content: "";
-    border: 3px solid black;
+    border: 3px solid rgb(46, 121, 28);
     position: absolute;
     width: 326px;
     height: 400px;
@@ -1058,21 +1064,31 @@ a:hover:after {
     left: 160px;
 }
 
-.item__cost2 {
-    border: solid;
-    color: black;
-    box-shadow: 0px 0px 8px 3px sand;
+.item__cost2::after {
+    content: "";
+    border: 3px solid #e65214;
+    position: absolute;
+    width: 326px;
+    height: 400px;
+    box-sizing: border-box;
+    top: 272px;
+    border-radius: 5%;
+    right: 23rem;
 }
 
-.item__cost3 {
-    border: solid;
-    color: black;
-    box-shadow: 0px 0px 0px 1px;
+.item__cost3::after {
+    content: "";
+    border: 3px solid rgb(10, 63, 199);
+    position: absolute;
+    width: 326px;
+    height: 400px;
+    box-sizing: border-box;
+    top: 285px;
+    border-radius: 5%;
+    right: 15px;
 }
 
-.cost__value__green,
-.cost__value__orange,
-.cost__value__blue {
+.cost__value {
     text-align: center;
     padding-top: 52px;
     font-weight: 700;
@@ -1088,53 +1104,26 @@ a:hover:after {
 .hit {
     position: relative;
     top: 10px;
-    right: 15px;
+    z-index: 1;
+    width: 120px;
+    right: 30px;
 }
 
-.cost__value__green::after {
+.cost__value::after {
     content: "";
     display: block;
     width: 133px;
     height: 2px;
     background-color: #e8e4e4;
     position: relative;
-    left: 100px;
+    left: 95px;
     top: 17px;
 }
 
-.cost__value__green:last-child::after {
+.cost__value:last-of-type::after {
     content: none;
 }
 
-.cost__value__orange::after {
-    content: "";
-    display: block;
-    width: 133px;
-    height: 2px;
-    background-color: #e8e4e4;
-    position: relative;
-    left: 100px;
-    top: 17px;
-}
-
-.cost__value__orange:last-child::after {
-    content: none;
-}
-
-.cost__value__blue::after {
-    content: "";
-    display: block;
-    width: 133px;
-    height: 2px;
-    background-color: #e8e4e4;
-    position: relative;
-    left: 100px;
-    top: 17px;
-}
-
-.cost__value__blue:last-child::after {
-    content: none;
-}
 
 .headers__cost__value {
     text-align: center;
@@ -1161,6 +1150,20 @@ a:hover:after {
     padding-top: 51px;
 }
 
+.days__months__cost__item::after {
+    content: "";
+    display: block;
+    width: 75px;
+    height: 2px;
+    background-color: #e8e4e4;
+    position: relative;
+    left: 22px;
+    top: 17px;
+}
+
+.days__months__cost__item:last-child::after {
+    content: none;
+}
 
 /* Подслайд "Что мы предлагаем?"*/
 
@@ -1225,15 +1228,15 @@ a:hover:after {
 }
 
 .new__green {
-    color: rgb(46, 121, 28)
+    color: rgb(46, 121, 28);
+}
+
+.usual__red {
+    color: #e65214;
 }
 
 .text__1package {
     font-size: 18px;
-}
-
-.usual__sand {
-    color: sand;
 }
 
 .text__2package {
@@ -1255,22 +1258,20 @@ a:hover:after {
 .header1__package {
     text-align: center;
     border: solid;
-    color: white;
     margin: auto;
     width: 328px;
-    border: solid black;
-    background-color: black;
+    background-color: #fff;
     border-radius: 10px;
     padding: 3px;
+    box-shadow: var(--shadow);
 }
 
 .header2__package {
     text-align: center;
-    color: white;
     margin: auto;
+    border: solid;
     width: 450px;
-    border: solid black;
-    background-color: black;
+    background-color: #fff;
     border-radius: 10px;
     padding: 7px;
 }
@@ -1653,15 +1654,16 @@ a.boot:focus:before {
 
 /*Footer*/
 
-.footer {
-    background: #242327;
-    height: 50px;
-}
-
 .footer__text {
     color: white;
     text-align: center;
     padding: 12px 38rem 0 0;
+}
+
+.logo__footer {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
 }
 
 
@@ -1669,5 +1671,4 @@ a.boot:focus:before {
 
 
 /* !!!
-* 2. блок стоимости (бордер 1 на 1 наложить)
-* сделать лого */
+* */
