@@ -116,10 +116,10 @@ window.addEventListener('scroll', function() {
 window.addEventListener('scroll', function() {
   arrowText.hidden = (pageYOffset < document.documentElement.clientHeight);
   scrolled = window.pageYOffset || document.documentElement.scrollTop;
-  
-  if(scrolled >= document.querySelector('#about').height + "px"){
-        $("#arrowText").hide()
-}
+
+  if(scrolled >= 2000)
+    {$("#arrowText").hide()}
+
 });
 
   // Liquid Button --------------------------------
