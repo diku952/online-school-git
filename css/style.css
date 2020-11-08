@@ -621,6 +621,19 @@ a:hover:after {
     margin: 60px auto 0 auto;
 }
 
+.tick-tick {
+    position: relative;
+}
+
+.art5 {
+    position: absolute;
+    width: 150px;
+    position: absolute;
+    width: 150px;
+    bottom: -60px;
+    margin-left: 45%;
+}
+
 .countdown-title {
     color: var(--sand);
     font-weight: 100;
@@ -717,6 +730,14 @@ a:hover:after {
 
 /* Slide 2  (О НАС)*/
 
+.art6 {
+    position: absolute;
+    width: 150px;
+    position: absolute;
+    width: 200px;
+    top: -185px;
+}
+
 .header__2slide {
     font-size: 40px;
     font-weight: 700;
@@ -781,6 +802,13 @@ a:hover:after {
 
 
 /* Slide 3 (Преимущества) */
+
+.art4 {
+    position: absolute;
+    width: 150px;
+    top: -98px;
+    margin-left: 85%;
+}
 
 .header__3slide {
     font-size: 40px;
@@ -1490,11 +1518,12 @@ a:hover:after {
     left: -90px;
     text-transform: uppercase;
     font-size: 25px;
-    transform: rotate(180deg);
+    transform: rotate(270deg);
     -webkit-transform: rotate(270deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    z-index: 1;
 }
 
 /* Кнопка с бликом */
