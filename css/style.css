@@ -578,13 +578,8 @@ a:hover:after {
 }
 
 .slide1__description {
-    padding-top: 206px;
+    padding-top: 100px;
     color: #fff;
-}
-
-.slide1__descr__h2 {
-    padding-top: 15px;
-    width: 1345px;
 }
 
 .sand {
