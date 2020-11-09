@@ -1226,21 +1226,56 @@ a:hover:after {
     right: 10rem;
 }
 
+/* !Dropdown menu */
+
 .dropdown-menu{
-    width: 700px;
-    border: 2px inset rgb(10, 63, 199);
+    width: 500px;
     display: none;
-    margin-left: 25rem;
-    height: 500px;
+    height: 400px;
+    padding: 30px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 10;
 }
 
-.header__dropdown {
-    
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: var(--sand);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(254 217 23 / 25%);
 }
 
-.input__form {
-    display: flex;
+.form-control {
+    width: 50%;
+    margin: auto;
 }
+
+.btn {
+    margin-left: 10rem;
+}
+
+.btn-primary {
+    margin-left: 10rem;
+    background-color:  #cda865;
+    border-color: #cda865;
+}
+
+.btn-primary:hover {
+    background-color:#9e772e;
+    border-color: #9e772e;
+} 
+
+.form-group {
+    text-align: center;
+}
+
+/* !Dropdown menu */
 
 .art7 {
     position: absolute;
