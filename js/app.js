@@ -79,8 +79,6 @@ function func_header_color() {
 }
 
 // !изменение цвета шапки хедера
-
-
 function myFunction1() {
   var scrolled;
   var styleElem = document.head.appendChild(document.createElement("style"));
@@ -104,6 +102,11 @@ function myFunction1() {
   }
 
 }
+
+// !Анимация art11 при клике
+document.getElementById('art11').onclick = function() {
+      document.getElementById('art11').hidden = true;
+    }
 
 // !Стрелка ВВЕРХ (при клике)
 arrowTop.onclick = function () {

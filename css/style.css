@@ -625,7 +625,7 @@ a:hover:after {
     position: relative;
 }
 
-.art5 {
+.art1 {
     position: absolute;
     width: 150px;
     position: absolute;
@@ -730,7 +730,7 @@ a:hover:after {
 
 /* Slide 2  (О НАС)*/
 
-.art6 {
+.art2 {
     position: absolute;
     width: 150px;
     position: absolute;
@@ -803,7 +803,7 @@ a:hover:after {
 
 /* Slide 3 (Преимущества) */
 
-.art4 {
+.art3 {
     position: absolute;
     width: 150px;
     top: -98px;
@@ -849,6 +849,14 @@ a:hover:after {
     padding: 75px 40px;
 }
 
+#art11 {
+    position: absolute;
+    width: 200px;
+    top: 32rem;
+    right: -13rem;
+    transform: rotate(270deg);
+}
+
 .header_item_3slide {
     font-weight: 700;
     font-size: 20px;
@@ -885,6 +893,15 @@ a:hover:after {
 
 
 /* Slide 4 (Как проходит обучение?) */
+
+.art5 {
+    position: absolute;
+    width: 150px;
+    position: absolute;
+    width: 136px;
+    top: 32rem;
+    right: -8rem;
+}
 
 .header__4slide {
     font-size: 40px;
@@ -1007,6 +1024,13 @@ a:hover:after {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+.art6 {
+    position: absolute;
+    width: 150px;
+    position: absolute;
+    top: -65px;
 }
 
 .header2__5slide {
@@ -1223,6 +1247,15 @@ a:hover:after {
     display: flex;
 }
 
+.art7 {
+    position: absolute;
+    width: 150px;
+    position: absolute;
+    width: 150px;
+    margin-left: 70%;
+    top: -50px;
+}
+
 .header__descr__5slide {
     font-weight: 700;
     box-shadow: var(--shadow);
@@ -1294,6 +1327,15 @@ a:hover:after {
     border-radius: 10px;
     padding: 3px;
     box-shadow: var(--shadow);
+}
+
+.art8 {
+    position: absolute;
+    width: 150px;
+    position: absolute;
+    width: 150px;
+    bottom: 230px;
+    left: -8%;
 }
 
 .header2__package {
@@ -1408,6 +1450,14 @@ a:hover:after {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+.art9 {
+    position: absolute;
+    width: 500px;
+    top: -17rem;
+    left: -10rem;
+    z-index: 1;
 }
 
 .vl__7slide {
@@ -1607,6 +1657,13 @@ a.boot:focus:before {
     border-left: 10px solid #fff;
 }
 
+.art10 {
+    position: absolute;
+    width: 200px;
+    left: 82%;
+    top: -3%;
+}
+
 .header__8slide {
     font-size: 40px;
     box-shadow: var(--shadow);
@@ -1701,5 +1758,5 @@ a.boot:focus:before {
 
 
 
-/*!Маленькие картинки для наполнения сайта  
+/*!  
 * */
