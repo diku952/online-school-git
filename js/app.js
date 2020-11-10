@@ -1,5 +1,5 @@
 
-// Smooth Scroll (якори)
+// !Smooth Scroll (якори)
 $(function () {
   $("[data-scroll]").on("click", function (event) {
     event.preventDefault();
@@ -15,7 +15,8 @@ $(function () {
 
 });
 
-// Вылезающее поле ввода кнопки
+// !Вылезающее поле ввода кнопки 
+// *(открытие поля)
 var res = $(".dropdown-menu");
 $(".button__mirror").on("click", funk);
 
@@ -33,9 +34,44 @@ function funk() {
     res.fadeOut(100);
   }
 }
-// Вылезающее поле ввода кнопки
 
-// Liquid buttton scroll to cost
+// *Действия в меню
+document.addEventListener('DOMContentLoaded', function () {
+    let form = document.getElementById('form');
+    form.addEventListener('submit', formSend);
+
+    async function formSend(e) {
+      e.preventDefault();
+
+      let error = formValidate(form);
+    }
+      
+      function formValidate(form) {
+        let error = 0;
+        let formReq = document.querySelectorAll('._req');
+
+        for (let index = 0; index < formReq.length; index++) {
+          const input = formReq[index];
+          formRemoveError(input);
+
+          if (input.value === '') {
+            formAddError(input);
+            error++;
+          }
+
+        }
+    }
+    function formAddError(input) {
+      input.parentElement.classList.add('_error');
+      input.classList.add('_error');
+    }
+    function formRemoveError(input) {
+      input.parentElement.classList.remove('_error');
+      input.classList.remove('_error');
+    }
+});
+
+// !Liquid buttton scroll to cost
 var hiddenElement = document.getElementById("cost");
 var btn = document.querySelector('.liquid-button');
 
@@ -44,9 +80,8 @@ function handleButtonClick() {
 }
 
 btn.addEventListener('click', handleButtonClick);
-// !Liquid buttton scroll to cost
 
-// *!Полоса прогресса
+// *!Полоса прогресса и изменение цвета шапки хедера
 window.onscroll = function () { func_progress(), func_header_color() };
 
 function func_progress() {
@@ -55,7 +90,7 @@ function func_progress() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
-
+// !изменение цвета шапки хедера
 function func_header_color() {
   var scrolled;
   var styleElem = document.head.appendChild(document.createElement("style"));
@@ -76,31 +111,6 @@ function func_header_color() {
     styleElem.innerHTML = ".nav__link:after {background-color: #fff}",
       styleElem1.innerHTML = ".telephone::after {background-color: #fff";
   }
-}
-
-// !изменение цвета шапки хедера
-function myFunction1() {
-  var scrolled;
-  var styleElem = document.head.appendChild(document.createElement("style"));
-  var styleElem1 = document.head.appendChild(document.createElement("style"));
-
-  scrolled = window.pageYOffset || document.documentElement.scrollTop;
-  if (scrolled > 800) {
-    $(".header__inner").css({ "background-color": "#fff" })
-    styleElem.innerHTML = ".nav__link:after {background-color: var(--sand)}",
-      styleElem1.innerHTML = ".telephone::after {background-color: var(--sand)}";
-
-  }
-  if (800 > scrolled) {
-    $(".header__inner").css(
-      {
-        "transition": "background-color 300ms linear",
-        "background-color": "antiquewhite"
-      });
-    styleElem.innerHTML = ".nav__link:after {background-color: #fff}",
-      styleElem1.innerHTML = ".telephone::after {background-color: #fff";
-  }
-
 }
 
 // !Анимация art11 при клике
@@ -441,7 +451,7 @@ $('.sl').slick({
 
 
 
-// ------------------------------TIMERS
+// ---------------TIMERS
 
 // TIMER Rus (1)
 function getTimeRemaining(endtime) {

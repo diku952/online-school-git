@@ -16,13 +16,15 @@
 }
 
 @font-face {
-    font-family: greece-hard; /* Имя шрифта */
-    src: url(fonts/caesar-hard.ttf); /* Путь к файлу со шрифтом */
+    font-family: greece-hard;
+    /* Имя шрифта */
+    src: url(fonts/caesar-hard.ttf);
+    /* Путь к файлу со шрифтом */
 }
 
 @font-face {
     font-family: greece-light;
-    src:url(fonts/caesar-light.otf)
+    src: url(fonts/caesar-light.otf)
 }
 
 body {
@@ -32,10 +34,9 @@ body {
     font-size: 15px;
     overflow-x: hidden;
     background-size: 500px;
-} 
+}
 
 /* КНОПКИ (BUTTONS) */
-
 
 /* Кнопка зеркало */
 
@@ -51,8 +52,7 @@ body {
     margin: 30px 0 0 60px;
 }
 
-.button__mirror:after,
-.button__mirror:before {
+.button__mirror:after, .button__mirror:before {
     content: "";
     position: absolute;
     top: 0;
@@ -76,12 +76,10 @@ body {
     transform: translate(-3px, -3px);
 }
 
-.button__mirror:hover:after,
-.button__mirror:hover:before {
+.button__mirror:hover:after, .button__mirror:hover:before {
     -webkit-transform: translate(0);
     transform: translate(0);
 }
-
 
 /* Кнопка зеркало */
 
@@ -90,23 +88,15 @@ body {
     cursor: pointer;
 }
 
-
 .fat {
     font-weight: 700;
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
     box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
@@ -118,7 +108,6 @@ h6 {
     padding: 30px;
 }
 
-
 /*Section*/
 
 .section {
@@ -126,10 +115,9 @@ h6 {
 }
 
 .section__gray {
-    background-color:var(--gray);
+    background-color: var(--gray);
     padding: 50px 0;
 }
-
 
 /*Container*/
 
@@ -140,7 +128,6 @@ h6 {
     margin: 0 auto;
     position: relative;
 }
-
 
 /* MOTIVATION */
 
@@ -164,7 +151,7 @@ h6 {
 .motiv1__hr {
     position: relative;
     top: 85px;
-    background-color:var(--sand);
+    background-color: var(--sand);
     height: 2px;
 }
 
@@ -173,7 +160,7 @@ h6 {
     text-align: center;
     border-radius: 20px;
     border: solid;
-    background-color:var(--sand);
+    background-color: var(--sand);
     padding: 10px;
     font-family: 'greece-hard', cursive;
     margin: auto;
@@ -336,9 +323,7 @@ h6 {
     height: 2px;
 }
 
-
 /* ОБЩИЕ НАСТРОЙКИ */
-
 
 /* HEADER */
 
@@ -349,7 +334,6 @@ h6 {
     left: 0;
     right: 0;
     z-index: 1000;
-    
 }
 
 .header__logo {
@@ -366,6 +350,7 @@ h6 {
 }
 
 /* полоса прогресса */
+
 .progress__line {
     position: fixed;
     top: 0;
@@ -378,13 +363,14 @@ h6 {
     width: 100%;
     height: 4px;
     background: #fff;
-} 
+}
 
 .progress-bar {
     height: 4px;
     background: var(--sand);
     width: 0%;
 }
+
 /* полоса прогресса */
 
 /* Header fixed */
@@ -498,7 +484,7 @@ a {
     left: 1px;
     right: 5px;
     width: 100%;
-    background-color:  var(--sand);
+    background-color: var(--sand);
     -webkit-transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
     transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
     -webkit-transform-origin: bottom center;
@@ -565,7 +551,6 @@ a:hover:after {
     }
 }
 
-
 /* SLIDE1 о нас */
 
 .slide__1 {
@@ -578,7 +563,7 @@ a:hover:after {
 }
 
 .slide1__description {
-    padding-top: 100px;
+    padding-top: 160px;
     color: #fff;
 }
 
@@ -595,7 +580,6 @@ a:hover:after {
     -ms-transform: rotate(23deg);
     -o-transform: rotate(23deg);
 }
-
 
 /* Timer */
 
@@ -705,9 +689,7 @@ a:hover:after {
     width: 521px;
 }
 
-.timer__1row,
-.timer__2row,
-.timer__3row {
+.timer__1row, .timer__2row, .timer__3row {
     display: flex;
     justify-content: space-around;
 }
@@ -721,7 +703,6 @@ a:hover:after {
 .motivation__block__1slide {
     padding-top: 25px;
 }
-
 
 /* Slide 2  (О НАС)*/
 
@@ -779,7 +760,7 @@ a:hover:after {
 }
 
 .circle__slide2 {
-    border: 10px inset  var(--sand);
+    border: 10px inset var(--sand);
     padding: 40px;
     font-size: 40px;
     font-weight: 700;
@@ -794,7 +775,6 @@ a:hover:after {
     padding-top: 15px;
     font-weight: 700;
 }
-
 
 /* Slide 3 (Преимущества) */
 
@@ -886,7 +866,6 @@ a:hover:after {
     width: 50px;
 }
 
-
 /* Slide 4 (Как проходит обучение?) */
 
 .art5 {
@@ -964,7 +943,7 @@ a:hover:after {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    border-left: 26px solid  var(--sand);
+    border-left: 26px solid var(--sand);
     border-bottom: 26px solid var(--sand);
     animation: arrow-8 3s linear infinite;
 }
@@ -975,7 +954,7 @@ a:hover:after {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    border-left: 26px solid  var(--sand);
+    border-left: 26px solid var(--sand);
     border-bottom: 26px solid var(--sand);
     animation: arrow-8 3s linear infinite -1.5s;
 }
@@ -985,8 +964,7 @@ a:hover:after {
         opacity: 0;
         transform: translate(0, -53px) rotate(-45deg);
     }
-    10%,
-    90% {
+    10%, 90% {
         opacity: 0;
     }
     50% {
@@ -1000,7 +978,6 @@ a:hover:after {
         transform: translate(0, 53px) rotate(-45deg);
     }
 }
-
 
 /* Slide 5 (Стоимость) */
 
@@ -1061,9 +1038,7 @@ a:hover:after {
     font-size: 22px;
 }
 
-.header__cost__value__2__1block,
-.header__cost__value__2__2block,
-.header__cost__value__2__3block {
+.header__cost__value__2__1block, .header__cost__value__2__2block, .header__cost__value__2__3block {
     font-weight: 700;
     font-size: 22px;
 }
@@ -1088,9 +1063,7 @@ a:hover:after {
     left: 35px;
 }
 
-.item__cost1,
-.item__cost2,
-.item__cost3 {
+.item__cost1, .item__cost2, .item__cost3 {
     width: 326px;
     height: 400px;
     background: #fff;
@@ -1144,7 +1117,6 @@ a:hover:after {
     font-size: 23px;
 }
 
-
 .cost__value2 {
     font-size: 14px;
     color: gray;
@@ -1172,7 +1144,6 @@ a:hover:after {
 .cost__value:last-of-type::after {
     content: none;
 }
-
 
 .headers__cost__value {
     text-align: center;
@@ -1228,7 +1199,7 @@ a:hover:after {
 
 /* !Dropdown menu */
 
-.dropdown-menu{
+.dropdown-menu {
     width: 500px;
     display: none;
     height: 400px;
@@ -1236,11 +1207,16 @@ a:hover:after {
     position: fixed;
     left: 50%;
     top: 50%;
-    -ms-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     z-index: 10;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .form-control:focus {
@@ -1251,6 +1227,10 @@ a:hover:after {
     box-shadow: 0 0 0 0.2rem rgb(254 217 23 / 25%);
 }
 
+.form-control._error {
+    box-shadow: 0 0 3px red;
+}
+
 .form-control {
     width: 50%;
     margin: auto;
@@ -1258,18 +1238,30 @@ a:hover:after {
 
 .btn {
     margin-left: 10rem;
+    text-transform: uppercase;
 }
 
 .btn-primary {
-    margin-left: 10rem;
-    background-color:  #cda865;
+    margin: 1rem 0 0 9rem;
+    background-color: #cda865;
     border-color: #cda865;
 }
 
+.btn-primary:focus {
+    background-color: #cda865;
+    border-color: #cda865;
+    box-shadow: 0 0 0 0.2rem rgb(197 169 45 / 50%);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: rgb(235, 222, 222);
+    border-color: rgb(235, 222, 222);
+}
+
 .btn-primary:hover {
-    background-color:#9e772e;
+    background-color: #9e772e;
     border-color: #9e772e;
-} 
+}
 
 .form-group {
     text-align: center;
@@ -1317,7 +1309,7 @@ a:hover:after {
     background: #fff;
     margin: 0px 10em;
     border-radius: 10px;
-    margin: 60px auto 0 auto;;
+    margin: 60px auto 0 auto;
 }
 
 .new__green {
@@ -1463,8 +1455,8 @@ a:hover:after {
     box-shadow: var(--shadow);
 }
 
-
 /* Slide 7 (Отзывы) */
+
 .header__7slide {
     font-size: 30px;
     box-shadow: var(--shadow);
@@ -1552,8 +1544,7 @@ a:hover:after {
     width: 265px;
 }
 
-.slick-prev:before,
-.slick-next:before {
+.slick-prev:before, .slick-next:before {
     color: black !important;
 }
 
@@ -1562,7 +1553,6 @@ a:hover:after {
     height: 372px !important;
     padding: 20px;
 }
-
 
 /*Slide 8 (Преподаватели)*/
 
@@ -1573,10 +1563,12 @@ a:hover:after {
     background: #fff;
     margin: 0px 10px;
     border-radius: 10px;
-    margin: 60px auto 0 auto;;
+    margin: 60px auto 0 auto;
+    ;
 }
 
 /* Стрелка ВВЕРХ */
+
 #arrowTop {
     height: 9px;
     width: 14px;
@@ -1663,9 +1655,7 @@ a.boot:before {
     transform: translate(0, 0);
 }
 
-a.boot:hover:before,
-a.boot:active:before,
-a.boot:focus:before {
+a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
@@ -1676,7 +1666,6 @@ a.boot:focus:before {
     -o-transform: translate(115%, 0);
     transform: translate(115%, 0);
 }
-
 
 /* Кнопка с бликом */
 
@@ -1689,9 +1678,9 @@ a.boot:focus:before {
 
 .art10 {
     position: absolute;
-    width: 200px;
-    left: 82%;
-    top: -3%;
+    width: 300px;
+    left: 73%;
+    top: -10%;
 }
 
 .header__8slide {
@@ -1769,7 +1758,6 @@ a.boot:focus:before {
     left: 25px;
 }
 
-
 /*Footer*/
 
 .footer__text {
@@ -1784,9 +1772,5 @@ a.boot:focus:before {
     margin-right: 15px;
 }
 
-
-
-
-
-/*!  
-* */
+/*! крестик на закрыв. меню 
+/* !Скролл после ликвидной кнопки к пакетам (а не стоимости) */ 
