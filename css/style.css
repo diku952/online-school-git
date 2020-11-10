@@ -1227,6 +1227,26 @@ a:hover:after {
     box-shadow: 0 0 0 0.2rem rgb(254 217 23 / 25%);
 }
 
+/* !Кнопка закрытия */
+.closebtn {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    float: right;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 37px;
+    position: absolute;
+    right: 20px;
+    top: 13px;
+}
+
+.closebtn:hover {
+    color: var(--sand);
+}
+/* !Кнопка закрытия ( closebtn) */
+
+
 .form-control._error {
     box-shadow: 0 0 3px red;
 }

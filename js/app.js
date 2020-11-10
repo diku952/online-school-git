@@ -71,8 +71,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
-// !Liquid buttton scroll to cost
-var hiddenElement = document.getElementById("cost");
+// !Liquid buttton scroll to packages
+var hiddenElement = document.getElementById("packages");
 var btn = document.querySelector('.liquid-button');
 
 function handleButtonClick() {
