@@ -18,10 +18,10 @@ $(function () {
 // !Вылезающее поле ввода кнопки 
 // *(открытие поля)
 var res = $(".dropdown-menu");
-$(".button__mirror").on("click", funk);
+$(".button__mirror, .boot").on("click", funk);
 
 $(document).click(function (e) {
-  if ($(e.target).closest(res).length || $(e.target).closest('.button__mirror').length) return;
+  if ($(e.target).closest(res).length || $(e.target).closest('.button__mirror, .boot').length) return;
   res.fadeOut(100);
   e.stopPropagation();
 });
@@ -71,6 +71,21 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
+$('#form').submit(function (e) {
+  e.preventDefault();
+  $.ajax({
+    url: "/telegramform/telegram.php",
+    type: "POST",
+    data: $('#form').serialize(),
+    success: function (response) {
+      alert('Форма отправлена!');
+      $('#dropdown__menu').hide();
+      },
+      error: function (response) {
+    }
+  });
+});
+
 // !Liquid buttton scroll to packages
 var hiddenElement = document.getElementById("packages");
 var btn = document.querySelector('.liquid-button');
@@ -114,9 +129,9 @@ function func_header_color() {
 }
 
 // !Анимация art11 при клике
-document.getElementById('art11').onclick = function() {
-      document.getElementById('art11').hidden = true;
-    }
+document.getElementById('art11').onclick = function () {
+  document.getElementById('art11').hidden = true;
+}
 
 // !Стрелка ВВЕРХ (при клике)
 arrowTop.onclick = function () {
