@@ -18,10 +18,10 @@ $(function () {
 // !Вылезающее поле ввода кнопки 
 // *(открытие поля)
 var res = $(".dropdown-menu");
-$(".button__mirror, .boot").on("click", funk);
+$(".button__mirror, .boot, .telephone").on("click", funk);
 
 $(document).click(function (e) {
-  if ($(e.target).closest(res).length || $(e.target).closest('.button__mirror, .boot').length) return;
+  if ($(e.target).closest(res).length || $(e.target).closest('.button__mirror, .boot, .telephone').length) return;
   res.fadeOut(100);
   e.stopPropagation();
 });

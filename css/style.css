@@ -839,9 +839,9 @@ a:hover:after {
 }
 
 .header_item_3slide__dollar {
-    padding: 8px 0 0 5px;
+    padding: 13px 0 0 5px;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .item_3slide {
@@ -1792,9 +1792,3 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     margin-right: 15px;
 }
 
-/*! добавить кнопку записаться в конец */
-
-/* !На будущее
-* Всплывающее окно (сверстать (заместо alert)) - "форма отправлена!"
-* Очистка формы
-* Совместить ajax с валидацией полей */
