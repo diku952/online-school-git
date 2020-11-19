@@ -112,13 +112,13 @@ function func_header_color() {
   var styleElem1 = document.head.appendChild(document.createElement("style"));
   scrolled = window.pageYOffset || document.documentElement.scrollTop;
   if (scrolled > 800) {
-    $(".header__inner").css({ "background-color": "#fff" })
+    $(".header").css({ "background-color": "#fff" })
     styleElem.innerHTML = ".nav__link:after {background-color: var(--sand)}",
       styleElem1.innerHTML = ".telephone::after {background-color: var(--sand)}";
 
   }
   if (800 > scrolled) {
-    $(".header__inner").css(
+    $(".header").css(
       {
         "transition": "background-color 300ms linear",
         "background-color": "antiquewhite"
@@ -127,6 +127,31 @@ function func_header_color() {
       styleElem1.innerHTML = ".telephone::after {background-color: #fff";
   }
 }
+// ! Сохранение цвета шапки и полосы прогресса при перезагрузке
+$(window).scroll(function() {
+  sessionStorage.scrollTop = $(this).scrollTop();
+});
+
+$(document).ready(function() {
+  if (sessionStorage.scrollTop != "undefined") {
+    $(window).scrollTop(sessionStorage.scrollTop);
+  }
+});
+
+// !Header burger
+$('.header__burger').on('click', function(e){
+  e.preventDefault;
+  $(this).toggleClass('header__burger-active');
+});
+
+$("#nav_toggle").on("click", function(event) {
+  event.preventDefault(); /*это мы убираем стандартное поведение кнопки то есть если будет ссылка
+  то у нас страница улетит вверх*/
+
+  $(this).toggleClass("active")
+  $("#nav").toggleClass("active");
+});
+
 
 // !Анимация art11 при клике
 document.getElementById('art11').onclick = function () {

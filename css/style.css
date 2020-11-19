@@ -328,19 +328,27 @@ h1, h2, h3, h4, h5, h6 {
 /* HEADER */
 
 .header {
-    width: 100%;
-    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 80px 0 80px;
+    background-color: antiquewhite;
+    position: fixed;
+    width: 100%;
+}
+
+.header__block {
+    display: flex;
 }
 
 .header__logo {
     height: 50px;
     width: 55px;
     position: relative;
-    left: 30px;
 }
 
 .header__text {
@@ -380,16 +388,6 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     padding-top: 0;
     background-color: #e7e8ef;
-}
-
-.header__inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 120px;
-    background-color: #fff;
-    position: fixed;
-    width: 100%;
 }
 
 .nav {
@@ -470,7 +468,6 @@ a {
     text-decoration: none;
     color: white;
     position: relative;
-    -webkit-transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
     transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
     z-index: 1;
 }
@@ -596,26 +593,121 @@ a:hover:after {
     -o-transform: rotate(23deg);
 }
 
-@media screen and (max-width: 1520px) {
-   
+.nav-toggle {
+    width: 30px;
+    padding: 4px 0;
+    font-size: 0;
+    color: transparent;
+    /*Устанавливает прозрачный фон. */
+    border: 0;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 22px;
+    left: 3rem;
+    z-index: 1;
 }
 
-@media screen and (max-width: 1199px) {
-    
+@media screen and (max-width: 1520px) {
+    .nav__link:after {
+        background-color:white!important;
+    }
+
+    .header__block {
+        display: flex;
+        position: relative;
+        right: 13rem;
+    }
+    .telephone {
+        left: 10rem;
+    }
+    .nav-toggle:focus {
+        outline: 0;
+    }
+    .nav-toggle__item::before, .nav-toggle__item::after {
+        content: "";
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        background-color: black;
+        z-index: 1;
+        left: 0;
+        transition: transform .2s linear;
+    }
+    .nav-toggle__item::before {
+        top: -8px;
+    }
+    .nav-toggle__item::after {
+        bottom: -8px;
+    }
+    .nav-toggle__item {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        transition: background .2s linear;
+    }
+    .nav-toggle.active .nav-toggle__item {
+        background: none;
+    }
+    .nav-toggle.active .nav-toggle__item::before {
+        transform-origin: left top;
+        transform: rotate(45deg) translateX(-2px);
+    }
+    .nav-toggle.active .nav-toggle__item::after {
+        transform-origin: left bottom;
+        transform: rotate(-45deg) translate(-3px);
+    }
+    .nav {
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: var(--sand);
+    }
+    .nav.active {
+        display: block;
+        /*если класс будет активным то мы 
+        показываем меню (display: block;)*/
+    }
+    .nav__link {
+        display: block;
+        /*чтобы каждая ссылка
+        меню была на новой строке*/
+        margin: 0;
+        padding: 8px 20px;
+    }
 }
+
+@media screen and (max-width: 1399px) {
+    .telephone {
+        display: none;
+    }
+
+    .header__block {
+        right: 35rem;
+    }
+}
+
+@media screen and (max-width: 1199px) {}
 
 @media screen and (max-width: 991px) {
     .slide1__text1 {
         font-weight: 700;
         font-size: 18px;
     }
-    
     .slide1__text2 {
         padding-top: 25px;
         width: 1345px;
         font-size: 18px;
     }
-    
     .slide1__text3 {
         padding-top: 30px;
         font-size: 18px;
@@ -627,12 +719,10 @@ a:hover:after {
         font-weight: 700;
         font-size: 17px;
     }
-    
     .slide1__text2 {
         padding-top: 25px;
         font-size: 17px;
     }
-    
     .slide1__text3 {
         padding-top: 30px;
         font-size: 17px;
@@ -644,12 +734,10 @@ a:hover:after {
         font-weight: 700;
         font-size: 14px;
     }
-    
     .slide1__text2 {
         padding-top: 25px;
         font-size: 14px;
     }
-    
     .slide1__text3 {
         padding-top: 30px;
         font-size: 14px;
@@ -661,13 +749,11 @@ a:hover:after {
         font-weight: 700;
         font-size: 14px;
     }
-    
     .slide1__text2 {
         padding-top: 25px;
         font-size: 12px;
         width: 500px;
     }
-    
     .slide1__text3 {
         padding-top: 30px;
         font-size: 14px;
@@ -675,37 +761,39 @@ a:hover:after {
 }
 
 @media screen and (max-width: 575px) {
+.nav-toggle {
+    left: 2rem;
+}
+
     .slide1__text1 {
         font-weight: 700;
-        font-size: 12px;
+        font-size: 16px;
     }
-    
     .slide1__text2 {
         padding-top: 25px;
-        font-size: 12px;
+        font-size: 16px;
         width: 345px;
     }
-    
     .slide1__text3 {
         padding-top: 30px;
-        font-size: 12px;
+        font-size: 15px;
     }
     .liquid-button {
         margin-top: 100px;
     }
     .kapella__L__1slide {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(23deg);
-    -ms-transform: rotate(23deg);
-    -o-transform: rotate(23deg);
-    margin: -40px 0px 0px 250px;
-    padding-top: 0;
-    width: 60px;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(23deg);
+        -ms-transform: rotate(23deg);
+        -o-transform: rotate(23deg);
+        margin: -40px 0px 0px 250px;
+        padding-top: 0;
+        width: 60px;
     }
 }
 
-@media screen and (max-width: 360px) {
-        .kapella__L__1slide {
+@media screen and (max-width: 330px) {
+    .kapella__L__1slide {
         -webkit-transform: rotate(45deg);
         -moz-transform: rotate(23deg);
         -ms-transform: rotate(23deg);
@@ -713,7 +801,15 @@ a:hover:after {
         margin: -40px 0px 0px 220px;
         padding-top: 0;
         width: 60px;
-        }
+    }
+
+    .header__block {
+        right: 28rem;
+    }
+
+    .slide1__text2 {
+        font-size: 14px;
+    }
 }
 
 /* Timer */
@@ -1363,6 +1459,7 @@ a:hover:after {
 }
 
 /* !Кнопка закрытия */
+
 .closebtn {
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -1379,8 +1476,8 @@ a:hover:after {
 .closebtn:hover {
     color: var(--sand);
 }
-/* !Кнопка закрытия ( closebtn) */
 
+/* !Кнопка закрытия ( closebtn) */
 
 .form-control._error {
     box-shadow: 0 0 3px red;
