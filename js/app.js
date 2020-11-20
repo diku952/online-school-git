@@ -482,13 +482,12 @@ for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
 // Liquid Button --------------------------------
 
 // Slick-slider REVIEWS
-$('.sl').slick({
+$('.sl__reviews').slick({
   infinite: true,
   slidesToShow: 3,
   slidesToScroll: 3,
   dots: true,
 });
-
 
 
 // ---------------TIMERS
