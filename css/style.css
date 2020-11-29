@@ -705,7 +705,6 @@ a:hover:after {
     background-color: #fff;
     height: 8px;
     width: 521px;
-    left: 65rem;
 }
 
 .hl__timer__left {
@@ -1823,100 +1822,60 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     margin-right: 15px;
 }
 
-
-@media screen and (max-width: 1531px) {
-    .hl__timer__left {
-        display: none;
-    }
+@media screen and (max-width: 2561px) {
     .hl__timer__right {
-        display: none;
+        width: 1025px;
+        left: 96rem;
     }
+
     .vl__timer__left {
-        display: none;
+        left: 64rem;
     }
+
     .vl__timer__right {
-        display: none;
+        right: 64rem;
+    }
+
+    .hl__timer__left {
+        width: 1030px;
     }
 }
 
-@media screen and (max-width: 1520px) {
-    .nav__link:after {
-        background-color: white!important;
+
+@media screen and (max-width: 1530px) {
+    .hl__timer__left {
+        left: 60rem;
     }
-    .header__block {
-        display: flex;
-        position: relative;
-        right: 13rem;
+
+    .hl__timer__right {
+        width: 490px;
+        left: -1rem;
     }
-    .telephone {
-        left: 10rem;
+
+    .vl__timer__left {
+        left: 60rem;
     }
-    .nav-toggle:focus {
-        outline: 0;
+
+    .vl__timer__right {
+        right: 60rem;
     }
-    .nav-toggle__item::before, .nav-toggle__item::after {
-        content: "";
-        width: 100%;
-        height: 2px;
-        position: absolute;
-        background-color: black;
-        z-index: 1;
-        left: 0;
-        transition: transform .1s linear;
-        -webkit-transition: transform .1s linear;
-        -moz-transition: transform .1s linear;
-        -ms-transition: transform .1s linear;
-        -o-transition: transform .1s linear;
+
+    .header {
+        padding: 0 35rem 0 20px;
+    }
 }
-    .nav-toggle__item::before {
-        top: -8px;
+
+@media screen and (max-width: 1400px) {
+    .header {
+        padding: 0 140px 0 20px;
     }
-    .nav-toggle__item::after {
-        bottom: -8px;
+
+    .hl__timer__left {
+        left: 60rem;
     }
-    .nav-toggle__item {
-        display: block;
-        width: 100%;
-        height: 3px;
-        background-color: black;
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        margin: auto;
-        transition: background .2s linear;
-    }
-    .nav-toggle.active .nav-toggle__item {
-        background: none;
-    }
-    .nav-toggle.active .nav-toggle__item::before {
-        transform-origin: left top;
-        transform: rotate(45deg) translateX(-2px);
-    }
-    .nav-toggle.active .nav-toggle__item::after {
-        transform-origin: left bottom;
-        transform: rotate(-45deg) translate(-3px);
-    }
-    .nav {
-        display: none;
-        width: 100%;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        background-color: var(--sand);
-    }
-    .nav.active {
-        display: block;
-        /*если класс будет активным то мы 
-        показываем меню (display: block;)*/
-    }
-    .nav__link {
-        display: block;
-        /*чтобы каждая ссылка
-        меню была на новой строке*/
-        margin: 0;
-        padding: 8px 20px;
+
+    .hl__timer__right {
+        left: -2rem;
     }
 }
 
@@ -2011,9 +1970,122 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 }
 
 
+@media screen and (max-width: 1140px) {
+
+    .hl__timer__left {
+        display: none;
+    }
+    .hl__timer__right {
+        display: none;
+    }
+    .vl__timer__left {
+        display: none;
+    }
+    .vl__timer__right {
+        display: none;
+    }
+    .nav__link:after {
+        background-color: white!important;
+    }
+    .nav-toggle:focus {
+        outline: 0;
+    }
+    .nav-toggle__item::before, .nav-toggle__item::after {
+        content: "";
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        background-color: black;
+        z-index: 1;
+        left: 0;
+        transition: transform .1s linear;
+        -webkit-transition: transform .1s linear;
+        -moz-transition: transform .1s linear;
+        -ms-transition: transform .1s linear;
+        -o-transition: transform .1s linear;
+}
+    .nav-toggle__item::before {
+        top: -8px;
+    }
+    .nav-toggle__item::after {
+        bottom: -8px;
+    }
+    .nav-toggle__item {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        transition: background .2s linear;
+    }
+    .nav-toggle.active .nav-toggle__item {
+        background: none;
+    }
+    .nav-toggle.active .nav-toggle__item::before {
+        transform-origin: left top;
+        transform: rotate(45deg) translateX(-2px);
+    }
+    .nav-toggle.active .nav-toggle__item::after {
+        transform-origin: left bottom;
+        transform: rotate(-45deg) translate(-3px);
+    }
+    .nav {
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: var(--sand);
+    }
+    .nav.active {
+        display: block;
+        /*если класс будет активным то мы 
+        показываем меню (display: block;)*/
+    }
+    .nav__link {
+        display: block;
+        /*чтобы каждая ссылка
+        меню была на новой строке*/
+        margin: 0;
+        padding: 8px 20px;
+    }
+}
+
 @media screen and (max-width: 1025px) {
     #arrowText {
         display: none;
+    }
+
+    .header__block {
+        display: flex;
+        position: relative;
+        right: 9rem;
+    }
+
+    .header__4slide {
+        font-size: 32px;
+        padding: 20px;
+        width: 515px;
+    }
+
+    .white__slide4 {
+        width: 755px;
+        height: 1115px;
+    }
+
+    .vl__4slide {
+        left: 32rem;
+    }
+
+    .art5 {
+        width: 75px;
+        top: 38rem;
+        right: 2rem;
     }
 
     .motivation3 {
@@ -2152,10 +2224,33 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
 @media screen and (max-width: 770px) {
 
+    .header__4slide {
+        font-size: 24px;
+        padding: 15px;
+        width: 390px;
+    }
+
     .header__3slide {
         font-size: 22px;
         width: 305px;
         padding: 18px;
+    }
+
+    .white__slide4 {
+        width: 525px;
+        height: 1095px;
+    }
+
+    .slide4__headers2 {
+        font-size: 16px;
+    }
+
+    .slide4__text {
+        font-size: 15px;
+    }
+
+    .vl__4slide {
+        left: 24rem;
     }
 
     .vl__3slide {
@@ -2262,6 +2357,39 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 15px;
         width: 220px;
         padding: 12px;
+    }
+
+    .art5 {
+        display: none;
+    }
+
+    .header__4slide {
+        font-size: 17px;
+        padding: 13px;
+        width: 275px;
+    }
+
+    .white__slide4 {
+        width: 330px;
+        height: 740px;
+        margin: 35px auto 0 auto;
+    }
+
+    .vl__4slide {
+        left: 13rem;
+        height: 45px;
+    }
+
+    .slide4__headers2 {
+        font-size: 14px;
+    }
+
+    .slide4__text {
+        font-size: 12px;
+    }
+
+    .arrow-8 {
+        display: none;
     }
 
     .items_3slide {
@@ -2418,6 +2546,32 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         left: 7%;
     }
 
+    .header__4slide {
+        font-size: 15px;
+        padding: 12px;
+        width: 235px;
+    }
+
+    .white__slide4 {
+        width: 265px;
+        height: 825px;
+    }
+
+    .slide4__headers2 {
+        font-size: 11px;
+        padding-top: 15px;
+    }
+
+    .vl__4slide {
+        left: 160px;
+        height: 45px;
+    }
+
+    .slide4__text {
+        font-size: 12px;
+        padding: 10px 30px;
+    }
+
     #art11 {
         width: 60px;
     }
@@ -2461,7 +2615,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
 @media screen and (max-width: 350px) {
     .header__block {
-        right: 27rem;
+        right: 24rem;
     }
     .motiv1__hr {
         top: 43px;
