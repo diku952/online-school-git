@@ -1922,6 +1922,33 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
 @media screen and (max-width: 1399px) {
 
+    .header__3slide {
+        font-size: 30px;
+        width: 410px;
+        padding: 20px;
+    }
+
+    .vl__3slide {
+        left: 32rem;
+    }
+
+    .white__slide3 {
+        width: 880px;
+        height: 1180px;
+    }
+
+    .art3 {
+        width: 100px;
+        top: -42px;
+        margin-left: 81%;
+    }
+
+    #art11 {
+        width: 85px;
+        top: 32rem;
+        right: -1rem;
+    }
+
     .slide1__description {
         padding-left: 5px;
     }
@@ -1950,6 +1977,16 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 18px;
         width: 620px;
     }
+
+    .motivation3 {
+        width: 900px;
+        font-size: 22px;    
+    }
+
+    .motiv3__hr {
+        top: 65px;
+    }
+
     .head {
         width: 30px;
     }
@@ -1977,6 +2014,15 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 @media screen and (max-width: 1025px) {
     #arrowText {
         display: none;
+    }
+
+    .motivation3 {
+        width: 500px;
+        font-size: 14px;    
+    }
+
+    .motiv3__hr {
+        top: 52px;
     }
 
     .header__2slide {
@@ -2106,6 +2152,27 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
 @media screen and (max-width: 770px) {
 
+    .header__3slide {
+        font-size: 22px;
+        width: 305px;
+        padding: 18px;
+    }
+
+    .vl__3slide {
+        left: 24rem;
+    }
+
+    .white__slide3 {
+        width: 500px;
+        height: 1695px;
+    }
+
+    .art3 {
+        width: 60px;
+        top: 15px;
+        margin-left: 72%;
+    }
+
     #arrowTop,
     #arrowText {
         display: none;
@@ -2190,6 +2257,57 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 }
 
 @media screen and (max-width: 575px) {
+
+    .header__3slide {
+        font-size: 15px;
+        width: 220px;
+        padding: 12px;
+    }
+
+    .items_3slide {
+        padding: 25px 20px;
+    }
+
+    .vl__3slide {
+        left: 215px;
+        height: 45px;
+    }
+
+    .white__slide3 {
+        width: 300px;
+        height: 1490px;
+        margin: 35px auto 0 auto;
+    }
+
+    .header_item_3slide {
+        font-size: 15px;
+        padding-left: 8px;
+    }
+
+    .icon_items_3slide__dollar {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header_item_3slide__dollar {
+        padding: 7px 0 0 5px;
+        font-size: 15px;
+    }
+
+    .text_item_3slide {
+        font-size: 14px;
+    }
+
+    .icon_items_3slide {
+        width: 22px;
+        height: 22px;
+    }
+
+    .art3 {
+        width: 30px;
+        top: 23px;
+        margin-left: 73%;
+    }
 
     .header__block {
         right: 24rem;
@@ -2280,6 +2398,16 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 13px;
         width: 325px;
     }
+
+    .motivation3 {
+        width: 300px;
+        font-size: 10px;  
+    }
+
+    .motiv3__hr {
+        top: 50px;
+    }
+
     .head {
         width: 10px;
     }
@@ -2290,8 +2418,21 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         left: 7%;
     }
 
+    #art11 {
+        width: 60px;
+    }
+
     .header__block {
         right: 28rem;
+    }
+
+    .vl__3slide {
+        left: 190px;
+        height: 45px;
+    }
+
+    .art3 {
+        margin-left: 76%;
     }
 
     .vl__2slide {
@@ -2343,6 +2484,18 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         top: -30%;
         width: 65px;
         left: 9%;
+    }
+
+    #art11 {
+        width: 45px;
+    }
+
+    .art3 {
+        margin-left: 81%;
+    }
+
+    .vl__3slide {
+        left: 165px;
     }
 
     .vl__2slide {
