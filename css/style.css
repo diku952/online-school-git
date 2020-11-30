@@ -1877,6 +1877,157 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .hl__timer__right {
         left: -2rem;
     }
+
+    .motiv4__hr {
+        top: 63px;
+    }
+
+    .motivation4 {
+        width: 700px;
+        font-size: 18px;
+    }
+
+    .header__5slide {
+        font-size: 25px;
+        padding: 20px;
+        width: 350px;
+    }
+
+    .header2__5slide {
+        width: 450px;
+        font-size: 15px;
+    }
+
+    .art6 {
+        width: 70px;
+        left: 100px;
+        top: 0;
+    }
+
+    .days__months__cost {
+        width: 80px;
+        height: 350px;
+        margin-top: 45px;
+    }
+
+    .days__months__cost__value {
+        font-size: 14px;
+    }
+
+    .days__months__cost__item::after {
+        width: 40px;
+        left: 20px;
+        top: 17px;
+    }
+
+    .item__cost1, .item__cost2, .item__cost3 {
+        width: 225px;
+        height: 370px;
+    }
+
+    .item__cost1::after {
+        left: 165px;
+        top: 242px;
+        width: 233px;
+        height: 370px;
+    }
+
+    .cost__value {
+        font-size: 20px;
+    }
+
+    .cost__value::after {
+        left: 50px;
+    }
+
+    .item__cost2::after {
+        width: 227px;
+        height: 370px;
+        top: 230px;
+        right: 314px;
+    }
+
+    .hit {
+        top: 0;
+        right: 46px;
+    }
+
+    .item__cost3::after {
+        width: 225px;
+        height: 370px;
+        top: 243px;
+        right: 17px;
+    }
+
+    .button__mirror {
+        margin: 30px 0 0 12rem;
+        font-size: 10px;
+    }
+
+    .button__mirror:after, .button__mirror:before {
+        width: 150px;
+        margin-left: 13px;
+    }
+
+    .kapella__L__5slide {
+        width: 55px;
+        left: 15px;
+    }
+
+    .header__descr__5slide {
+        font-size: 15px;
+        width: 235px;
+    }
+
+    .art7 {
+        width: 90px;
+        top: -20px;
+    }
+
+    .vl__podslide {
+        left: 31rem;
+    }
+
+    .white__packages {
+        width: 727px;
+        height: 800px;
+    }
+
+    .header1__package {
+        font-size: 20px;
+        width: 240px;
+    }
+
+    .item__package__header {
+        font-size: 20px;
+    }
+
+    .text__1package {
+        font-size: 14px;
+    } 
+
+    .text__2package {
+        font-size: 14px;
+    }
+
+    .text__3package {
+        font-size: 14px;
+    }
+
+    .header2__package {
+        font-size: 20px;
+        width: 280px;
+    }
+
+    .text__package__dop {
+        font-size: 14px;
+    }
+
+    .art8 {
+        left: 1%;
+        width: 90px;
+    }
+
 }
 
 @media screen and (max-width: 1399px) {
@@ -2189,11 +2340,17 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         margin-top: 0;
     }
 }
+
 @media screen and (max-width: 991px) {
     .slide1__text1 {
         font-weight: 700;
         font-size: 18px;
     }
+
+    .motiv4__hr {
+        top: 55px;
+    }
+
     .slide1__text2 {
         padding-top: 25px;
         width: 1345px;
@@ -2228,6 +2385,11 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 24px;
         padding: 15px;
         width: 390px;
+    }
+
+    .motivation4 {
+    width: 250px;
+    font-size: 12px;
     }
 
     .header__3slide {
