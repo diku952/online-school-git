@@ -1187,32 +1187,23 @@ a:hover:after {
     margin-top: 33px;
 }
 
-.days__months__cost__value {
+.days__months__cost__value,
+.days__months__cost__value__number {
     font-weight: 700;
     font-size: 19px;
+}
+
+.days__months__cost__value__brief {
+    display: none;
 }
 
 .days__months__cost__item {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 51px;
+    padding-top: 30px;
 }
 
-.days__months__cost__item::after {
-    content: "";
-    display: block;
-    width: 75px;
-    height: 2px;
-    background-color: #e8e4e4;
-    position: relative;
-    left: 22px;
-    top: 17px;
-}
-
-.days__months__cost__item:last-child::after {
-    content: none;
-}
 
 /* Подслайд "Что мы предлагаем?"*/
 
@@ -1839,6 +1830,20 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .hl__timer__left {
         width: 1030px;
     }
+
+    .gray__cost__line1 {
+        height: 3px;
+        box-shadow: var(--shadow);
+        border-left: 75px solid #e8e4e4;
+        margin: 21px 0 0 23px;
+    }
+
+    .gray__cost__line2 {
+        height: 3px;
+        box-shadow: var(--shadow);
+        border-left: 75px solid #e8e4e4;
+        margin: 36px 0 0 23px;
+    }
 }
 
 
@@ -1914,11 +1919,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 14px;
     }
 
-    .days__months__cost__item::after {
-        width: 40px;
-        left: 20px;
-        top: 17px;
-    }
 
     .item__cost1, .item__cost2, .item__cost3 {
         width: 225px;
@@ -2339,6 +2339,20 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .timer__4row {
         margin-top: 0;
     }
+
+    .gray__cost__line1 {
+        height: 3px;
+        box-shadow: var(--shadow);
+        border-left: 55px solid #e8e4e4;
+        margin: 10px 0 0 14px;
+    }
+
+    .gray__cost__line2 {
+        height: 3px;
+        box-shadow: var(--shadow);
+        border-left: 55px solid #e8e4e4;
+        margin: 39px 0 0 14px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -2481,11 +2495,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         width: 15px;
     }
 
-    .days__months__cost__item::after {
-        width: 40px;
-        left: 19px;
-        top: 17px;
-    }
     .days__months__cost {
         margin-top: 25px;
     }
@@ -2568,6 +2577,28 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .art6 {
         width: 60px;
         left: 50px;
+    }
+
+    .gray__cost__line1 {
+        height: 3px;
+        box-shadow: var(--shadow);
+        border-left: 55px solid #e8e4e4;
+        margin: 18px 0 0 14px;
+    }
+
+    .gray__cost__line2 {
+        height: 3px;
+        box-shadow: var(--shadow);
+        border-left: 55px solid #e8e4e4;
+        margin: 31px 0 0 14px;
+    }
+
+    .days__months__cost__item {
+        padding-top: 31px;
+    }
+
+    .cost__value {
+        padding-top: 56px;
     }
 }
 
@@ -2792,6 +2823,168 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
 }
 
+@media screen and (max-width: 480px) {
+    .header__5slide {
+        font-size: 20px;
+        padding: 15px;
+        width: 280px;
+    }
+
+    .art6 {
+        width: 30px;
+        left: 20px;
+    }
+
+    .header2__5slide {
+        width: 360px;
+        font-size: 12px;
+    }
+
+    .days__months__cost__value__brief {
+        display: block;
+        font-weight: 700;
+        font-size: 9px;
+    }
+
+    .days__months__cost__value__number {
+        font-size: 12px;
+    }
+
+    .days__months__cost__value {
+        display: none;
+    }
+
+    .days__months__cost {
+        width: 40px;
+        margin: 33px 0 0 -10px;
+        height: 260px;
+    }
+
+    .days__months__cost__item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 27px 3px 0 3px;
+    }
+
+    .item__cost1, .item__cost2, .item__cost3 {
+        width: 110px;
+        height: 290px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+
+    .cost__value {
+        font-size: 11px;
+        padding-top: 45px;
+    }
+
+    .cost__value2 {
+    font-size: 8px;
+    }
+
+    .cost__value::after {
+        left: 25px;
+        width: 50px;
+    }
+
+    .header__cost__value {
+        font-size: 13px;
+    }
+
+    .header__cost__value__2__1block, .header__cost__value__2__2block, .header__cost__value__2__3block {
+        font-size: 10px;
+    }
+
+    .gray__cost__line1 {
+        height: 2px;
+        box-shadow: var(--shadow);
+        border-left: 15px solid #e8e4e4;
+        margin: 13px 0 0 4px;
+    }
+
+    .gray__cost__line2 {
+        height: 2px;
+        box-shadow: var(--shadow);
+        border-left: 15px solid #e8e4e4;
+        margin: 32px 0 0 2px;
+    }
+
+    .item__cost1::after {
+        left: 48px;
+        top: 210px;
+        width: 110px;
+        height: 290px;
+        border-radius: 20px;
+        border: 2px solid rgb(46, 121, 28);
+    }
+
+    .item__cost2::after {
+        left: 177px;
+        top: 203px;
+        width: 110px;
+        height: 290px;
+        border-radius: 20px;
+        border: 2px solid #e65214;
+    }
+
+    .item__cost3::after {
+        left: 296px;
+        top: 209px;
+        width: 110px;
+        height: 290px;
+        border-radius: 20px;
+        border: 2px solid rgb(10, 63, 199);
+    }
+
+    .hit {
+        top: 20px;
+        right: 20px;
+        width: 50px;
+    }
+
+    .header__cost__value {
+        font-size: 10px;
+    }
+
+    }
+
+@media screen and (max-width: 420px) {
+    .item__cost1, .item__cost2, .item__cost3 {
+        width: 105px;
+    }
+
+    .item__cost1::after {
+        left: 46px;
+        top: 210px;
+        width: 110px;
+        height: 290px;
+        border-radius: 20px;
+    }
+
+    .item__cost2::after {
+        left: 170px;
+        top: 203px;
+        width: 110px;
+        height: 290px;
+        border-radius: 20px;
+    }
+    .item__cost3::after {
+        left: 295px;
+        top: 209px;
+        width: 110px;
+        height: 290px;
+        border-radius: 20px;
+    }
+
+    .hit {
+        top: 8px;
+    }
+}
+
 @media screen and (max-width: 376px) {
     .art2 {
         left: 7%;
@@ -2856,11 +3049,142 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .slide1__text2 {
         font-size: 14px;
     }
+
+    .gray__cost__line2 {
+        margin: 44px 0 0 2px;
+    }
+
+    .item__cost1, .item__cost2, .item__cost3 {
+        width: 93px;
+    }
+
+    .item__cost1::after {
+        width: 93px;
+        border: 2px solid rgb(46, 121, 28);
+        left: 48px;
+        top: 210px;
+    }
+
+    .item__cost2::after {
+        width: 93px;
+        border: 2px solid #e65214;
+        left: 162px;
+        top: 203px;
+    }
+
+    .item__cost3::after {
+        width: 93px;
+        border: 2px solid rgb(10, 63, 199);
+        left: 274px;
+        top: 209px;
+    }
+
+    .hit {
+        top: 0px;
+    }
 }
 
 @media screen and (max-width: 365px) {
     .header__block {
         right: 33rem;
+    }
+
+    .item__cost1, .item__cost2, .item__cost3 {
+        width: 70px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .item__cost1::after {
+        width: 70px;
+        border: 2px solid rgb(46, 121, 28);
+        left: 42px;
+        top: 210px;
+        height: 290px;
+    }
+
+    .item__cost2::after {
+        width: 70px;
+        border: 2px solid #e65214;
+        left: 142px;
+        top: 202px;
+        height: 290px;
+    }
+
+    .item__cost3::after {
+        width: 70px;
+        border: 2px solid rgb(10, 63, 199);
+        left: 232px;
+        top: 209px;
+        height: 290px;
+    }
+
+    .cost__value {
+        padding-top: 38px;
+        font-size: 10px;
+    }
+
+    .cost__value2 {
+        font-size: 8px;
+    }
+
+    .days__months__cost__item {
+        padding-top: 22px;
+    }
+
+    .gray__cost__line1 {
+        margin: 10px 0 0 3px;
+    }
+
+    .gray__cost__line2 {
+        margin: 39px 0 0 2px;
+    }
+
+    .hit {
+        top: 20px;
+    }
+
+    .days__months__cost {
+        margin: 33px 0 0 -5px;
+        height: 250px;
+    }
+
+    .header__cost__value {
+        font-size: 8px;
+    }
+
+    .header__cost__value__2__1block, .header__cost__value__2__2block, .header__cost__value__2__3block {
+        font-size: 8px;
+    }
+
+    .cost__value::after {
+        left: 7px;
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .gray__cost__line1 {
+        margin: 10px 0 0 9px;
+    }
+
+    .gray__cost__line2{
+        margin: 40px 0 0 9px;
+    }
+
+    .item__cost1::after {
+        left: 63px;
+    }
+
+    .item__cost2::after {
+        left: 172px;
+    }
+
+    .item__cost3::after{
+        left: 270px;
     }
 }
 
@@ -2930,5 +3254,85 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
     .facts__texts {
         font-size: 8px;
+    }
+
+    .header__block {
+        right: 33rem;
+    }
+
+    .item__cost1, .item__cost2, .item__cost3 {
+        width: 70px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .item__cost1::after {
+        width: 70px;
+        border: 2px solid rgb(46, 121, 28);
+        left: 42px;
+        top: 210px;
+        height: 290px;
+    }
+
+    .item__cost2::after {
+        width: 70px;
+        border: 2px solid #e65214;
+        left: 142px;
+        top: 202px;
+        height: 290px;
+    }
+
+    .item__cost3::after {
+        width: 70px;
+        border: 2px solid rgb(10, 63, 199);
+        left: 232px;
+        top: 209px;
+        height: 290px;
+    }
+
+    .cost__value {
+        padding-top: 38px;
+        font-size: 10px;
+    }
+
+    .cost__value2 {
+        font-size: 8px;
+    }
+
+    .days__months__cost__item {
+        padding-top: 22px;
+    }
+
+    .gray__cost__line1 {
+        margin: 10px 0 0 3px;
+    }
+
+    .gray__cost__line2 {
+        margin: 39px 0 0 2px;
+    }
+
+    .hit {
+        top: 20px;
+    }
+
+    .days__months__cost {
+        margin: 33px 0 0 -5px;
+        height: 250px;
+    }
+
+    .header__cost__value {
+        font-size: 8px;
+    }
+
+    .header__cost__value__2__1block, .header__cost__value__2__2block, .header__cost__value__2__3block {
+        font-size: 8px;
+    }
+
+    .cost__value::after {
+        left: 7px;
+        width: 50px;
     }
 }
