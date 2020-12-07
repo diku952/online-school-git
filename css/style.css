@@ -566,17 +566,17 @@ a:hover:after {
 
 .slide1__text1 {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 35px;
 }
 
 .slide1__text2 {
     padding-top: 25px;
-    font-size: 23px;
+    font-size: 30px;
 }
 
 .slide1__text3 {
     padding-top: 30px;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .sand {
@@ -686,7 +686,6 @@ a:hover:after {
     height: 666px;
     box-shadow: var(--shadow);
     position: absolute;
-    left: 30rem;
     border-left: 10px solid #fff;
 }
 
@@ -694,7 +693,6 @@ a:hover:after {
     height: 666px;
     box-shadow: var(--shadow);
     position: absolute;
-    right: 30rem;
     border-left: 10px solid #fff;
 }
 
@@ -704,7 +702,7 @@ a:hover:after {
     top: 650px;
     background-color: #fff;
     height: 8px;
-    width: 521px;
+    width: 100%;
 }
 
 .hl__timer__left {
@@ -713,7 +711,7 @@ a:hover:after {
     top: 659px;
     background-color: #fff;
     height: 9px;
-    width: 490px;
+    width: 100%;
 }
 
 .timer__row {
@@ -1815,21 +1813,20 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 }
 
 @media screen and (max-width: 2561px) {
-    .hl__timer__right {
-        width: 1025px;
-        left: 96rem;
-    }
-
     .vl__timer__left {
-        left: 64rem;
-    }
-
-    .vl__timer__right {
-        right: 64rem;
+        left: 39%;
     }
 
     .hl__timer__left {
-        width: 1030px;
+        right: 61%;
+    }
+
+    .vl__timer__right {
+        right: 39%;
+    }
+
+    .hl__timer__right {
+        left: 61%;
     }
 
     .gray__cost__line1 {
@@ -1851,21 +1848,47 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
 }
 
+@media screen and (max-width: 2100px) {
+    .vl__timer__left {
+        left: 37%;
+    }
+
+    .hl__timer__left {
+        right: 63%;
+    }
+
+    .vl__timer__right {
+        right: 37%;
+    }
+
+    .hl__timer__right {
+        left: 63%;
+    }
+}
+
 @media screen and (max-width: 1664px) {
     .header {
         padding: 0 28rem 0 40px;
     }
 
+    #art11 {
+        right: -17rem;
+    }
+
+    .vl__timer__left {
+        left: 33%;
+    }
+
     .hl__timer__left {
-        width: 634px;
+        right: 67%;
+    }
+
+    .vl__timer__right {
+        right: 33%;
     }
 
     .hl__timer__right {
-        left: 64rem;
-    }
-
-    #art11 {
-        right: -17rem;
+        left: 67%;
     }
 }
 
@@ -1873,23 +1896,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     
     .header {
         padding: 0 13rem 0 40px;
-    }
-
-    .hl__timer__left {
-        left: 60rem;
-    }
-
-    .hl__timer__right {
-        width: 490px;
-        left: -1rem;
-    }
-
-    .vl__timer__left {
-        left: 60rem;
-    }
-
-    .vl__timer__right {
-        right: 60rem;
     }
 }
 
@@ -1911,15 +1917,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .item__cost3::after {
         width: 225px;
         height: 370px;
-    }
-    
-
-    .hl__timer__left {
-        left: 60rem;
-    }
-
-    .hl__timer__right {
-        left: -2rem;
     }
 
     .motiv4__hr {
@@ -2140,19 +2137,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
 
 @media screen and (max-width: 1140px) {
-
-    .hl__timer__left {
-        display: none;
-    }
-    .hl__timer__right {
-        display: none;
-    }
-    .vl__timer__left {
-        display: none;
-    }
-    .vl__timer__right {
-        display: none;
-    }
     .nav__link:after {
         background-color: white!important;
     }
@@ -2419,19 +2403,95 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         width: 390px;
     }
 
-    .item__cost1::after {
-    width: 176px;
-    height: 350px;
+    .item__cost1, .item__cost2, .item__cost3 {
+        width: 110px;
+        height: 290px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
     }
 
+    .item__cost1::after {
+        width: 110px;
+        height: 290px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        top: 4px;
+        left: -9px;
+}
+
     .item__cost2::after {
-        width: 176px;
-        height: 350px;
+        width: 110px;
+        height: 290px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        top: 4px;
+        right: 4px;
         }
 
     .item__cost3::after {
-        width: 176px;
-        height: 350px;
+        width: 110px;
+        height: 290px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        top: 4px;
+        right: -9px;
+        }
+
+        .cost__value2 {
+            font-size: 7px;
+        }
+
+        .days__months__cost__value__brief {
+            display: block;
+            font-weight: 700;
+            font-size: 9px;
+        }
+    
+        .days__months__cost__value__number {
+            font-size: 12px;
+        }
+    
+        .days__months__cost__value {
+            display: none;
+        }
+    
+        .days__months__cost {
+            width: 40px;
+            margin: 33px 0 0 -10px;
+            height: 260px;
+        }
+    
+        .days__months__cost__item {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 27px 3px 0 3px;
+        }
+
+        .gray__cost__line1 {
+            height: 2px;
+            box-shadow: var(--shadow);
+            border-left: 15px solid #e8e4e4;
+            margin: 13px 0 0 4px;
+        }
+    
+        .gray__cost__line2 {
+            height: 2px;
+            box-shadow: var(--shadow);
+            border-left: 15px solid #e8e4e4;
+            margin: 32px 0 0 2px;
         }
 
     .motivation4 {
@@ -2532,21 +2592,17 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         margin-top: 25px;
     }
 
-    .item__cost1, .item__cost2, .item__cost3 {
-        width: 176px;
-        height: 350px;
-    }
-
     .cost__value {
-        font-size: 15px;
+        font-size: 11px;
     }
 
     .cost__value2 {
-        font-size: 10px;
+        font-size: 7px;
     }
 
     .cost__value::after {
-        left: 17px;
+        left: 25px;
+        width: 50px;
     }
 
     .hit {
@@ -2556,11 +2612,11 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
 
     .header__cost__value {
-        font-size: 18px;
+        font-size: 10px;
     }
 
     .header__cost__value__2__1block, .header__cost__value__2__2block, .header__cost__value__2__3block {
-        font-size: 18px;
+        font-size: 10px;
     }
 
     .button__mirror {
@@ -2589,20 +2645,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .art6 {
         width: 60px;
         left: 50px;
-    }
-
-    .gray__cost__line1 {
-        height: 3px;
-        box-shadow: var(--shadow);
-        border-left: 55px solid #e8e4e4;
-        margin: 18px 0 0 14px;
-    }
-
-    .gray__cost__line2 {
-        height: 3px;
-        box-shadow: var(--shadow);
-        border-left: 55px solid #e8e4e4;
-        margin: 31px 0 0 14px;
     }
 
     .days__months__cost__item {
@@ -2879,23 +2921,9 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         padding: 27px 3px 0 3px;
     }
 
-    .item__cost1, .item__cost2, .item__cost3 {
-        width: 110px;
-        height: 290px;
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
-}
-
     .cost__value {
         font-size: 11px;
         padding-top: 45px;
-    }
-
-    .cost__value2 {
-    font-size: 8px;
     }
 
     .cost__value::after {
