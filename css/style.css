@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
     font-family: 'greece-hard', cursive;
     margin: auto;
-    width: 1200px;
+    width: 80%;
     position: relative;
 }
 
@@ -736,9 +736,8 @@ a:hover:after {
 .art2 {
     position: absolute;
     width: 150px;
-    position: absolute;
     width: 200px;
-    top: -185px;
+    top: -81%;
 }
 
 .header__2slide {
@@ -761,11 +760,12 @@ a:hover:after {
 .vl__2slide {
     height: 90px;
     position: absolute;
-    left: 38rem;
+    left: 50%;
     border-left: 10px solid #fff;
 }
 
 .white__slide2 {
+    position: relative;
     width: 1200px;
     height: 440px;
     background: #fff;
@@ -2062,6 +2062,11 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         height: 1180px;
     }
 
+    .art2 {
+        width: 150px;
+        top: -71%;
+    }
+
     .art3 {
         width: 100px;
         top: -42px;
@@ -2084,20 +2089,13 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .header__block {
         right: 11rem;
     }
-    .art2 {
-        left: 125px;
-        top: -205px;
-    }
     .motiv1__hr {
         top: 53px;
     }
     .motiv2__hr {
         top: 53px;
     }
-    .motivation1 {
-        font-size: 18px;
-        width: 860px;
-    }
+    
     .motivation2 {
         font-size: 18px;
         width: 620px;
@@ -2130,11 +2128,76 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         width: 120px;
         margin-left: 15px;
     }
-    .vl__2slide {
-        left: 612px;
-    }
 }
 
+@media screen and (max-width: 1230px) {
+    .header__timer__slide {
+        font-size: 12px;
+        box-shadow: var(--shadow);
+        font-weight: 700;
+        color: black;
+        text-align: center;
+        padding: 5px;
+        background: #fff;
+        border-radius: 10px;
+        width: 16em;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        margin: 60px auto 0 auto;
+    }
+
+    .motivation1 {
+        font-size: 22px;
+    }
+
+    .countdown-title {
+        font-size: 12px;
+        margin: 15px 0px 5px;
+    }
+
+    .countdown {
+        font-size: 10px;
+    }
+
+    .countdown-number {
+        padding: 5px;
+        border: 3px inset var(--frame__gray);
+    }
+    
+    .countdown-text {
+        padding-top: 3px;
+        font-size: 8px;
+    }
+
+    .timer__4row {
+        margin-top: 0;
+    }
+
+    .art1 {
+        width: 60px;
+        bottom: -60px;
+        margin-left: 48%;
+        bottom: -35px;
+    }
+
+    .header__timer__slide {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .timer__4row {
+        padding-top: 20px;
+    }
+
+    .vl__timer__right,
+    .hl__timer__right,
+    .vl__timer__left,
+    .hl__timer__left {
+        display: none;
+    }
+}
 
 @media screen and (max-width: 1140px) {
     .nav__link:after {
@@ -2267,9 +2330,10 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         width: 60px!important;
         margin-left: 46%;
     }
-    .vl__2slide {
-        left: 507px;
-    height: 35px;
+
+    .art2 {
+        width: 120px;
+        top: -69%;
     }
 
     .slide2__descr {
@@ -2295,53 +2359,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 15px;
     }
 
-    .art2 {
-        left: 20%;
-    top: -38%;
-    width: 130px;
-    }
-
-    .header__timer__slide {
-        font-size: 12px;
-        box-shadow: var(--shadow);
-        font-weight: 700;
-        color: black;
-        text-align: center;
-        padding: 5px;
-        background: #fff;
-        border-radius: 10px;
-        width: 16em;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
-        margin: 60px auto 0 auto;
-    }
-
-
-    .countdown-title {
-        font-size: 12px;
-        margin: 15px 0px 5px;
-    }
-
-    .countdown {
-        font-size: 10px;
-    }
-
-    .countdown-number {
-        padding: 5px;
-        border: 3px inset var(--frame__gray);
-    }
-    
-    .countdown-text {
-        padding-top: 3px;
-        font-size: 8px;
-    }
-
-    .timer__4row {
-        margin-top: 0;
-    }
-
     .gray__cost__line1 {
         height: 3px;
         box-shadow: var(--shadow);
@@ -2358,31 +2375,14 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 }
 
 @media screen and (max-width: 991px) {
-    .slide1__text1 {
-        font-weight: 700;
-        font-size: 18px;
-    }
-
     .motiv4__hr {
         top: 55px;
     }
 
-    .slide1__text2 {
-        padding-top: 25px;
-        width: 1345px;
-        font-size: 18px;
-    }
-    .slide1__text3 {
-        padding-top: 30px;
-        font-size: 18px;
-    }
     .motiv1__hr {
         top: 45px;
     }
-    .motivation1 {
-        font-size: 15px;
-    width: 730px;
-    }
+   
     .motiv2__hr {
         top: 53px;
     }
@@ -2401,6 +2401,16 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 24px;
         padding: 15px;
         width: 390px;
+    }
+
+    .white__slide2 {
+        width: 560px;
+        height: 310px;
+        margin: 2rem auto 0 auto;
+    }
+
+    .motivation1 {
+        font-size: 16px;
     }
 
     .item__cost1, .item__cost2, .item__cost3 {
@@ -2546,37 +2556,26 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         display: none;
     }
 
-    .art2 {
-        left: 9%;
-    }
-
-    .vl__2slide {
-        left: 380px;
-    }
-
     .header__block {
         right: 3rem;
     }
 
     .slide1__text1 {
         font-weight: 700;
-        font-size: 17px;
+        font-size: 30px;
     }
     .slide1__text2 {
         padding-top: 25px;
-        font-size: 17px;
+        font-size: 25px;
     }
     .slide1__text3 {
         padding-top: 30px;
-        font-size: 17px;
+        font-size: 25px;
     }
     .motiv1__hr {
         top: 43px;
     }
-    .motivation1 {
-        font-size: 14px;
-        width: 700px;
-    }
+    
     .motiv2__hr {
         top: 43px;
     }
@@ -2653,37 +2652,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
     .cost__value {
         padding-top: 56px;
-    }
-}
-
-@media screen and (max-width: 740px) {
-    .slide1__text1 {
-        font-weight: 700;
-        font-size: 14px;
-    }
-    .slide1__text2 {
-        padding-top: 25px;
-        font-size: 14px;
-    }
-    .slide1__text3 {
-        padding-top: 30px;
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 610px) {
-    .slide1__text1 {
-        font-weight: 700;
-        font-size: 14px;
-    }
-    .slide1__text2 {
-        padding-top: 25px;
-        font-size: 12px;
-        width: 500px;
-    }
-    .slide1__text3 {
-        padding-top: 30px;
-        font-size: 14px;
     }
 }
 
@@ -2773,6 +2741,12 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         margin-left: 73%;
     }
 
+    .art2 {
+        width: 85px;
+        top: -71%;
+        left: 1%;
+    }
+
     .header__block {
         right: 24rem;
     }
@@ -2783,15 +2757,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     height: 35px;
     padding: 8px;
     }
-    .vl__2slide {
-        left: 210px;
-    height: 35px;
-    }
-    .art2 {
-        left: 12%;
-    top: -27%;
-    width: 80px;
-    }
+
     .white__slide2 {
         width: 335px;
     height: 215px;
@@ -2825,19 +2791,18 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
     .slide1__text1 {
         font-weight: 700;
-        font-size: 16px;
+        font-size: 25px;
     }
     .slide1__text2 {
         padding-top: 25px;
-        font-size: 16px;
-        width: 345px;
+        font-size: 20px;
     }
     .slide1__text3 {
         padding-top: 30px;
-        font-size: 15px;
+        font-size: 20px;
     }
     .liquid-button {
-        margin-top: 100px;
+        margin-top: 5%;
     }
     .kapella__L__1slide {
         -webkit-transform: rotate(45deg);
@@ -2851,10 +2816,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .motiv1__hr {
         top: 47px;
     }
-    .motivation1 {
-        font-size: 12px;
-        width: 305px;
-    }
+   
     .motiv2__hr {
         top: 46px;
     }
@@ -2971,6 +2933,10 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         width: 175px;
         padding: 15px;
         margin: 75px auto 0 auto;
+    }
+
+    .motivation1 {
+        font-size: 12px;
     }
 
     .vl__podslide {
@@ -3158,9 +3124,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 }
 
 @media screen and (max-width: 376px) {
-    .art2 {
-        left: 7%;
-    }
 
     .header__4slide {
         font-size: 15px;
@@ -3205,9 +3168,11 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         margin-left: 76%;
     }
 
-    .vl__2slide {
-        left: 185px;
-    } 
+    .art2 {
+        width: 60px;
+        top: -51%;
+        left: 1%;
+    }
 
     .kapella__L__1slide {
         -webkit-transform: rotate(45deg);
@@ -3217,9 +3182,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         margin: -40px 0px 0px 220px;
         padding-top: 0;
         width: 60px;
-    }
-    .slide1__text2 {
-        font-size: 14px;
     }
 
     .gray__cost__line2 {
@@ -3400,10 +3362,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .motiv1__hr {
         top: 43px;
     }
-    .motivation1 {
-        font-size: 10px;
-        width: 260px;
-    }
+   
     .motiv2__hr {
         top: 45px;
     }
@@ -3413,11 +3372,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
     .head {
         width: 10px;
-    }
-    .art2 {
-        top: -30%;
-        width: 65px;
-        left: 9%;
     }
 
     #art11 {
@@ -3430,12 +3384,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
     .vl__3slide {
         left: 165px;
-    }
-
-    .vl__2slide {
-        height: 20px;
-        border-left: 6px solid #fff;
-        left: 160px;
     }
 
     .vl__podslide {
