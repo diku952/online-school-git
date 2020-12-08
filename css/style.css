@@ -808,8 +808,8 @@ a:hover:after {
 .art3 {
     position: absolute;
     width: 150px;
-    top: -98px;
-    margin-left: 85%;
+    top: -24%;
+    margin-left: 84%;
 }
 
 .header__3slide {
@@ -832,7 +832,7 @@ a:hover:after {
 .vl__3slide {
     height: 90px;
     position: absolute;
-    left: 38rem;
+    left: 50%;
     border-left: 10px solid #fff;
 }
 
@@ -845,6 +845,7 @@ a:hover:after {
     border-radius: 10px;
     margin: 60px auto 0 auto;
     box-shadow: var(--shadow);
+    position: relative;
 }
 
 .items_3slide {
@@ -857,6 +858,7 @@ a:hover:after {
     top: 32rem;
     right: -13rem;
     transform: rotate(270deg);
+    display: none;
 }
 
 .header_item_3slide {
@@ -1842,10 +1844,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         border-left: 75px solid #e8e4e4;
         margin: 36px 0 0 23px;
     }
-
-    #art11 {
-        right: -45rem;
-    }
 }
 
 @media screen and (max-width: 2100px) {
@@ -1869,10 +1867,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 @media screen and (max-width: 1664px) {
     .header {
         padding: 0 28rem 0 40px;
-    }
-
-    #art11 {
-        right: -17rem;
     }
 
     .vl__timer__left {
@@ -2053,8 +2047,9 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         padding: 20px;
     }
 
-    .vl__3slide {
-        left: 32rem;
+    .art3 {
+        top: -15%;
+        width: 100px;
     }
 
     .white__slide3 {
@@ -2065,18 +2060,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .art2 {
         width: 150px;
         top: -71%;
-    }
-
-    .art3 {
-        width: 100px;
-        top: -42px;
-        margin-left: 81%;
-    }
-
-    #art11 {
-        width: 85px;
-        top: 32rem;
-        right: -1rem;
     }
 
     .slide1__description {
@@ -2375,6 +2358,17 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 }
 
 @media screen and (max-width: 991px) {
+    .white__slide3 {
+        width: 500px;
+        height: 1695px;
+    }
+
+    .art3 {
+        top: -90px;
+        width: 50px;
+        margin-left: 81%;
+    }
+
     .motiv4__hr {
         top: 55px;
     }
@@ -2382,7 +2376,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .motiv1__hr {
         top: 45px;
     }
-   
+
     .motiv2__hr {
         top: 53px;
     }
@@ -2532,21 +2526,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         left: 24rem;
     }
 
-    .vl__3slide {
-        left: 24rem;
-    }
-
-    .white__slide3 {
-        width: 500px;
-        height: 1695px;
-    }
-
-    .art3 {
-        width: 60px;
-        top: 15px;
-        margin-left: 72%;
-    }
-
     #arrowTop,
     #arrowText {
         display: none;
@@ -2667,6 +2646,12 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         display: none;
     }
 
+    .art3 {
+        top: -3%;
+        width: 25px;
+        margin-left: 83%;
+    }
+
     .header__4slide {
         font-size: 17px;
         padding: 13px;
@@ -2700,11 +2685,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         padding: 25px 20px;
     }
 
-    .vl__3slide {
-        left: 215px;
-        height: 45px;
-    }
-
     .white__slide3 {
         width: 300px;
         height: 1490px;
@@ -2733,12 +2713,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .icon_items_3slide {
         width: 22px;
         height: 22px;
-    }
-
-    .art3 {
-        width: 30px;
-        top: 23px;
-        margin-left: 73%;
     }
 
     .art2 {
@@ -3151,21 +3125,8 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         padding: 10px 30px;
     }
 
-    #art11 {
-        width: 60px;
-    }
-
     .header__block {
         right: 28rem;
-    }
-
-    .vl__3slide {
-        left: 190px;
-        height: 45px;
-    }
-
-    .art3 {
-        margin-left: 76%;
     }
 
     .art2 {
@@ -3362,7 +3323,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .motiv1__hr {
         top: 43px;
     }
-   
+
     .motiv2__hr {
         top: 45px;
     }
@@ -3372,18 +3333,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
     .head {
         width: 10px;
-    }
-
-    #art11 {
-        width: 45px;
-    }
-
-    .art3 {
-        margin-left: 81%;
-    }
-
-    .vl__3slide {
-        left: 165px;
     }
 
     .vl__podslide {
