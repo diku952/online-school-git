@@ -899,11 +899,9 @@ a:hover:after {
 
 .art5 {
     position: absolute;
-    width: 150px;
-    position: absolute;
-    width: 136px;
-    top: 32rem;
-    right: -8rem;
+    width: 130px;
+    top: 35%;
+    right: -12%;
 }
 
 .header__4slide {
@@ -926,7 +924,7 @@ a:hover:after {
 .vl__4slide {
     height: 90px;
     position: absolute;
-    left: 38rem;
+    left: 50%;
     border-left: 10px solid #fff;
 }
 
@@ -938,6 +936,7 @@ a:hover:after {
     margin: 0px 10px;
     border-radius: 10px;
     margin: 60px auto 0 auto;
+    position: relative;
 }
 
 .slide4__item {
@@ -1891,6 +1890,13 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .header {
         padding: 0 13rem 0 40px;
     }
+
+    .art5 {
+        width: 80px;
+        top: -13%;
+        right: 1%;
+    }
+
 }
 
 @media screen and (max-width: 1400px) {
@@ -2131,6 +2137,16 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         margin: 60px auto 0 auto;
     }
 
+    .white__slide4 {
+        width: 755px;
+        height: 1115px;
+    }
+
+    .art5 {
+        width: 40px;
+        top: -6%;
+    }
+
     .motivation1 {
         font-size: 22px;
     }
@@ -2270,21 +2286,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 32px;
         padding: 20px;
         width: 515px;
-    }
-
-    .white__slide4 {
-        width: 755px;
-        height: 1115px;
-    }
-
-    .vl__4slide {
-        left: 32rem;
-    }
-
-    .art5 {
-        width: 75px;
-        top: 38rem;
-        right: 2rem;
     }
 
     .motivation3 {
@@ -2522,10 +2523,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 15px;
     }
 
-    .vl__4slide {
-        left: 24rem;
-    }
-
     #arrowTop,
     #arrowText {
         display: none;
@@ -2642,14 +2639,15 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         padding: 12px;
     }
 
-    .art5 {
-        display: none;
-    }
-
     .art3 {
         top: -3%;
         width: 25px;
         margin-left: 83%;
+    }
+    
+    .art5 {
+        width: 20px;
+        top: -4%;
     }
 
     .header__4slide {
@@ -2662,11 +2660,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         width: 330px;
         height: 740px;
         margin: 35px auto 0 auto;
-    }
-
-    .vl__4slide {
-        left: 13rem;
-        height: 45px;
     }
 
     .slide4__headers2 {
@@ -3113,11 +3106,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .slide4__headers2 {
         font-size: 11px;
         padding-top: 15px;
-    }
-
-    .vl__4slide {
-        left: 160px;
-        height: 45px;
     }
 
     .slide4__text {
