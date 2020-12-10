@@ -1185,6 +1185,7 @@ a:hover:after {
     margin: 0px 10px;
     border-radius: 12px;
     margin-top: 33px;
+    position: relative;
 }
 
 .days__months__cost__value,
@@ -1201,7 +1202,7 @@ a:hover:after {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 
@@ -1315,7 +1316,7 @@ a:hover:after {
     width: 150px;
     position: absolute;
     width: 150px;
-    margin-left: 70%;
+    margin-left: 80%;
     top: -50px;
 }
 
@@ -1334,12 +1335,13 @@ a:hover:after {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     margin: auto;
+    position: relative;
 }
 
 .vl__podslide {
     height: 70px;
     position: absolute;
-    left: 37rem;
+    left: 50%;
     border-left: 10px solid #fff;
 }
 
@@ -1395,10 +1397,9 @@ a:hover:after {
 .art8 {
     position: absolute;
     width: 150px;
-    position: absolute;
-    width: 150px;
     bottom: 230px;
-    left: -8%;
+    right: 45rem;
+    top: 30rem;
 }
 
 .header2__package {
@@ -1904,6 +1905,17 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         padding: 0 140px 0 20px;
     }
 
+    /* .days__months__cost__item::after {
+        content: "";
+        display: block;
+        width: 40px;
+        height: 2px;
+        background-color: #e8e4e4;
+        position: relative;
+        left: 21px;
+        top: -10px;
+    } */
+
     .item__cost1::after {
         width: 225px;
         height: 370px;
@@ -1947,8 +1959,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
     .days__months__cost {
         width: 80px;
-        height: 350px;
-        margin-top: 45px;
+        height: 370px;
     }
 
     .days__months__cost__value {
@@ -1999,10 +2010,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         top: -20px;
     }
 
-    .vl__podslide {
-        left: 31rem;
-    }
-
     .white__packages {
         width: 727px;
         height: 800px;
@@ -2039,7 +2046,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
 
     .art8 {
-        left: 1%;
+        left: -152%;
         width: 90px;
     }
 
@@ -2364,6 +2371,11 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         height: 1695px;
     }
 
+    .hit {
+        right: 30px;
+        width: 65px;
+    }
+
     .art3 {
         top: -90px;
         width: 50px;
@@ -2390,6 +2402,113 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
 }
 
+@media screen and (max-width: 900px) {
+    .art6 {
+        left: 5%;
+    }
+
+    .art8 {
+        left: -105%;
+        width: 90px;
+        top: -10%;
+    }
+
+    .header__descr__5slide {
+        margin: 25% auto 0 auto;
+    }
+
+    .days__months__cost {
+        width: 40px;
+        margin-top: 25px;
+        height: 290px;
+    }
+
+    .days__months__cost__value__number {
+        font-size: 12px;
+    }
+
+    .days__months__cost__value {
+        display: none;
+    }
+
+    .days__months__cost__value__brief {
+        display: block;
+    font-weight: 700;
+    font-size: 9px;
+    }
+
+    .header__cost__value {
+        font-size: 10px;
+    }
+
+    .header__cost__value__2__1block, .header__cost__value__2__2block, .header__cost__value__2__3block {
+        font-size: 10px;
+    }
+
+    .cost__value {
+        font-size: 11px;
+    }
+
+    .cost__value2 {
+        font-size: 7px;
+    }
+
+    .cost__value::after {
+        left: 25px;
+        width: 50px;
+    }
+    
+    .item__cost1, .item__cost2, .item__cost3 {
+        width: 110px;
+        height: 290px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .item__cost1::after {
+        width: 110px;
+        height: 290px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        top: 4px;
+        left: -9px;
+    }
+
+    .item__cost2::after {
+        width: 110px;
+    height: 290px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    top: 4px;
+    right: 4px;
+    }
+
+    .item__cost3::after {
+        width: 110px;
+    height: 290px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    top: 4px;
+    right: -9px;
+    }
+
+    .button__5slide__block {
+        right: 23%;
+    }
+}
+
 @media screen and (max-width: 770px) {
 
     .header__4slide {
@@ -2406,16 +2525,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
     .motivation1 {
         font-size: 16px;
-    }
-
-    .item__cost1, .item__cost2, .item__cost3 {
-        width: 110px;
-        height: 290px;
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
     }
 
     .item__cost1::after {
@@ -2474,15 +2583,15 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     
         .days__months__cost {
             width: 40px;
-            margin: 33px 0 0 -10px;
-            height: 260px;
+            margin-top: 33px;
+            height: 290px;
         }
     
         .days__months__cost__item {
             display: flex;
             flex-direction: column;
             text-align: center;
-            padding: 27px 3px 0 3px;
+            padding: 50px 3px 0 3px;
         }
 
         .gray__cost__line1 {
@@ -2581,7 +2690,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
 
     .hit {
-        top: 30px;
+        top: -10px;
         right: 28px;
         width: 60px;
     }
@@ -2613,21 +2722,9 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         width: 530px;
     }
 
-    .vl__podslide {
-        left: 23rem;
-    }
-
     .art6 {
-        width: 60px;
-        left: 50px;
-    }
-
-    .days__months__cost__item {
-        padding-top: 31px;
-    }
-
-    .cost__value {
-        padding-top: 56px;
+        width: 50px;
+        left: 5%;
     }
 }
 
@@ -2637,6 +2734,27 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 15px;
         width: 220px;
         padding: 12px;
+    }
+
+    .white__packages {
+        width: 375px;
+        height: 1055px;
+    }
+
+    .art6 {
+        width: 25px;
+        left: 5%;
+        top: 1%;
+    }
+
+    .art8 {
+        top: -40%;
+        left: -59%;
+    }
+
+    .art7 {
+        top: -50%;
+        left: 35%;
     }
 
     .art3 {
@@ -2783,7 +2901,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .motiv1__hr {
         top: 47px;
     }
-   
+
     .motiv2__hr {
         top: 46px;
     }
@@ -2813,6 +2931,50 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         width: 280px;
     }
 
+    .item__cost1, .item__cost2, .item__cost3 {
+        width: 75px;
+        height: 275px;
+    }
+
+    .item__cost1::after {
+        width: 75px;
+        height: 275px;
+        border: 1px solid rgb(46, 121, 28);
+        top: -7px;
+        left: 1px;
+    }
+
+    .item__cost2::after {
+        width: 75px;
+        height: 275px;
+        border: 1px solid #e65214;
+        top: 3px;
+        right: -6px;
+    }
+
+    .item__cost3::after {
+        width: 75px;
+        height: 275px;
+        border: 1px solid rgb(10, 63, 199);
+        top: 3px;
+        right: -6px;
+    }
+
+    .cost__value {
+        padding-top: 34px;
+        font-size: 9px;
+    }
+
+    .cost__value2 {
+        font-size: 10px;
+    }
+
+    .days__months__cost {
+        height: 275px;
+        width: 35px;
+        margin: 20px 0px 0px 0px;
+    }
+
     .art6 {
         width: 30px;
         left: 20px;
@@ -2837,26 +2999,15 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         display: none;
     }
 
-    .days__months__cost {
-        width: 40px;
-        margin: 33px 0 0 -10px;
-        height: 260px;
-    }
-
     .days__months__cost__item {
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding: 27px 3px 0 3px;
-    }
-
-    .cost__value {
-        font-size: 11px;
-        padding-top: 45px;
+        padding: 45px 3px 0 3px;
     }
 
     .cost__value::after {
-        left: 25px;
+        left: 10px;
         width: 50px;
     }
 
@@ -2883,7 +3034,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
 
     .hit {
-        top: 20px;
+        top: 10px;
         right: 20px;
         width: 50px;
     }
@@ -2907,7 +3058,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
 
     .vl__podslide {
-        left: 13em;
         top: 2rem;
         height: 50px;
         border-left: 6px solid #fff;
@@ -2915,8 +3065,8 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
     .art7{
         width: 60px;
-        top: -20px;
-        left: 35px;
+        top: -35%;
+        left: 35%;
     }
 
     .white__packages {
@@ -2955,7 +3105,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
 
     .art8 {
-        left: -2%;
+        left: -43%;
         width: 60px;
         top: -11px;
     }
@@ -2978,16 +3128,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 }
 
 @media screen and (max-width: 415px) {
-    .item__cost1, .item__cost2, .item__cost3 {
-        width: 105px;
-    }
-
-    .cost__value2 {
-        font-size: 7px;
-    }
-}
-
-@media screen and (max-width: 415px) {
     .kapella__L__5slide {
         width: 50px;
         left: 22rem;
@@ -3000,13 +3140,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 }
 
 @media screen and (max-width: 394px) {
-    .item__cost1, .item__cost2, .item__cost3 {
-        width: 100px;
-    }
-
-    .cost__value2 {
-        font-size: 7px;
-    }
 
     .button__mirror:after, .button__mirror:before {
         width: 120px;
@@ -3026,16 +3159,9 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
 
     .vl__podslide {
-        left: 12em;
         top: 2rem;
         height: 50px;
         border-left: 6px solid #fff;
-    }
-
-    .art7{
-        width: 60px;
-        top: -20px;
-        left: 35px;
     }
 
     .white__packages {
@@ -3071,12 +3197,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
     .text__3package {
         font-size: 12px;
-    }
-
-    .art8 {
-        left: -2%;
-        width: 60px;
-        bottom: 59em;
     }
 
     .header2__package {
@@ -3137,14 +3257,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         margin: 44px 0 0 2px;
     }
 
-    .item__cost1, .item__cost2, .item__cost3 {
-        width: 93px;
-    }
-
-    .hit {
-        top: 0px;
-    }
-
     .art6 {
         width: 25px;
         left: 20px;
@@ -3176,12 +3288,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         width: 175px;
         padding: 15px;
         margin: 75px auto 0 auto;
-    }
-
-    .art7{
-        width: 60px;
-        top: -20px;
-        left: 35px;
     }
 
     .white__packages {
@@ -3219,12 +3325,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 12px;
     }
 
-    .art8 {
-        left: -2%;
-        width: 60px;
-        bottom: 59em;
-    }
-
     .header2__package {
         font-size: 15px;
         width: 215px;
@@ -3237,30 +3337,16 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 }
 
 @media screen and (max-width: 365px) {
+    .gray__cost__line1 {
+        margin: 10px 0 0 9px;
+    }
+
+    .gray__cost__line2{
+        margin: 40px 0 0 9px;
+    }
+
     .header__block {
         right: 33rem;
-    }
-
-    .item__cost1, .item__cost2, .item__cost3 {
-        width: 70px;
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
-    }
-
-    .cost__value {
-        padding-top: 38px;
-        font-size: 10px;
-    }
-
-    .cost__value2 {
-        font-size: 8px;
-    }
-
-    .days__months__cost__item {
-        padding-top: 22px;
     }
 
     .gray__cost__line1 {
@@ -3271,15 +3357,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         margin: 39px 0 0 2px;
     }
 
-    .hit {
-        top: 20px;
-    }
-
-    .days__months__cost {
-        margin: 33px 0 0 -5px;
-        height: 250px;
-    }
-
     .header__cost__value {
         font-size: 8px;
     }
@@ -3288,19 +3365,8 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 8px;
     }
 
-    .cost__value::after {
-        left: 7px;
-        width: 50px;
-    }
-}
-
-@media screen and (max-width: 365px) {
-    .gray__cost__line1 {
-        margin: 10px 0 0 9px;
-    }
-
-    .gray__cost__line2{
-        margin: 40px 0 0 9px;
+    .button__5slide__block {
+        right: 50%;
     }
 }
 
@@ -3321,10 +3387,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
     .head {
         width: 10px;
-    }
-
-    .vl__podslide {
-        left: 9rem;
     }
 
     .white__slide2 {
@@ -3350,43 +3412,12 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 8px;
     }
 
-    .item__cost1, .item__cost2, .item__cost3 {
-        width: 70px;
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
-    }
-
-    .cost__value {
-        padding-top: 38px;
-        font-size: 10px;
-    }
-
-    .cost__value2 {
-        font-size: 8px;
-    }
-
-    .days__months__cost__item {
-        padding-top: 22px;
-    }
-
     .gray__cost__line1 {
         margin: 10px 0 0 3px;
     }
 
     .gray__cost__line2 {
         margin: 39px 0 0 2px;
-    }
-
-    .hit {
-        top: 20px;
-    }
-
-    .days__months__cost {
-        margin: 33px 0 0 -5px;
-        height: 250px;
     }
 
     .header__cost__value {
@@ -3397,8 +3428,11 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 8px;
     }
 
-    .cost__value::after {
-        left: 7px;
-        width: 50px;
+    .hit {
+        top: 10px;
+    }
+
+    .days__months__cost {
+        margin: 20px 0px 0px -5px;
     }
 }
