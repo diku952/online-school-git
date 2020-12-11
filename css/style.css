@@ -268,13 +268,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .motivation__block__6slide {
     padding-bottom: 25px;
+    position: relative;
 }
 
 .motiv6__hr {
-    position: relative;
-    top: 70px;
+    position: absolute;
+    top: 25%;
     background-color: var(--sand);
     height: 2px;
+    width: 100%;
 }
 
 .motivation7 {
@@ -1451,7 +1453,7 @@ a:hover:after {
 .vl__6slide {
     height: 90px;
     position: absolute;
-    left: 39rem;
+    left: 50%;
     border-left: 10px solid #fff;
 }
 
@@ -1462,10 +1464,9 @@ a:hover:after {
 
 .phylosoph {
     width: 200px;
-    float: right;
-    position: relative;
-    bottom: 106px;
-    left: 106px;
+    position: absolute;
+    top: -16%;
+    right: -7%;
 }
 
 .advantages__header__block {
@@ -1497,6 +1498,7 @@ a:hover:after {
     border-radius: 10px;
     margin: 60px auto 0 auto;
     box-shadow: var(--shadow);
+    position: relative;
 }
 
 /* Slide 7 (Отзывы) */
@@ -1529,7 +1531,7 @@ a:hover:after {
 .vl__7slide {
     height: 47px;
     position: absolute;
-    left: 38rem;
+    left: 50%;
     bottom: 32em;
     border-left: 10px solid #fff;
 }
@@ -1900,6 +1902,10 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         right: 1%;
     }
 
+    .motivation6 {
+        width: 700px;
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 1400px) {
@@ -2007,11 +2013,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         left: 15px;
     }
 
-    .header__descr__5slide {
-        font-size: 15px;
-        width: 235px;
-    }
-
     .art7 {
         width: 90px;
         top: -20px;
@@ -2020,6 +2021,32 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .white__packages {
         width: 727px;
         height: 800px;
+    }
+
+    .header__descr__5slide {
+        font-size: 15px;
+        width: 235px;
+    }
+
+    .white__slide6 {
+        width: 727px;
+        height: 1320px;
+    }
+
+    .header__6slide {
+        font-size: 15px;
+        width: 235px;
+    }
+
+    .header__7slide {
+        font-size: 28px;
+        width: 235px;
+    }
+
+    .phylosoph {
+        right: -6%;
+        top: -6%;
+        width: 100px;
     }
 
     .header1__package {
@@ -2056,10 +2083,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         left: -152%;
         width: 90px;
     }
-
-}
-
-@media screen and (max-width: 1399px) {
 
     .header__3slide {
         font-size: 30px;
@@ -2131,6 +2154,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         width: 120px;
         margin-left: 15px;
     }
+
 }
 
 @media screen and (max-width: 1230px) {
@@ -2625,6 +2649,15 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 12px;
     }
 
+    .motivation6 {
+        width: 305px;
+        font-size: 12px;
+    }
+
+    .motiv6__hr {
+        top: 17%;
+    }
+
     .header__3slide {
         font-size: 22px;
         width: 305px;
@@ -2730,8 +2763,32 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         padding: 20px;
     }
 
+    .header__6slide {
+        font-size: 12px;
+        width: 203px;
+        padding: 20px;
+    }
+
+    .white__slide6 {
+        width: 530px;
+        height: 1165px;
+    }
+
+    .advantages__header {
+        font-size: 14px;
+    }
+
+    .advantages__text {
+        font-size: 14px;
+    }
+
     .white__packages {
         width: 530px;
+    }
+
+    .phylosoph {
+        right: -9%;
+        top: -7%;
     }
 
     .art6 {
@@ -2751,6 +2808,16 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .white__packages {
         width: 375px;
         height: 1055px;
+    }
+
+    .white__slide6 {
+        width: 375px;
+        height: 1485px;
+    }
+
+    .phylosoph {
+        right: -10%;
+        top: -6%;
     }
 
     .art6 {
@@ -3085,6 +3152,30 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         width: 275px;
         height: 880px;
         margin: 30px auto 0 auto;
+    }
+
+    .white__slide6 {
+        width: 275px;
+        height: 1510px;
+    }
+
+    .advantages__text {
+        font-size: 12px;
+    }
+
+    .advantages__smile {
+        font-size: 18px;
+    }
+
+    .advantages__header {
+        padding: 5px 0 0 5px;
+        font-size: 10px;
+    }
+
+    .phylosoph {
+        right: -6%;
+        top: -3%;
+        width: 50px;
     }
 
     .header1__package {
