@@ -242,13 +242,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .motivation__block__5slide {
     padding: 50px 0 30px 0;
+    position: relative;
 }
 
 .motiv5__hr {
-    position: relative;
-    top: 90px;
+    position: absolute;
+    top: 47%;
     background-color: var(--sand);
     height: 2px;
+    width: 100%;
 }
 
 .motivation6 {
@@ -1940,6 +1942,11 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 18px;
     }
 
+    .motivation5 {
+        width: 700px;
+        font-size: 18px;
+    }
+
     .header__5slide {
         font-size: 25px;
         padding: 20px;
@@ -2609,8 +2616,13 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         }
 
     .motivation4 {
-    width: 250px;
+    width: 305px;
     font-size: 12px;
+    }
+
+    .motivation5 {
+        width: 305px;
+        font-size: 12px;
     }
 
     .header__3slide {
