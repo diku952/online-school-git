@@ -487,6 +487,31 @@ $('.sl__reviews').slick({
   slidesToShow: 3,
   slidesToScroll: 3,
   dots: true,
+  responsive: [
+    {
+      breakpoint: 1230,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        
+      }
+    },
+    {
+      breakpoint: 900,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 770,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false
+      }
+    }
+  ]
 });
 
 

@@ -1913,6 +1913,10 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         padding: 0 140px 0 20px;
     }
 
+    .slick-dotted.slick-slider {
+        margin: 0px 30px;
+    }
+
     /* .days__months__cost__item::after {
         content: "";
         display: block;
@@ -2084,6 +2088,12 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         width: 90px;
     }
 
+    .art9 {
+        width: 300px;
+        top: -22%;
+        left: 0%;
+    }
+
     .header__3slide {
         font-size: 30px;
         width: 410px;
@@ -2233,6 +2243,10 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .vl__timer__left,
     .hl__timer__left {
         display: none;
+    }
+
+    .slick__slides__box {
+        margin: auto;
     }
 }
 
@@ -2444,6 +2458,12 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         top: -10%;
     }
 
+    .art9 {
+        width: 190px;
+        top: -8%;
+        left: 0%;
+    }
+
     .header__descr__5slide {
         margin: 25% auto 0 auto;
     }
@@ -2546,6 +2566,12 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 24px;
         padding: 15px;
         width: 390px;
+    }
+
+    .header__7slide {
+        padding: 15px;
+        font-size: 20px;
+        width: 150px;
     }
 
     .white__slide2 {
@@ -2795,6 +2821,22 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         width: 50px;
         left: 5%;
     }
+
+    .art9 {
+        width: 190px;
+        top: -22%;
+        left: -7%;
+    }
+
+    .slick-next {
+        right: -10px!important;
+        top: 58%!important;
+    }
+
+    .slick-prev {
+        left: -10px!important;
+        top: 58%!important;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -2803,6 +2845,20 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 15px;
         width: 220px;
         padding: 12px;
+    }
+
+    .h2__7slide {
+        width: 220px;
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    .vl__7slide {
+        height: 50px;
+        position: absolute;
+        left: 50%;
+        bottom: 85%;
+        border-left: 7px solid #fff;
     }
 
     .white__packages {
@@ -2829,6 +2885,12 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .art8 {
         top: -40%;
         left: -59%;
+    }
+
+    .art9 {
+        width: 120px;
+        top: -7%;
+        left: -2%;
     }
 
     .art7 {
@@ -3059,6 +3121,12 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         left: 20px;
     }
 
+    .art9{
+        width: 120px;
+        top: -7%;
+        left: -4%;
+    }
+
     .header2__5slide {
         width: 360px;
         font-size: 12px;
@@ -3228,6 +3296,25 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         top: 8px;
     }
 
+    .review__text {
+        margin-right: 10px;
+        font-size: 13px;
+    }
+
+    .review__tutor {
+        margin-right: 20px;
+    }
+
+    .client__card {
+        width: 250px;
+    }
+
+    .review__name {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    
 }
 
 @media screen and (max-width: 415px) {
@@ -3239,6 +3326,10 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
     .header__descr__5slide {
         margin: 75px auto 0 auto;
+    }
+
+    .review__text {
+        margin-right: 30px;
     }
 }
 
@@ -3311,6 +3402,14 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 12px;
         padding: 25px 7px;
     }
+
+    .review__text {
+        margin-right: 55px;
+    }
+
+    .review__tutor {
+        margin-right: 55px;
+    }
 }
 
 @media screen and (max-width: 376px) {
@@ -3344,6 +3443,12 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         width: 60px;
         top: -51%;
         left: 1%;
+    }
+
+    .art9{
+        width: 120px;
+        top: -11%;
+        left: -12%;
     }
 
     .kapella__L__1slide {
@@ -3471,6 +3576,18 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .button__5slide__block {
         right: 50%;
     }
+
+    .review__text {
+        margin-right: 80px;
+    }
+
+    .review__tutor {
+        margin-right: 80px;
+    }
+
+    .client__card {
+        width: 195px;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -3537,5 +3654,18 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
     .days__months__cost {
         margin: 20px 0px 0px -5px;
+    }
+
+    .review__text {
+        margin-right: 110px;
+        font-size: 12px;
+    }
+
+    .review__tutor {
+        margin-right: 110px;
+    }
+
+    .client__card {
+        width: 165px;
     }
 }
