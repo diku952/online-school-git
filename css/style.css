@@ -293,14 +293,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .motivation__block__7slide {
-    padding-bottom: 30px;
+    padding: 30px 0;
+    position: relative;
 }
 
 .motiv7__hr {
-    position: relative;
-    top: 90px;
+    position: absolute;
+    top: 40%;
     background-color: var(--sand);
     height: 2px;
+    width: 100%;
 }
 
 .motivation8 {
@@ -318,13 +320,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .motivation__block__8slide {
     padding: 35px 0 60px 0;
+    position: relative;
 }
 
 .motiv8__hr {
-    position: relative;
-    top: 70px;
+    position: absolute;
+    top: 33%;
     background-color: var(--sand);
     height: 2px;
+    width: 100%;
 }
 
 /* ОБЩИЕ НАСТРОЙКИ */
@@ -1610,7 +1614,7 @@ a:hover:after {
     margin: 0px 10px;
     border-radius: 10px;
     margin: 60px auto 0 auto;
-    ;
+    position: relative;
 }
 
 /* Стрелка ВВЕРХ */
@@ -1716,17 +1720,18 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 /* Кнопка с бликом */
 
 .vl__8slide {
-    height: 90px;
+    height: 80px;
     position: absolute;
-    left: 38rem;
+    left: 50%;
     border-left: 10px solid #fff;
+    top: -7%;
 }
 
 .art10 {
     position: absolute;
     width: 300px;
-    left: 73%;
-    top: -10%;
+    left: 76%;
+    top: -32%;
 }
 
 .header__8slide {
@@ -1776,6 +1781,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 .teachers__face {
     width: 200px;
     height: 200px;
+    display: block;
 }
 
 .teachers__face__it {
@@ -1805,6 +1811,16 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 }
 
 /*Footer*/
+
+.footer {
+    background-color: #242327;
+    height: 50px;
+}
+
+.footer__div {
+    display: flex;
+    justify-content: center;
+}
 
 .footer__text {
     color: white;
@@ -1903,6 +1919,16 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
 
     .motivation6 {
+        width: 700px;
+        font-size: 18px;
+    }
+
+    .motivation7 {
+        width: 700px;
+        font-size: 18px;
+    }
+
+    .motivation8 {
         width: 700px;
         font-size: 18px;
     }
@@ -2248,6 +2274,50 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .slick__slides__box {
         margin: auto;
     }
+
+    .header__8slide {
+        padding: 20px;
+        font-size: 25px;
+        width: 275px;
+    }
+
+    .vl__8slide {
+        top: -10%;
+    }
+
+    .white__8slide {
+        width: 525px;
+        height: 720px;
+    }
+
+    .art10 {
+        position: absolute;
+        left: 79%;
+        top: -14%;
+        width: 110px;
+    }
+
+    .teachers__face {
+        width: 120px;
+        height: 120px;
+        margin: auto;
+    }
+
+    .teachers__face__english {
+        width: 100px;
+        height: 125px;
+        margin-top: -5px;
+    }
+
+    .teachers__face__it {
+        width: 115px;
+        height: 125px;
+    }
+
+    .teacher__text {
+        font-size: 13px;
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width: 1140px) {
@@ -2407,6 +2477,21 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         box-shadow: var(--shadow);
         border-left: 55px solid #e8e4e4;
         margin: 39px 0 0 14px;
+    }
+
+    .kapella__L__8slide {
+        width: 50px;
+        height: 60px;
+        transform: rotate(23deg);
+        position: relative;
+        top: 50px;
+        left: 25px;
+    }
+
+    .footer__text {
+        color: white;
+        text-align: center;
+        padding: 12px 20rem 0 0;
     }
 }
 
@@ -2680,8 +2765,26 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 12px;
     }
 
+    .motivation7 {
+        width: 305px;
+        font-size: 12px;
+    }
+
+    .motivation8 {
+        width: 305px;
+        font-size: 12px;
+    } 
+
     .motiv6__hr {
         top: 17%;
+    }
+
+    .motiv7__hr {
+        top: 38%;
+    }
+
+    .motiv8__hr {
+        top: 30%;
     }
 
     .header__3slide {
@@ -2836,6 +2939,12 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .slick-prev {
         left: -10px!important;
         top: 58%!important;
+    }
+
+    .footer__text {
+        color: white;
+        text-align: center;
+        padding: 12px 10rem 0 0;
     }
 }
 
@@ -3063,6 +3172,75 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .head {
         width: 10px;
     }
+
+    .header__8slide {
+        padding: 15px;
+        font-size: 20px;
+        width: 230px;
+    }
+
+    .vl__8slide {
+        top: -12%;
+    }
+
+    .white__8slide {
+        width: 300px;
+        height: 520px;
+    }
+
+    .art10 {
+        position: absolute;
+        left: 79%;
+        top: -11%;
+        width: 60px;
+    }
+
+    .teachers__face {
+        width: 70px;
+        height: 70px;
+        margin: auto;
+    }
+
+    .teachers__face__english {
+        width: 70px;
+        height: 85px;
+        margin-top: -5px;
+    }
+
+    .teachers__face__it {
+        width: 70px;
+        height: 70px;
+    }
+
+    .teacher__text {
+        font-size: 9px;
+        padding: 10px;
+    }
+
+    a.boot {
+        font-size: 12px;
+        width: 120px;
+        padding: 15px 0px;
+    }
+
+    .kapella__L__8slide {
+        width: 50px;
+        height: 60px;
+    }
+
+    .motivation__block__8slide {
+        padding: 0px 0 60px 0;
+    }
+
+    .motiv8__hr {
+        top: 3%;
+    }
+
+    .footer__text {
+        color: white;
+        text-align: center;
+        padding: 12px 5rem 0 0;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -3190,6 +3368,19 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 10px;
     }
 
+    .footer__text {
+        color: white;
+        text-align: center;
+        padding: 15px 5rem 0 0;
+        font-size: 12px;
+    }
+
+    .logo__footer {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        margin-top: 9px;
+    }
     }
 
 @media screen and (max-width: 426px) {
@@ -3409,6 +3600,13 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
     .review__tutor {
         margin-right: 55px;
+    }
+
+    .footer__text {
+        color: white;
+        text-align: center;
+        padding: 15px 0rem 0 0;
+        font-size: 12px;
     }
 }
 
