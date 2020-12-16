@@ -149,8 +149,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .motiv1__hr {
-    position: relative;
-    top: 85px;
+    position: absolute;
+    top: 70%;
+    width: 100%;
     background-color: var(--sand);
     height: 2px;
 }
@@ -736,7 +737,8 @@ a:hover:after {
 
 
 .motivation__block__1slide {
-    padding-top: 25px;
+    padding-top: 5%;
+    position: relative;
 }
 
 /* Slide 2  (О НАС)*/
@@ -1882,6 +1884,10 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .hl__timer__right {
         left: 63%;
     }
+
+    .motiv1__hr {
+        top: 65%;
+    }
 }
 
 @media screen and (max-width: 1664px) {
@@ -1904,6 +1910,10 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .hl__timer__right {
         left: 67%;
     }
+
+    .motiv1__hr {
+        top: 60%;
+    }
 }
 
 @media screen and (max-width: 1537px) {
@@ -1913,8 +1923,8 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
 
     .art5 {
-        width: 80px;
-        top: -13%;
+        width: 100px;
+        top: -16%;
         right: 1%;
     }
 
@@ -1942,17 +1952,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .slick-dotted.slick-slider {
         margin: 0px 30px;
     }
-
-    /* .days__months__cost__item::after {
-        content: "";
-        display: block;
-        width: 40px;
-        height: 2px;
-        background-color: #e8e4e4;
-        position: relative;
-        left: 21px;
-        top: -10px;
-    } */
 
     .item__cost1::after {
         width: 225px;
@@ -2151,9 +2150,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .header__block {
         right: 11rem;
     }
-    .motiv1__hr {
-        top: 53px;
-    }
+
     .motiv2__hr {
         top: 53px;
     }
@@ -2416,7 +2413,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
 
     .motiv3__hr {
-        top: 52px;
+        top: 60px;
     }
 
     .header__2slide {
@@ -2493,6 +2490,10 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         text-align: center;
         padding: 12px 20rem 0 0;
     }
+
+    .motiv1__hr {
+        top: 55%;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -2516,12 +2517,9 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         top: 55px;
     }
 
-    .motiv1__hr {
-        top: 45px;
-    }
 
     .motiv2__hr {
-        top: 53px;
+        top: 44px;
     }
     .motivation2 {
         font-size: 15px;
@@ -2529,6 +2527,10 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
     .head {
         width: 20px;
+    }
+
+    .motiv3__hr {
+        top: 53px;
     }
 }
 
@@ -2831,9 +2833,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         padding-top: 30px;
         font-size: 25px;
     }
-    .motiv1__hr {
-        top: 43px;
-    }
     
     .motiv2__hr {
         top: 43px;
@@ -2945,6 +2944,10 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         color: white;
         text-align: center;
         padding: 12px 10rem 0 0;
+    }
+
+    .motiv1__hr {
+        top: 50%;
     }
 }
 
@@ -3147,9 +3150,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         margin: -40px 0px 0px 250px;
         padding-top: 0;
         width: 60px;
-    }
-    .motiv1__hr {
-        top: 47px;
     }
 
     .motiv2__hr {
@@ -3381,7 +3381,11 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         margin-right: 10px;
         margin-top: 9px;
     }
+
+    .motiv1__hr {
+        top: 45%;
     }
+}
 
 @media screen and (max-width: 426px) {
     .header__descr__5slide {
@@ -3791,9 +3795,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 @media screen and (max-width: 350px) {
     .header__block {
         right: 24rem;
-    }
-    .motiv1__hr {
-        top: 43px;
     }
 
     .motiv2__hr {
