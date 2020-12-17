@@ -895,6 +895,7 @@ a:hover:after {
 .header_block_3slide {
     display: flex;
     padding-bottom: 15px;
+    position: relative;
 }
 
 .icon_items_3slide {
