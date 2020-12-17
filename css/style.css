@@ -1330,6 +1330,10 @@ a:hover:after {
     top: -50px;
 }
 
+#text__dropdown {
+    margin-right: 54px;
+}
+
 .header__descr__5slide {
     font-weight: 700;
     box-shadow: var(--shadow);
@@ -3225,6 +3229,37 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         color: white;
         text-align: center;
         padding: 12px 5rem 0 0;
+    }
+
+    .dropdown-menu {
+        width: 310px;
+    }
+
+    #legend__header__dropdown {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        margin: 1rem 0 1.5rem 0;
+        font-size: 15px;
+        line-height: inherit;
+        color: inherit;
+        white-space: normal;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #text__dropdown {
+        margin-right: 0;
+    }
+
+    .form-control {
+        font-size: 10px;
+    }
+
+    #button__dropdown {
+        display: block;
+        margin: 2rem auto;
     }
 }
 

@@ -584,31 +584,19 @@
                     <div class="dropdown-menu" id="dropdown__menu">
                         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
                         <form id="form" action="telegramform/telegram.php" method="POST">
-                            <legend style="display: block;
-                            width: 100%;
-                            max-width: 100%;
-                            padding: 0;
-                            margin-bottom: 1.5rem;
-                            font-size: 22px;
-                            line-height: inherit;
-                            color: inherit;
-                            white-space: normal;
-                            font-weight: 700;
-                            font-size: 22px !important;
-                            text-align: center !important;
-                            font-weight: 700 !important;">Оставьте своё имя и номер и наш консультант свяжется с вами</legend>
+                            <legend id="legend__header__dropdown">Оставьте своё имя и номер и наш консультант свяжется с вами</legend>
 
                             <div class="form-group">
-                                <label style="margin-right: 54px;" for="">Введите ваше имя</label>
+                                <label id="text__dropdown" for="">Введите ваше имя</label>
                                 <input type="text" class="form-control _req" id=""
                                     name="user__name" placeholder="Например, Иван">
                             </div>
                             <div class="form-group">
-                                <label for="">Введите номер телефона</label>
+                                <label id="text__dropdown for="">Введите номер телефона</label>
                                 <input type="text" class="form-control _req"  id="" name="user__phone"
                                     placeholder="+7 (999) 999-99-99">
                             </div>
-                            <button type="submit" class="btn  btn-primary">Отправить</button>
+                            <button id="button__dropdown" type="submit" class="btn  btn-primary">Отправить</button>
                         </form>
                     </div> <!--.Dropdown menu-->
                 </div>
