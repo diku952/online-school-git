@@ -1891,9 +1891,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 }
 
 @media screen and (max-width: 1664px) {
-    .header {
-        padding: 0 28rem 0 40px;
-    }
 
     .vl__timer__left {
         left: 33%;
@@ -1917,10 +1914,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 }
 
 @media screen and (max-width: 1537px) {
-    
-    .header {
-        padding: 0 13rem 0 40px;
-    }
 
     .art5 {
         width: 100px;
@@ -1945,9 +1938,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 }
 
 @media screen and (max-width: 1400px) {
-    .header {
-        padding: 0 140px 0 20px;
-    }
 
     .slick-dotted.slick-slider {
         margin: 0px 30px;
@@ -2144,12 +2134,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         padding-left: 5px;
     }
 
-    .telephone {
-        left: -7rem;
-    }
-    .header__block {
-        right: 11rem;
-    }
+   
 
     .motiv2__hr {
         top: 53px;
@@ -2186,6 +2171,15 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 20px;
         width: 120px;
         margin-left: 15px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .header {
+        justify-content: space-between;
+        padding: 0 40px 0 40px;
     }
 
 }
@@ -2388,17 +2382,15 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         margin: 0;
         padding: 8px 20px;
     }
+
+    .header__block {
+        margin-left: 50px;
+    }
 }
 
 @media screen and (max-width: 1025px) {
     #arrowText {
         display: none;
-    }
-
-    .header__block {
-        display: flex;
-        position: relative;
-        right: 9rem;
     }
 
     .header__4slide {
@@ -2752,202 +2744,198 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
             margin: 32px 0 0 2px;
         }
 
-    .motivation4 {
-    width: 305px;
-    font-size: 12px;
-    }
-
-    .motivation5 {
+        .motivation4 {
         width: 305px;
         font-size: 12px;
-    }
-
-    .motivation6 {
-        width: 305px;
-        font-size: 12px;
-    }
-
-    .motivation7 {
-        width: 305px;
-        font-size: 12px;
-    }
-
-    .motivation8 {
-        width: 305px;
-        font-size: 12px;
-    } 
-
-    .motiv6__hr {
-        top: 17%;
-    }
-
-    .motiv7__hr {
-        top: 38%;
-    }
-
-    .motiv8__hr {
-        top: 30%;
-    }
-
-    .header__3slide {
-        font-size: 22px;
-        width: 305px;
-        padding: 18px;
-    }
-
-    .white__slide4 {
-        width: 525px;
-        height: 1095px;
-    }
-
-    .slide4__headers2 {
-        font-size: 16px;
-    }
-
-    .slide4__text {
-        font-size: 15px;
-    }
-
-    #arrowTop,
-    #arrowText {
-        display: none;
-    }
-
-    .telephone {
-        display: none;
-    }
-
-    .header__block {
-        right: 3rem;
-    }
-
-    .slide1__text1 {
-        font-weight: 700;
-        font-size: 30px;
-    }
-    .slide1__text2 {
-        padding-top: 25px;
-        font-size: 25px;
-    }
-    .slide1__text3 {
-        padding-top: 30px;
-        font-size: 25px;
-    }
+        }
     
-    .motiv2__hr {
-        top: 43px;
-    }
-    .motivation2 {
-        font-size: 14px;
-        width: 470px;
-    }
-    .head {
-        width: 15px;
-    }
+        .motivation5 {
+            width: 305px;
+            font-size: 12px;
+        }
+    
+        .motivation6 {
+            width: 305px;
+            font-size: 12px;
+        }
+    
+        .motivation7 {
+            width: 305px;
+            font-size: 12px;
+        }
+    
+        .motivation8 {
+            width: 305px;
+            font-size: 12px;
+        } 
+    
+        .motiv6__hr {
+            top: 17%;
+        }
+    
+        .motiv7__hr {
+            top: 38%;
+        }
+    
+        .motiv8__hr {
+            top: 30%;
+        }
+    
+        .header__3slide {
+            font-size: 22px;
+            width: 305px;
+            padding: 18px;
+        }
+    
+        .white__slide4 {
+            width: 525px;
+            height: 1095px;
+        }
+    
+        .slide4__headers2 {
+            font-size: 16px;
+        }
+    
+        .slide4__text {
+            font-size: 15px;
+        }
+    
+        #arrowTop,
+        #arrowText {
+            display: none;
+        }
+    
+        .slide1__text1 {
+            font-weight: 700;
+            font-size: 30px;
+        }
+        .slide1__text2 {
+            padding-top: 25px;
+            font-size: 25px;
+        }
+        .slide1__text3 {
+            padding-top: 30px;
+            font-size: 25px;
+        }
+        
+        .motiv2__hr {
+            top: 43px;
+        }
+        .motivation2 {
+            font-size: 14px;
+            width: 470px;
+        }
+        .head {
+            width: 15px;
+        }
+    
+        .days__months__cost {
+            margin-top: 25px;
+        }
+    
+        .cost__value {
+            font-size: 11px;
+        }
+    
+        .cost__value2 {
+            font-size: 7px;
+        }
+    
+        .cost__value::after {
+            left: 25px;
+            width: 50px;
+        }
+    
+        .hit {
+            top: -10px;
+            right: 28px;
+            width: 60px;
+        }
+    
+        .header__cost__value {
+            font-size: 10px;
+        }
+    
+        .header__cost__value__2__1block, .header__cost__value__2__2block, . header__cost__value__2__3block {
+            font-size: 10px;
+        }
+    
+        .button__mirror {
+            margin: 30px 0 0 10rem;
+        }
+    
+        .kapella__L__5slide {
+            width: 50px;
+            left: 0px;
+        }
+    
+        .header__descr__5slide {
+            font-size: 12px;
+            width: 203px;
+            padding: 20px;
+        }
+    
+        .header__6slide {
+            font-size: 12px;
+            width: 203px;
+            padding: 20px;
+        }
+    
+        .white__slide6 {
+            width: 530px;
+            height: 1165px;
+        }
+    
+        .advantages__header {
+            font-size: 14px;
+        }
+    
+        .advantages__text {
+            font-size: 14px;
+        }
+    
+        .white__packages {
+            width: 530px;
+        }
+    
+        .phylosoph {
+            right: -9%;
+            top: -7%;
+        }
+    
+        .art6 {
+            width: 50px;
+            left: 5%;
+        }
+    
+        .art9 {
+            width: 190px;
+            top: -22%;
+            left: -7%;
+        }
+    
+        .slick-next {
+            right: -10px!important;
+            top: 58%!important;
+        }
+    
+        .slick-prev {
+            left: -10px!important;
+            top: 58%!important;
+        }
+    
+        .footer__text {
+            color: white;
+            text-align: center;
+            padding: 12px 10rem 0 0;
+        }
+    
+        .motiv1__hr {
+            top: 50%;
+        }
 
-    .days__months__cost {
-        margin-top: 25px;
-    }
-
-    .cost__value {
-        font-size: 11px;
-    }
-
-    .cost__value2 {
-        font-size: 7px;
-    }
-
-    .cost__value::after {
-        left: 25px;
-        width: 50px;
-    }
-
-    .hit {
-        top: -10px;
-        right: 28px;
-        width: 60px;
-    }
-
-    .header__cost__value {
-        font-size: 10px;
-    }
-
-    .header__cost__value__2__1block, .header__cost__value__2__2block, .header__cost__value__2__3block {
-        font-size: 10px;
-    }
-
-    .button__mirror {
-        margin: 30px 0 0 10rem;
-    }
-
-    .kapella__L__5slide {
-        width: 50px;
-        left: 0px;
-    }
-
-    .header__descr__5slide {
-        font-size: 12px;
-        width: 203px;
-        padding: 20px;
-    }
-
-    .header__6slide {
-        font-size: 12px;
-        width: 203px;
-        padding: 20px;
-    }
-
-    .white__slide6 {
-        width: 530px;
-        height: 1165px;
-    }
-
-    .advantages__header {
-        font-size: 14px;
-    }
-
-    .advantages__text {
-        font-size: 14px;
-    }
-
-    .white__packages {
-        width: 530px;
-    }
-
-    .phylosoph {
-        right: -9%;
-        top: -7%;
-    }
-
-    .art6 {
-        width: 50px;
-        left: 5%;
-    }
-
-    .art9 {
-        width: 190px;
-        top: -22%;
-        left: -7%;
-    }
-
-    .slick-next {
-        right: -10px!important;
-        top: 58%!important;
-    }
-
-    .slick-prev {
-        left: -10px!important;
-        top: 58%!important;
-    }
-
-    .footer__text {
-        color: white;
-        text-align: center;
-        padding: 12px 10rem 0 0;
-    }
-
-    .motiv1__hr {
-        top: 50%;
+         .telephone {
+        display: none;
     }
 }
 
@@ -3085,9 +3073,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         left: 1%;
     }
 
-    .header__block {
-        right: 24rem;
-    }
 
     .header__2slide {
         font-size: 15px;
@@ -3637,9 +3622,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         padding: 10px 30px;
     }
 
-    .header__block {
-        right: 28rem;
-    }
 
     .art2 {
         width: 60px;
@@ -3755,10 +3737,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         margin: 40px 0 0 9px;
     }
 
-    .header__block {
-        right: 33rem;
-    }
-
     .gray__cost__line1 {
         margin: 10px 0 0 3px;
     }
@@ -3793,9 +3771,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 }
 
 @media screen and (max-width: 350px) {
-    .header__block {
-        right: 24rem;
-    }
 
     .motiv2__hr {
         top: 45px;
@@ -3866,5 +3841,10 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
     .client__card {
         width: 165px;
+    }
+
+    .header__text {
+        font-size: 28px;
+        margin-top: 3px;
     }
 }
