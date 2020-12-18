@@ -1645,6 +1645,7 @@ a:hover:after {
     top: 50px;
     left: 10px;
     cursor: pointer;
+    z-index: 1000;
 }
 
 #arrowTop::before {
