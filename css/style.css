@@ -2645,6 +2645,10 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
 @media screen and (max-width: 770px) {
 
+    .header {
+        justify-content: flex-end;
+    }
+
     .header__4slide {
         font-size: 24px;
         padding: 15px;
@@ -3533,6 +3537,11 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 }
 
 @media screen and (max-width: 415px) {
+
+    .header {
+        padding: 0 10px 0 40px;
+    }
+
     .kapella__L__5slide {
         width: 50px;
         left: 22rem;
