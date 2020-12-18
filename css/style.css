@@ -2065,7 +2065,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
     .white__slide6 {
         width: 727px;
-        height: 1320px;
+        height: 1150px;
     }
 
     .header__6slide {
@@ -3475,7 +3475,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
     .white__slide6 {
         width: 275px;
-        height: 1490px;
+        height: 1370px;
     }
 
     .advantages__text {
@@ -3927,7 +3927,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
 @media screen and (max-height: 500px) {
     .dropdown-menu {
-        height: 230px;
+        height: 260px;
         padding: 20px 30px 30px 30px;
         top: 58%;
     }
@@ -3947,7 +3947,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .form-control {
     width: 50%;
     margin: auto;
-    height: calc(0.5em + .75rem + 2px);
     }
 
     .btn-primary {
