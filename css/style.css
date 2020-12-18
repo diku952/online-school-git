@@ -562,7 +562,7 @@ a:hover:after {
 .slide__1 {
     display: flex;
     padding-top: 15px;
-    background: url("../img/1slide/aph__school.png") center no-repeat;
+    background: url("../img/1slide/back__1slide.png") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     min-height: 820px;
