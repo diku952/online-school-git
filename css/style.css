@@ -898,35 +898,23 @@ a:hover:after {
 }
 
 .emodzi1__3slide {
-    margin-top: -4px;
+    margin-top: -2px;
 }
 .emodzi2__3slide {
-    margin-top: -4px;
+    margin-top: -1px;
 }
 
 .emodzi3__3slide {
     margin-top: -7px;
 }
 
-.emodzi4__3slide {
-    margin-top: 5px;
-}
 
 .emodzi5__3slide {
-    margin-top: -4px;
+    margin-top: 0px;
 }
 
 .emodzi6__3slide {
-    margin-top: 3px;
-}
-
-
-.icon_items_3slide {
-    width: 33px;
-}
-
-.icon_items_3slide__dollar {
-    width: 50px;
+    margin-top: 11px;
 }
 
 /* Slide 4 (Как проходит обучение?) */
@@ -2232,7 +2220,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
     .white__slide4 {
         width: 755px;
-        height: 1115px;
+        height: 920px;
     }
 
     .art5 {
@@ -2519,7 +2507,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 @media screen and (max-width: 991px) {
     .white__slide3 {
         width: 500px;
-        height: 1695px;
+        height: 1430px;
     }
 
     .hit {
@@ -2821,7 +2809,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     
         .white__slide4 {
             width: 525px;
-            height: 1095px;
+            height: 900px;
         }
     
         .slide4__headers2 {
@@ -2972,6 +2960,26 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 }
 
 @media screen and (max-width: 575px) {
+
+        .emodzi1__3slide {
+        margin-top: -4px;
+    }
+    .emodzi2__3slide {
+        margin-top: -4px;
+    }
+    
+    .emodzi3__3slide {
+        margin-top: -7px;
+    }
+    
+    
+    .emodzi5__3slide {
+        margin-top: -4px;
+    }
+    
+    .emodzi6__3slide {
+        margin-top: 3px;
+    }
 
     .header__3slide {
         font-size: 15px;
@@ -3461,13 +3469,13 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
     .white__packages {
         width: 275px;
-        height: 820px;
+        height: 860px;
         margin: 30px auto 0 auto;
     }
 
     .white__slide6 {
         width: 275px;
-        height: 1420px;
+        height: 1480px;
     }
 
     .advantages__text {
@@ -3915,4 +3923,39 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 28px;
         margin-top: 3px;
     }
+}
+
+@media screen and (max-height: 500px) {
+    .dropdown-menu {
+        height: 230px;
+        padding: 20px 30px 30px 30px;
+        top: 58%;
+    }
+
+    #legend__header__dropdown {
+        text-align: center;
+        font-weight: 700;
+        font-size: 11px;
+    }
+
+    #text__dropdown {
+        margin-right: 15px;
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .form-control {
+    width: 50%;
+    margin: auto;
+    height: 20px;
+    }
+
+    .btn-primary {
+        margin:0;
+    }
+
+    .btn {
+        margin-left: 10rem;
+    }
+
 }
