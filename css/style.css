@@ -2507,7 +2507,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 @media screen and (max-width: 991px) {
     .white__slide3 {
         width: 500px;
-        height: 1430px;
+        height: 1445px;
     }
 
     .hit {
@@ -3046,7 +3046,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     
     .art5 {
         width: 20px;
-        top: -4%;
+        top: -5%;
     }
 
     .header__4slide {
@@ -3475,7 +3475,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
     .white__slide6 {
         width: 275px;
-        height: 1480px;
+        height: 1490px;
     }
 
     .advantages__text {
@@ -3947,7 +3947,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     .form-control {
     width: 50%;
     margin: auto;
-    height: 20px;
+    height: calc(0.5em + .75rem + 2px);
     }
 
     .btn-primary {
