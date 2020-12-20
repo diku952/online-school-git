@@ -863,10 +863,10 @@ a:hover:after {
 }
 
 .items_3slide {
-    padding: 75px 40px;
-   
+    padding: 50px 40px 0 40px;
+    width: auto;
+    height: auto;
     box-shadow: var(--shadow);
-    
     background: #fff;
     margin: 0px 10px;
     border-radius: 10px;
@@ -3458,12 +3458,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 }
 
 @media screen and (max-width: 426px) {
-
-    .items_3slide {
-        width: 350px;
-        height: 1200px;
-    }
-
 
     .header__descr__5slide {
         font-size: 11px;
