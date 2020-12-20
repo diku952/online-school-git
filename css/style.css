@@ -905,7 +905,7 @@ a:hover:after {
 }
 
 .emodzi3__3slide {
-    margin-top: -7px;
+    margin-top: -5px;
 }
 
 
@@ -914,7 +914,7 @@ a:hover:after {
 }
 
 .emodzi6__3slide {
-    margin-top: 11px;
+    margin-top: 12px;
 }
 
 /* Slide 4 (Как проходит обучение?) */
@@ -2962,7 +2962,11 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
 @media screen and (max-width: 575px) {
 
-        .emodzi1__3slide {
+    .header__logo {
+        display: none;
+    }
+
+    .emodzi1__3slide {
         margin-top: -4px;
     }
     .emodzi2__3slide {
