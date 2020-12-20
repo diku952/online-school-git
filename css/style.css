@@ -860,6 +860,15 @@ a:hover:after {
 
 .items_3slide {
     padding: 75px 40px;
+    width: 1200px;
+    box-shadow: var(--shadow);
+    height: 1120px;
+    background: #fff;
+    margin: 0px 10px;
+    border-radius: 10px;
+    margin: 60px auto 0 auto;
+    box-shadow: var(--shadow);
+    position: relative;
 }
 
 #art11 {
