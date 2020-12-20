@@ -860,9 +860,9 @@ a:hover:after {
 
 .items_3slide {
     padding: 75px 40px;
-    width: auto;
+   
     box-shadow: var(--shadow);
-    height: auto;
+    
     background: #fff;
     margin: 0px 10px;
     border-radius: 10px;
