@@ -3091,10 +3091,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         display: none;
     }
 
-    .items_3slide {
-        padding: 70px 40px 0 40px;
-    }
-
     .white__slide3 {
         width: 300px;
         height: 1300px;
