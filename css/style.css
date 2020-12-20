@@ -822,8 +822,8 @@ a:hover:after {
 .art3 {
     position: absolute;
     width: 150px;
-    top: -24%;
-    margin-left: 84%;
+    top: -29%;
+    left: 87%;
 }
 
 .header__3slide {
@@ -964,14 +964,14 @@ a:hover:after {
 }
 
 .white__slide4 {
-    width: 1200px;
+    width: auto;
+    height: auto;
     box-shadow: var(--shadow);
-    height: 980px;
     background: #fff;
-    margin: 0px 10px;
     border-radius: 10px;
     margin: 60px auto 0 auto;
     position: relative;
+    padding: 5px 0;
 }
 
 .slide4__item {
@@ -2146,8 +2146,9 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
 
     .art3 {
-        top: -15%;
+        top: -19%;
         width: 100px;
+        left: 91%;
     }
 
     .white__slide3 {
@@ -2230,11 +2231,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         margin: 60px auto 0 auto;
-    }
-
-    .white__slide4 {
-        width: 755px;
-        height: 920px;
     }
 
     .art5 {
@@ -2821,11 +2817,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
             padding: 18px;
         }
     
-        .white__slide4 {
-            width: 525px;
-            height: 900px;
-        }
-    
         .slide4__headers2 {
             font-size: 16px;
         }
@@ -3074,8 +3065,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
 
     .white__slide4 {
-        width: 330px;
-        height: 570px;
         margin: 35px auto 0 auto;
     }
 
@@ -3696,11 +3685,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 15px;
         padding: 12px;
         width: 235px;
-    }
-
-    .white__slide4 {
-        width: 265px;
-        height: 825px;
     }
 
     .slide4__headers2 {
