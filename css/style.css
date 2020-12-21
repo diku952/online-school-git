@@ -3400,12 +3400,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         font-size: 12px;
     }
 
-    .vl__podslide {
-        top: 2rem;
-        height: 50px;
-        border-left: 6px solid #fff;
-    }
-
     .art7{
         width: 60px;
         top: -35%;
@@ -3546,12 +3540,6 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
         width: 175px;
         padding: 15px;
         margin: 75px auto 0 auto;
-    }
-
-    .vl__podslide {
-        top: 2rem;
-        height: 50px;
-        border-left: 6px solid #fff;
     }
 
     .header1__package {
