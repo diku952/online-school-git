@@ -153,16 +153,16 @@ $("#nav_toggle").on("click", function(event) {
 });
 
 
-// !Анимация art11 при клике
-document.getElementById('art11').onclick = function () {
-  document.getElementById('art11').hidden = true;
-}
+// // !Анимация art11 при клике
+// document.getElementById('art11').onclick = function () {
+//   document.getElementById('art11').hidden = true;
+// }
 
-// !Стрелка ВВЕРХ (при клике)
-arrowTop.onclick = function () {
-  window.scrollTo(pageXOffset, 0);
-  // после scrollTo возникнет событие "scroll", так что стрелка автоматически скроется
-};
+// // !Стрелка ВВЕРХ (при клике)
+// arrowTop.onclick = function () {
+//   window.scrollTo(pageXOffset, 0);
+//   // после scrollTo возникнет событие "scroll", так что стрелка автоматически скроется
+// };
 
 // !Стрелка ВВЕРХ (исчезает) 
 window.addEventListener('scroll', function () {
