@@ -3360,8 +3360,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
 
     .hit {
         top: 10px;
-        right: 20px;
-        width: 50px;
+        right: 25px;
     }
 
     .header__cost__value {
