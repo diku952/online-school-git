@@ -158,11 +158,11 @@ $("#nav_toggle").on("click", function(event) {
 //   document.getElementById('art11').hidden = true;
 // }
 
-// // !Стрелка ВВЕРХ (при клике)
-// arrowTop.onclick = function () {
-//   window.scrollTo(pageXOffset, 0);
-//   // после scrollTo возникнет событие "scroll", так что стрелка автоматически скроется
-// };
+// !Стрелка ВВЕРХ (при клике)
+arrowTop.onclick = function () {
+  window.scrollTo(pageXOffset, 0);
+  // после scrollTo возникнет событие "scroll", так что стрелка автоматически скроется
+};
 
 // !Стрелка ВВЕРХ (исчезает) 
 window.addEventListener('scroll', function () {
