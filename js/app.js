@@ -557,7 +557,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = 'June 5 2021'; // for endless timer
+var deadline = 'May 27 2021'; // for endless timer
 initializeClock('russian', deadline);
 // TIMER Rus
 
@@ -602,7 +602,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = 'June 5 2022'; // for endless timer
+var deadline = 'May 31 2021'; // for endless timer
 initializeClock('math', deadline);
 
 // Timer Bilog (3)
@@ -645,7 +645,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = 'July 5 2021'; // for endless timer
+var deadline = 'June 10 2021'; // for endless timer
 initializeClock('biology', deadline);
 // Timer SS (4)
 function getTimeRemaining(endtime) {
@@ -687,7 +687,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = 'May 5 2021'; // for endless timer
+var deadline = 'June 7 2021'; // for endless timer
 initializeClock('ss', deadline);
 // TIMER IT (5)
 function getTimeRemaining(endtime) {
@@ -729,7 +729,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = 'April 5 2021'; // for endless timer
+var deadline = 'June 18 2021'; // for endless timer
 initializeClock('it', deadline);
 // TIMER Liter (6)
 function getTimeRemaining(endtime) {
@@ -771,7 +771,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = 'March 5 2021'; // for endless timer
+var deadline = 'May 24 2021'; // for endless timer
 initializeClock('literature', deadline);
 // TIMER Chemist (7)
 function getTimeRemaining(endtime) {
@@ -813,7 +813,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = 'February 5 2021'; // for endless timer
+var deadline = 'May 24 2021'; // for endless timer
 initializeClock('chemistry', deadline);
 // TIMER Hist (8)
 function getTimeRemaining(endtime) {
@@ -855,7 +855,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = 'January 5 2021'; // for endless timer
+var deadline = 'June 3 2021'; // for endless timer
 initializeClock('history', deadline);
 // TIMER eng
 function getTimeRemaining(endtime) {
@@ -897,7 +897,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = 'August 5 2021'; // for endless timer
+var deadline = 'June 10 2021'; // for endless timer
 initializeClock('english', deadline);
 
 // Timer physics
@@ -940,7 +940,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = 'November 5 2021'; // for endless timer
+var deadline = 'June 3 2021'; // for endless timer
 initializeClock('physics', deadline);
 
 // ! Timer geography 
@@ -983,7 +983,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = 'August 5 2021'; // for endless timer
+var deadline = 'May 24 2021'; // for endless timer
 initializeClock('geography', deadline);
 
 // ----------------------------TIMERS
