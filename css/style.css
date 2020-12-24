@@ -1670,7 +1670,7 @@ a:hover:after {
     top: 50px;
     left: 10px;
     cursor: pointer;
-    z-index: 1000;
+    z-index: 100;
 }
 
 #arrowTop::before {
@@ -2368,6 +2368,7 @@ a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
     }
     .nav-toggle.active .nav-toggle__item {
         background: none;
+        z-index: 1000;
     }
     .nav-toggle.active .nav-toggle__item::before {
         transform-origin: left top;

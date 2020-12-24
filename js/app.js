@@ -127,6 +127,7 @@ function func_header_color() {
       styleElem1.innerHTML = ".telephone::after {background-color: #fff";
   }
 }
+
 // ! Сохранение цвета шапки и полосы прогресса при перезагрузке
 $(window).scroll(function() {
   sessionStorage.scrollTop = $(this).scrollTop();
