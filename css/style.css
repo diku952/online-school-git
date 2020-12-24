@@ -677,6 +677,9 @@ a:hover:after {
     font-size: 27px;
     margin: 40px 0px 20px;
     text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
 }
 
 .timer {
